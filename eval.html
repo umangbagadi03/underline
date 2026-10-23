@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Underline browser eval</title>
+  <link rel="stylesheet" href="/src/ui/style.css">
+</head>
+<body>
+  <header>
+    <h1>Underline <small>browser eval (WebLLM)</small></h1>
+    <p class="tagline">Runs eval/questions.json with a model inside this browser and saves the results to eval/results/.</p>
+  </header>
+  <main style="display:block">
+    <div class="row">
+      <select id="model"></select>
+      <button id="run">Run eval</button>
+    </div>
+    <p id="status" class="status"></p>
+    <pre id="log" style="white-space:pre-wrap;font-size:12px"></pre>
+  </main>
+  <script type="module" src="/src/ui/eval-page.js"></script>
+</body>
+</html>
