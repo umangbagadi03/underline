@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.DS_Store
+eval/results/*.raw.json
+.cache/
+public/ort/
+public/models/
+public/pdfjs/
+.claude/
+
+# Third-party test PDFs (copyright). Their public sources are listed in eval/questions*.json.
+eval/docs-holdout/*.pdf
+eval/docs/health-policy.pdf
+eval/docs/rent-agreement.pdf
+eval/docs/speed-test-128-pages.pdf
