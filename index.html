@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Underline answers questions about your PDFs and highlights the exact lines it used. Fully offline: your files never leave your computer.">
+  <meta name="theme-color" content="#3d3bc9">
+  <title>Underline</title>
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="/manifest.webmanifest">
+</head>
+<body>
+  <div class="app" id="app">
+    <!-- Left: brand, documents, AI engine -->
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <img src="/icon.svg" alt="" width="34" height="34">
+        <div>
+          <div class="brand-name"><span class="marked">Underline</span></div>
+          <div class="brand-tag">Private answers from your documents</div>
+        </div>
+      </div>
+
+      <button class="btn primary wide" id="add-pdf" type="button"><span class="icon" data-icon="plus"></span>Add a PDF</button>
+      <input id="file-input" type="file" accept="application/pdf" hidden>
+
+      <div class="section-title">Your documents</div>
+      <ul class="library" id="library"></ul>
+
+      <div class="engine" id="engine"></div>
+
+      <div class="sidebar-foot">
+        <div class="privacy"><span class="icon" data-icon="lock"></span><span>Offline &amp; private. Your files never leave this computer.</span></div>
+        <button class="link" id="theme" type="button">Dark / light</button>
+      </div>
+    </aside>
+
+    <!-- Middle: questions and answers -->
+    <main class="chat">
+      <header class="chat-head">
+        <button class="btn icon-btn only-mobile" id="open-sidebar" type="button" aria-label="Documents">☰</button>
+        <span class="icon head-icon" data-icon="file"></span>
+        <div class="doc-title" id="doc-title">No document open</div>
+        <div class="doc-status" id="doc-status"></div>
+      </header>
+      <div class="messages" id="messages"></div>
+      <form class="composer" id="composer">
+        <div class="composer-box">
+          <span class="icon" data-icon="search"></span>
+          <input id="question" type="text" autocomplete="off" placeholder="Ask a question about your document…" disabled>
+          <button class="send" id="ask" type="submit" disabled aria-label="Ask"><span class="icon" data-icon="send"></span></button>
+        </div>
+        <div class="composer-note">Answers are checked against your document. Click a page tag to see the proof.</div>
+      </form>
+    </main>
+
+    <!-- Right: the PDF page with the proof highlighted -->
+    <section class="proof" id="proof">
+      <header class="proof-head">
+        <span class="icon head-icon" data-icon="marker"></span>
+        <div class="proof-title" id="proof-title">Proof</div>
+        <div class="proof-nav">
+          <button class="btn icon-btn" id="prev-page" type="button" aria-label="Previous page">‹</button>
+          <span id="page-label"></span>
+          <button class="btn icon-btn" id="next-page" type="button" aria-label="Next page">›</button>
+          <button class="btn icon-btn only-mobile" id="close-proof" type="button" aria-label="Close">✕</button>
+        </div>
+      </header>
+      <div class="viewer" id="viewer">
+        <div class="hint">
+          <span class="icon hint-icon" data-icon="marker"></span>
+          <p>The proof shows up here.</p>
+          <p class="hint-small">Click a <span class="chip sample">p. 12</span> tag under an answer to see the exact lines, highlighted in the PDF.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="drop-overlay" id="drop-overlay"><div><span class="icon" data-icon="upload"></span>Drop your PDF to add it</div></div>
+
+  <script type="module" src="/src/app/main.js"></script>
+</body>
+</html>
