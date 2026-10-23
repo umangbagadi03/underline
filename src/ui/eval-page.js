@@ -2,9 +2,9 @@
 // Open /eval.html?model=Qwen3.5-2B-q4f16_1-MLC&auto=1 to start right away.
 
 import { openPdfUrl } from './load-pdf-browser.js';
-import { indexPdf, addEmbeddings, answerQuestion } from '../engine.js';
-import { loadEmbedder } from '../search/embed.js';
-import { WEBLLM_MODELS, hasWebGPU, loadWebLLM, askWebLLM } from '../answer/providers/webllm.js';
+import { indexPdf, addEmbeddings, answerQuestion } from '../../rag/pipeline.js';
+import { loadEmbedder } from '../../rag/retrieval/embed.js';
+import { WEBLLM_MODELS, hasWebGPU, loadWebLLM, askWebLLM } from '../../rag/generation/providers/webllm.js';
 import { gradeResult, meetsMust } from '../../eval/grade.js';
 
 const $ = (id) => document.getElementById(id);

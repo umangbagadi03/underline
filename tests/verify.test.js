@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest';
-import { verifyAnswer } from '../src/verify/verify.js';
-import { extractNumbers } from '../src/verify/numbers.js';
-import { splitAnswer } from '../src/verify/citations.js';
+import { verifyAnswer } from '../rag/verification/verify.js';
+import { extractNumbers } from '../rag/verification/numbers.js';
+import { splitAnswer } from '../rag/verification/citations.js';
 
 // The sentences we "gave" the model.
 const supplied = new Map([

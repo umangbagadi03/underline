@@ -12,10 +12,10 @@ import { setupProofView, setProofDocument, clearProof, showProof } from './proof
 import { setupDrop } from './drop.js';
 import { setupTheme } from './theme.js';
 import { registerServiceWorker } from './register-sw.js';
-import { useLocalAssets } from '../search/local-assets.js';
-import { loadEmbedder } from '../search/embed.js';
+import { useLocalAssets } from '../../rag/retrieval/local-assets.js';
+import { loadEmbedder } from '../../rag/retrieval/embed.js';
 import { openPdf } from '../ui/load-pdf-browser.js';
-import { indexPdf, addEmbeddings, answerQuestion } from '../engine.js';
+import { indexPdf, addEmbeddings, answerQuestion } from '../../rag/pipeline.js';
 import { fileId, saveDocument, saveVectors, updateDocument, listDocuments, loadDocument, deleteDocument } from '../store/documents.js';
 
 // The open document: { id, name, pdf, index, history }

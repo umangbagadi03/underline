@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
-import { buildSentences } from '../src/pdf/sentences.js';
-import { buildIndex, restoreIndex, retrieve } from '../src/search/retrieve.js';
+import { buildSentences } from '../rag/ingest/sentences.js';
+import { buildIndex, restoreIndex, retrieve } from '../rag/retrieval/retrieve.js';
 
 function line(page, text, y) {
   return { page, text, x: 50, y, w: text.length * 5, h: 10 };

@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest';
-import { splitText } from '../src/pdf/split-text.js';
-import { buildSentences } from '../src/pdf/sentences.js';
-import { removeHeadersAndFooters } from '../src/pdf/clean-lines.js';
+import { splitText } from '../rag/ingest/split-text.js';
+import { buildSentences } from '../rag/ingest/sentences.js';
+import { removeHeadersAndFooters } from '../rag/ingest/clean-lines.js';
 
 // A fake line, like read-pdf.js returns. Each character is 5 units wide.
 function line(page, text, y) {

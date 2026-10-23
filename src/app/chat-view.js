@@ -6,7 +6,7 @@
 
 import { el, button } from './dom.js';
 import { icon } from './icons.js';
-import { RECOMMENDED_MODEL } from '../answer/engine-setup.js';
+import { RECOMMENDED_MODEL } from '../../rag/generation/engine-setup.js';
 
 const REASONS = {
   'no-citation': 'no proof given',

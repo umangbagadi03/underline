@@ -4,11 +4,11 @@
 import { readFile, readdir } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { loadPdfFromFile } from './load-pdf-node.js';
-import { readPdfLines } from '../src/pdf/read-pdf.js';
-import { removeHeadersAndFooters } from '../src/pdf/clean-lines.js';
-import { buildSentences } from '../src/pdf/sentences.js';
-import { verifyAnswer } from '../src/verify/verify.js';
+import { loadPdfFromFile } from '../rag/ingest/load-pdf-node.js';
+import { readPdfLines } from '../rag/ingest/read-pdf.js';
+import { removeHeadersAndFooters } from '../rag/ingest/clean-lines.js';
+import { buildSentences } from '../rag/ingest/sentences.js';
+import { verifyAnswer } from '../rag/verification/verify.js';
 import { gradeResult } from './grade.js';
 
 const here = dirname(fileURLToPath(import.meta.url));

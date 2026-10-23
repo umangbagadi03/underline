@@ -1,6 +1,6 @@
 // Grading helpers: does an answer contain the expected facts?
 
-import { wordsToDigits } from '../src/verify/numbers.js';
+import { wordsToDigits } from '../rag/verification/numbers.js';
 
 /** Make text easy to compare: lowercase, number words -> digits, "5,000" -> "5000", "5 lakh" -> "500000". */
 export function normalizeForMatch(text) {

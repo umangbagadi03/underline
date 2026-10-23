@@ -1,7 +1,7 @@
 // The "AI engine" card in the sidebar: is a local AI ready, and if not, how to get it.
 
 import { el, button } from './dom.js';
-import { RECOMMENDED_MODEL } from '../answer/engine-setup.js';
+import { RECOMMENDED_MODEL } from '../../rag/generation/engine-setup.js';
 
 function head(text, dotClass) {
   const row = el('div', 'engine-head');

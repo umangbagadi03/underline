@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { readPageLines } from '../src/pdf/read-pdf.js';
+import { readPageLines } from '../rag/ingest/read-pdf.js';
 
 // A fake pdf.js document with one page made of { text, x, y, w } pieces.
 function fakePdf(pieces, view = [0, 0, 600, 842]) {

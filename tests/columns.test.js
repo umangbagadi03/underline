@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { findGutter, looksLikeTable, splitByGutter } from '../src/pdf/columns.js';
+import { findGutter, looksLikeTable, splitByGutter } from '../rag/ingest/columns.js';
 
 const PAGE_WIDTH = 600;
 

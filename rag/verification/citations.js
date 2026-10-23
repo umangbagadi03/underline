@@ -1,6 +1,6 @@
 // Read the [S12] tags in a model answer and split the answer into sentences.
 
-import { splitText } from '../pdf/split-text.js';
+import { splitText } from '../ingest/split-text.js';
 
 // [S12] or [S12, S13] or [S12; 13] or (S12)
 const CITATION = /\[\s*S?\d+(?:\s*[,;&]\s*S?\d+)*\s*\]|\(\s*S\d+(?:\s*[,;&]\s*S?\d+)*\s*\)/gi;

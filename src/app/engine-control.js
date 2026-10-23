@@ -1,7 +1,7 @@
 // Keeps track of the AI engine state and turns the chosen model into an "ask" function.
 
-import { findEngines, downloadModel, RECOMMENDED_MODEL } from '../answer/engine-setup.js';
-import { askLocalServer } from '../answer/providers/local-server.js';
+import { findEngines, downloadModel, RECOMMENDED_MODEL } from '../../rag/generation/engine-setup.js';
+import { askLocalServer } from '../../rag/generation/providers/local-server.js';
 import { renderEngine } from './engine-view.js';
 
 const CHOICE_KEY = 'underline-model';

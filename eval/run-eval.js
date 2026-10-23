@@ -10,11 +10,11 @@ import { readFile, writeFile, mkdir, rm } from 'node:fs/promises';
 import { basename, dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { env } from '@huggingface/transformers';
-import { loadPdfFromFile } from './load-pdf-node.js';
-import { indexPdf, addEmbeddings, answerQuestion } from '../src/engine.js';
-import { loadEmbedder } from '../src/search/embed.js';
-import { askOllama, unloadOllamaModel } from '../src/answer/providers/ollama.js';
-import { askLocalServer, LOCAL_SERVERS } from '../src/answer/providers/local-server.js';
+import { loadPdfFromFile } from '../rag/ingest/load-pdf-node.js';
+import { indexPdf, addEmbeddings, answerQuestion } from '../rag/pipeline.js';
+import { loadEmbedder } from '../rag/retrieval/embed.js';
+import { askOllama, unloadOllamaModel } from '../rag/generation/providers/ollama.js';
+import { askLocalServer, LOCAL_SERVERS } from '../rag/generation/providers/local-server.js';
 import { gradeResult, meetsMust } from './grade.js';
 import { evalSet } from './eval-set.js';
 

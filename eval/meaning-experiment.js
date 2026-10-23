@@ -9,7 +9,7 @@ import { join } from 'node:path';
 import { env } from '@huggingface/transformers';
 import { loadConfig, loadResults, loadDocSentences, reverifyRow } from './reverify.js';
 import { evalSet, questionsArg } from './eval-set.js';
-import { loadMeaningChecker, supportScores } from '../src/verify/meaning.js';
+import { loadMeaningChecker, supportScores } from '../rag/verification/meaning.js';
 
 // Experiment only: download candidate models into a scratch cache.
 env.allowRemoteModels = true;

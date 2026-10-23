@@ -1,7 +1,7 @@
 // Keyword search over chunks, using MiniSearch.
 
 import MiniSearch from 'minisearch';
-import { keywords } from '../verify/words.js';
+import { keywords } from '../verification/words.js';
 
 /** Turn a word into a search term (same rules as verify.js), or null to skip it. */
 function toTerm(word) {

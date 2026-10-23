@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { OPS as PDFJS_OPS } from 'pdfjs-dist/legacy/build/pdf.mjs';
-import { OPS, drawnBorders, mergeTableCells } from '../src/pdf/table-cells.js';
+import { OPS, drawnBorders, mergeTableCells } from '../rag/ingest/table-cells.js';
 
 // A pdf.js operator list that draws the given rectangles (x, y, w, h) as outlines.
 function drawRects(rects) {

@@ -1,12 +1,12 @@
 // The whole pipeline in two steps: index a PDF, then answer a question.
 // Used by both the test page (browser) and the eval (Node).
 
-import { readPdfLines } from './pdf/read-pdf.js';
-import { removeHeadersAndFooters } from './pdf/clean-lines.js';
-import { buildSentences } from './pdf/sentences.js';
-import { buildIndex, addMeaningSearch, retrieve } from './search/retrieve.js';
-import { buildMessages, stripThinking } from './answer/prompt.js';
-import { verifyAnswer } from './verify/verify.js';
+import { readPdfLines } from './ingest/read-pdf.js';
+import { removeHeadersAndFooters } from './ingest/clean-lines.js';
+import { buildSentences } from './ingest/sentences.js';
+import { buildIndex, addMeaningSearch, retrieve } from './retrieval/retrieve.js';
+import { buildMessages, stripThinking } from './generation/prompt.js';
+import { verifyAnswer } from './verification/verify.js';
 
 /**
  * Read a loaded pdf.js document and build the keyword index.

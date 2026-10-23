@@ -1,7 +1,7 @@
 // Save and load documents (the PDF + its search index + chat history) on this device.
 
 import { putRecord, getRecord, getAllRecords, deleteRecord } from './db.js';
-import { restoreIndex } from '../search/retrieve.js';
+import { restoreIndex } from '../../rag/retrieval/retrieve.js';
 
 /** A short fingerprint of the file, so the same PDF is only stored once. */
 export async function fileId(bytes) {
