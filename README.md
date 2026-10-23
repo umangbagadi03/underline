@@ -5,133 +5,210 @@
 <h1 align="center">Underline</h1>
 
 <p align="center">
-  <strong>Ask your documents. See the proof.</strong><br>
-  Private, offline answers from your PDFs, where every sentence is checked and the source lines are highlighted.
+  <strong>A fully offline RAG engine for PDFs that refuses to make things up.</strong><br>
+  Hybrid retrieval · grounded generation with a local LLM · a code verifier that removes every unsupported sentence.
 </p>
 
 <p align="center">
-  <img alt="100% offline" src="https://img.shields.io/badge/runs-100%25%20offline-3d3bc9">
-  <img alt="No cloud AI" src="https://img.shields.io/badge/cloud%20AI-none-18804f">
-  <img alt="No account" src="https://img.shields.io/badge/account-not%20needed-18804f">
-  <img alt="Verified answers" src="https://img.shields.io/badge/answers-verified%20by%20code-ffd84a">
-</p>
-
-<p align="center">
-  <img src="docs/screenshots/answer-light.png" alt="Underline answering a question about an offer letter, with the source line highlighted in the PDF" width="860">
+  <img alt="RAG" src="https://img.shields.io/badge/RAG-hybrid%20BM25%20%2B%20vectors-3d3bc9">
+  <img alt="Local LLM" src="https://img.shields.io/badge/LLM-Gemma%204%20local%20(Ollama%20%7C%20llama.cpp)-3d3bc9">
+  <img alt="Hallucination guard" src="https://img.shields.io/badge/hallucination%20guard-claim--level%20verification-18804f">
+  <img alt="Offline" src="https://img.shields.io/badge/runs-100%25%20offline-18804f">
 </p>
 
 ---
 
-## Why Underline
+## What it is
 
-Insurance policies, rent agreements, offer letters and HR rules are exactly the documents you **should not upload** to a chatbot. They hold your salary, your health and your address. And when an AI answers a question about them, you still don't know if the answer is true.
+Ask a question about a PDF (an insurance policy, a tenancy agreement, HR rules) and get an answer where **every sentence is cited and checked** against the document. Sentences the document doesn't support are removed before you see them. If the answer isn't in the document, it says so.
 
-Underline fixes both problems:
+It all runs on your machine: PDF parsing, embeddings, vector search, the LLM. **No cloud API, no data leaves the computer.**
 
-- 🔒 **Secure by design: nothing leaves your computer.** The PDF, the search index and the AI model all run locally. There is no server, no account, no analytics and no cloud AI. A strict Content Security Policy only lets the page talk to itself and the AI engine on your own machine.
-- 📴 **Fully offline.** After the first start, it works with Wi-Fi turned off: the app, its search model and the PDF engine are served from your computer and cached by a service worker.
-- ✅ **Every answer is checked by code.** The AI must cite the sentences it used. The checker then tests every answer sentence against those citations: numbers, months, key words, "not", exclusions, and whether a number really belongs to the thing you asked about. Sentences that fail are removed, not shown.
-- 🖍️ **Proof you can see.** Each sentence has a `p. 12` tag. Click it and the exact lines are highlighted in the PDF.
-- 🙅 **It says "not found" instead of guessing.** Ask about something the document doesn't cover and you get "I couldn't find this", plus the closest lines to read yourself.
+Three ways to use the same engine:
 
-## How it works
+| | |
+|---|---|
+| **REST API**: `npm run serve` | Upload PDFs, ask questions, get verified answers with citations and highlight boxes as JSON |
+| **CLI**: `npm run ask -- file.pdf "question"` | One-shot answers in the terminal |
+| **Web app**: `npm run dev` | Chat UI with the proof highlighted in the PDF |
+
+## RAG architecture
 
 ```mermaid
 flowchart LR
-    A[PDF] --> B[Read text with positions<br/>columns · tables · headings]
-    B --> C[Numbered sentences<br/>S1, S2, …]
-    C --> D[Search<br/>keywords + meaning]
-    D --> E[Local AI writes an answer<br/>citing S-numbers]
-    E --> F{Code checks<br/>every sentence}
-    F -- passes --> G[Answer + p. N tags<br/>lines highlighted in the PDF]
-    F -- fails --> H[Removed]
+    subgraph Ingest
+      A[PDF] --> B[Layout-aware parsing<br/>columns · ruled tables · headers]
+      B --> C[Sentences S1…Sn<br/>page + boxes + headings]
+    end
+    subgraph Retrieval
+      C --> D[Chunks ~70 words]
+      D --> E[BM25 keyword index]
+      D --> F[bge-small embeddings]
+      E --> G[Reciprocal Rank Fusion]
+      F --> G
+    end
+    subgraph Generation
+      G --> H[Prompt with S-tagged sentences]
+      H --> I[Local LLM<br/>Gemma 4 E2B · OpenAI-compatible API]
+    end
+    subgraph Verification
+      I --> J{Check each claim<br/>against its citations}
+      J -- supported --> K[Answer + citations + pages]
+      J -- unsupported --> L[Removed, with reason]
+    end
 ```
 
-**The AI proposes, the code verifies.** The model is small and runs on a normal laptop (Gemma 4 E2B, about 2.2 GB of memory). The trust comes from the checker, not from the model being big.
+| Stage | Techniques | Code |
+|---|---|---|
+| **Ingest** | Layout-aware PDF parsing: recursive column detection, ruled-table cell extraction from vector drawings, header/footer removal, sentence segmentation with heading context | [`rag/ingest/`](rag/ingest) |
+| **Retrieval** | Hybrid search: BM25 (MiniSearch) + dense vectors (bge-small-en-v1.5, ONNX, int8/fp16), fused with Reciprocal Rank Fusion | [`rag/retrieval/`](rag/retrieval) |
+| **Generation** | Grounded prompting with sentence IDs, forced citations, explicit `NOT FOUND`; streaming client for any OpenAI-compatible local server; 4-bit GGUF model | [`rag/generation/`](rag/generation) |
+| **Verification** | Claim-level hallucination guard: citation validity, number/date matching, key-word overlap, negation, exclusion conflicts, number ↔ subject anchoring, pronoun links. Experimental NLI cross-encoder | [`rag/verification/`](rag/verification) |
+| **Evaluation** | Held-out test set, every kept sentence hand-labelled, offline re-scoring, 7 LLMs compared | [`eval/`](eval), [`docs/RESULTS.md`](docs/RESULTS.md) |
 
-## How accurate is it?
+A detailed walk-through of each stage is in [`rag/README.md`](rag/README.md).
 
-Measured on **8 documents the app had never seen** (Indian health insurance policies, Australian tenancy agreements, university leave rules): 112 questions, including 22 trick questions whose answer is *not* in the document. Every kept sentence was reviewed by hand.
+## Evaluation
 
-| | Result |
+Measured on **8 documents the engine had never seen** (Indian health insurance policies, Australian tenancy agreements, university leave rules): 112 questions, 22 of them unanswerable on purpose. Every kept sentence was reviewed by hand.
+
+| Metric | Result |
 |---|---|
-| Questions answered correctly, with proof | **84%** (76 of 90) |
-| Wrong sentences that slipped past the checker | **2** (out of ~110 shown) |
-| Trick questions correctly answered "not found" | **19 of 22** |
-| Time to first word (8 GB M2 MacBook) | **~4 s** |
+| Answered correctly, with citations | **84%** (76 / 90) |
+| Unsupported sentences that got past the verifier | **2** of ~110 |
+| Unanswerable questions correctly refused | **19 / 22** |
+| Time to first token (8 GB M2 laptop, CPU embeddings) | **~4 s** |
 
-The full method, every model tried (Qwen 3.5, Phi-4 mini, Granite 4.2, Gemma 4 E2B/E4B) and every mistake are written up in [docs/RESULTS.md](docs/RESULTS.md).
+**What moved the numbers** (all in [docs/RESULTS.md](docs/RESULTS.md)):
+- **The verifier does real work.** On the held-out run it removed 24 sentences that their cited text didn't back up. The most common cause, at 11, was a correct-looking number taken from the wrong clause. A few removed sentences were right but loosely worded; that is the price of strictness.
+- **Parsing fixes beat prompt and model changes.** Reading columns and ruled tables correctly took the answer rate from 81% to 84% and unsupported sentences from 3 to 2.
+- Model choice: Gemma 4 E2B beat Qwen 3.5 (2B/4B), Granite 4.2 3B and Phi-4 mini on accuracy *and* speed. Gemma 4 E4B was about as accurate but 3× slower.
+- Runtime matters on small machines: Qwen 3.5 2B used 1.6 GB as a GGUF on llama.cpp, against 7.9 GB on Ollama's MLX runner.
 
 ## Quick start
 
-You need **Node 22+** and, for AI answers, the free **[Ollama](https://ollama.com)** app.
+Needs **Node 22+** and **[Ollama](https://ollama.com)** (or llama.cpp's `llama-server`).
 
 ```bash
 git clone https://github.com/umangbagadi03/underline.git
 cd underline
 npm install
-npm run dev
+npm run setup                     # embedding model + parser data into public/ (~120 MB, once)
+ollama pull hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL    # 3.6 GB, once
 ```
 
-Open **http://localhost:5173**. The first start copies the search model and PDF engine into `public/` (about 120 MB, once).
-
-- If Ollama is running, Underline finds it. If the AI model is missing, click **Download AI model** in the sidebar (Gemma 4 E2B, 3.6 GB, once).
-- Without Ollama, Underline still works in **search-only** mode: it shows the best matching lines with page tags.
-- Also works with llama.cpp's `llama-server` on port 8080.
-
-Production build (adds the security policy and offline mode):
+### CLI
 
 ```bash
-npm run build
-npx vite preview   # http://localhost:4173
+npm run ask -- offer-letter.pdf "How long is the probation period?"
+```
+```
+offer-letter.pdf: 5 pages, 87 sentences indexed
+
+✓ Verified in the document
+
+  You will be on probation for a period of 6 months from your date of joining.  [p. 3]
+  The probation period may be extended by up to 3 more months if your performance needs improvement.  [p. 3]
 ```
 
-## Features
+Flags: `--model <name>`, `--search-only` (no LLM, just the best passages), `--json`.
 
-- **Library on your device.** Documents are saved in the browser's local database (IndexedDB). Reopening is instant, chat history included.
-- **Smart PDF reading.** Two-, three- and four-column pages are read column by column. Tables with drawn borders are read cell by cell. Repeating headers and footers are removed.
-- **Hybrid search.** Keyword search (MiniSearch) plus meaning search (bge-small embeddings on WebGPU), fused together.
-- **Three honest answer states.** *Verified*, *Not found exactly, here are related lines*, and *Not found*.
-- **Light and dark mode**, and a layout that works on a phone.
+### REST API
 
-## Privacy and security details
+```bash
+npm run serve          # http://127.0.0.1:8787 (listens on localhost only)
+```
 
-| What | Where it runs |
-|---|---|
-| Your PDF | Stays in your browser (IndexedDB). Never uploaded. |
-| PDF reading | pdf.js, served by the app itself |
-| Search model (bge-small, ~120 MB) | In your browser, files served by the app itself |
-| AI model | Ollama or llama.cpp on your own computer (`localhost`) |
-| Network | A Content Security Policy allows only the app itself and the local AI engine. No analytics, no third-party requests. |
+| Method | Path | Body | Returns |
+|---|---|---|---|
+| `GET` | `/health` | | LLM status, model, whether vector search is on |
+| `POST` | `/documents` | PDF bytes (`X-Filename` header optional) | `{ id, name, pages, sentences, indexMs }` |
+| `GET` | `/documents` | | indexed documents |
+| `POST` | `/documents/:id/ask` | `{ "question": "...", "model"?: "...", "searchOnly"?: true }` | verified answer (below) |
+| `DELETE` | `/documents/:id` | | `{ deleted }` |
+
+```bash
+ID=$(curl -s -X POST localhost:8787/documents --data-binary @offer-letter.pdf | jq -r .id)
+curl -s -X POST localhost:8787/documents/$ID/ask -d '{"question":"What is the notice period after confirmation?"}'
+```
+```json
+{
+  "status": "answered",
+  "answer": [
+    {
+      "text": "After confirmation, the notice period is 60 days.",
+      "citations": [
+        { "id": "S46", "page": 3, "text": "After confirmation, the notice period is 60 days.",
+          "boxes": [{ "x": 179, "y": 597, "w": 261, "h": 13 }] }
+      ]
+    },
+    {
+      "text": "The Company may also accept payment of basic salary in lieu of the notice period.",
+      "citations": [
+        { "id": "S47", "page": 3, "text": "The Company may, at its sole discretion, accept payment of basic salary in lieu of the notice period.",
+          "boxes": [{ "x": 445, "y": 597, "w": 85, "h": 13 }, { "x": 62, "y": 580, "w": 417, "h": 13 }] }
+      ]
+    }
+  ],
+  "removed": [],
+  "passages": [],
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "timings": { "retrieveMs": 185, "firstTokenMs": 411, "totalMs": 2799 }
+}
+```
+
+`status` is `answered`, `related` (only nearby facts were found), `not-found` (with the closest `passages`) or `search-only`. `removed` lists the sentences the verifier threw out and why. Configure with `PORT`, `UNDERLINE_MODEL` and `UNDERLINE_LLM_URL`.
+
+### Web app
+
+```bash
+npm run dev            # http://localhost:5173
+```
+
+A chat client for the same engine, running fully in the browser (embeddings on WebGPU). Click a `p. 12` tag to see the proof highlighted in the PDF.
+
+<p align="center">
+  <img src="docs/screenshots/answer-light.png" alt="Underline web app answering a question, with the source line highlighted in the PDF" width="820">
+</p>
+
+## Privacy and security
+
+- **Nothing leaves the machine.** Parsing, embeddings, vector search and the LLM all run locally. No cloud API, no telemetry.
+- The API binds to `127.0.0.1` only, checks uploads are real PDFs and caps them at 50 MB.
+- The web app ships a strict Content Security Policy (only itself and the local LLM), self-hosts every model and font, and works offline through a service worker.
+- Model files are loaded from disk only. Remote model downloads are switched off at run time.
 
 ## Project structure
 
-| Folder | What's inside |
-|---|---|
-| `src/pdf/` | Read PDF text with positions; columns, tables, headings, sentences |
-| `src/search/` | Keyword + meaning search, local model setup |
-| `src/answer/` | Prompt, local AI engine (OpenAI-style API), model download |
-| `src/verify/` | **The checker**: citations, numbers, key words, "not", exclusions, number ↔ subject |
-| `src/store/` | Saving documents on the device |
-| `src/app/` | The app screens |
-| `eval/` | Test questions, eval runner, hand-review labels, results |
-| `tests/` | Unit tests (`npm test`) |
+```
+rag/                 the RAG engine (no UI code)
+  ingest/            PDF → sentences: columns, ruled tables, headers, headings
+  retrieval/         chunks, BM25, embeddings, Reciprocal Rank Fusion
+  generation/        grounded prompt, OpenAI-compatible local LLM client, model setup
+  verification/      claim-level hallucination guard (+ experimental NLI)
+  pipeline.js        indexPdf() and answerQuestion()
+server/              REST API (node:http, no framework) and the shared Node engine
+bin/                 CLI
+eval/                eval runner, grader, offline re-scorer, questions, hand labels, results
+tests/               unit + API tests (vitest)
+src/                 web client (UI, PDF viewer, on-device storage)
+docs/                results write-up, design plan, screenshots
+```
 
 ## Tests and evaluation
 
 ```bash
-npm test                                   # unit tests
+npm test                                                   # 65 unit + API tests
 node eval/run-eval.js --provider local \
   --model hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL \
-  --questions eval/questions-holdout.json  # held-out eval
-node eval/summarize.js --questions eval/questions-holdout.json
+  --questions eval/questions-holdout.json                  # run the held-out eval
+node eval/summarize.js --questions eval/questions-holdout.json   # score against hand labels
 ```
 
-The third-party test PDFs are **not included** in this repo (copyright). Each one is listed with its public source link in `eval/questions.json` and `eval/questions-holdout.json`; download them into `eval/docs/` and `eval/docs-holdout/` to re-run the eval. The synthetic offer letter is included.
+The third-party test PDFs are **not included** (copyright). Their public sources are listed in `eval/questions.json` and `eval/questions-holdout.json`. The synthetic offer letter is included.
 
-## Known limits
+## Limits
 
-- Scanned PDFs (images with no text layer) are not supported yet. OCR would be needed.
-- English only (the search model is English).
-- If the app is hosted on a website instead of `localhost`, Ollama needs `OLLAMA_ORIGINS` set to allow it.
-- The checker catches most wrong sentences, not all: about 2 in 100 still get through. Always click the page tag for anything important.
+- Scanned PDFs (no text layer) need OCR, which isn't built in yet.
+- English only (the embedding model is English).
+- The verifier catches most unsupported sentences, not all: about 2 in 100 still get through. Check the cited page for anything important.

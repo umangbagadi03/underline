@@ -248,7 +248,7 @@ The real fix is not more rules. Word, number and entailment checks cannot reliab
 
 ## 9. Better PDF reading (23 Oct 2026, same questions)
 
-Three of the four wrong sentences left in section 8 came from reading the PDF badly, not from the model. Fixed in `src/pdf/`:
+Three of the four wrong sentences left in section 8 came from reading the PDF badly, not from the model. Fixed in `rag/ingest/`:
 - **Wide pages with 3–4 columns** (the Victoria form) are split column by column, and pages that don't start at x = 0 are handled.
 - **Clause numbers in a table's side column** ("2(L)") no longer cut a sentence in two.
 - **Tables with drawn borders** are read cell by cell (`table-cells.js`), so a wrapped cell is not mixed line by line with the cell next to it. Lines that run through words (logo or watermark strokes) are ignored, and a table needs at least two rows that line up.
