@@ -1,0 +1,2185 @@
+{
+  "provider": "local",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "date": "2026-10-22T19:27:50.584Z",
+  "embedLoadMs": 236.96112500000004,
+  "modelLoadMs": 3158.732416,
+  "indexing": {
+    "health": {
+      "pages": 37,
+      "sentences": 1137,
+      "readMs": 404.3644999999999,
+      "keywordMs": 28.558749999999918,
+      "readyMs": 432.9232499999998,
+      "embedMs": 15971.928,
+      "totalMs": 16404.85125
+    },
+    "rent": {
+      "pages": 15,
+      "sentences": 259,
+      "readMs": 212.46208299999853,
+      "keywordMs": 15.661458000002312,
+      "readyMs": 228.12354100000084,
+      "embedMs": 6309.8373329999995,
+      "totalMs": 6537.960874
+    },
+    "offer": {
+      "pages": 5,
+      "sentences": 87,
+      "readMs": 90.49329200000284,
+      "keywordMs": 3.2966249999990396,
+      "readyMs": 93.78991700000188,
+      "embedMs": 1081.5087909999966,
+      "totalMs": 1175.2987079999984
+    }
+  },
+  "rows": [
+    {
+      "id": "H1",
+      "question": "What is the limit for room rent?",
+      "answerable": true,
+      "retrievalHit": true,
+      "passageIds": [
+        "S119",
+        "S120",
+        "S131",
+        "S132",
+        "S133",
+        "S134",
+        "S136",
+        "S141",
+        "S142",
+        "S143",
+        "S144",
+        "S145",
+        "S483",
+        "S484",
+        "S485",
+        "S486",
+        "S487",
+        "S488",
+        "S562",
+        "S563",
+        "S564",
+        "S565",
+        "S566",
+        "S567",
+        "S568",
+        "S569",
+        "S570",
+        "S571",
+        "S572",
+        "S573"
+      ],
+      "retrieveMs": 993.3111250000002,
+      "rawAnswer": "The limit for room rent is 2% of the sum insured, subject to a maximum of Rs.5000/- per day [S132][S483].",
+      "verification": {
+        "status": "not-found",
+        "kept": [],
+        "dropped": [
+          {
+            "text": "The limit for room rent is 2% of the sum insured, subject to a maximum of Rs.5000/- per day.",
+            "ids": [
+              "S132",
+              "S483"
+            ],
+            "reason": "number-wrong-subject"
+          }
+        ],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 5510.266999999996,
+        "totalMs": 8835.826791000003,
+        "tokens": 40,
+        "tokensPerSec": 12.02805016714851,
+        "promptTokens": 1022
+      },
+      "citedPages": [],
+      "correct": false,
+      "rawCorrect": true,
+      "refused": true
+    },
+    {
+      "id": "H2",
+      "question": "How much will the policy pay for cataract treatment?",
+      "answerable": true,
+      "retrievalHit": true,
+      "passageIds": [
+        "S7",
+        "S8",
+        "S9",
+        "S131",
+        "S135",
+        "S136",
+        "S137",
+        "S138",
+        "S139",
+        "S140",
+        "S146",
+        "S147",
+        "S148",
+        "S149",
+        "S254",
+        "S255",
+        "S256",
+        "S257",
+        "S278",
+        "S282",
+        "S283",
+        "S284",
+        "S285",
+        "S489",
+        "S490",
+        "S491",
+        "S492"
+      ],
+      "retrieveMs": 834.406167000001,
+      "rawAnswer": "The policy pays for cataract treatment subject to a limit of 25% of the Sum Insured or Rs.40,000/-, whichever is lower, per eye in one policy year [S149][S491].",
+      "verification": {
+        "status": "answered",
+        "kept": [
+          {
+            "text": "The policy pays for cataract treatment subject to a limit of 25% of the Sum Insured or Rs.40,000/-, whichever is lower, per eye in one policy year.",
+            "ids": [
+              "S149",
+              "S491"
+            ]
+          }
+        ],
+        "dropped": [],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 4707.539291000001,
+        "totalMs": 9385.791083000004,
+        "tokens": 55,
+        "tokensPerSec": 11.756528388243701,
+        "promptTokens": 1154
+      },
+      "citedPages": [
+        7,
+        19
+      ],
+      "correct": true,
+      "rawCorrect": true,
+      "refused": false
+    },
+    {
+      "id": "H3",
+      "question": "What is the waiting period for pre-existing diseases?",
+      "answerable": true,
+      "retrievalHit": true,
+      "passageIds": [
+        "S101",
+        "S102",
+        "S103",
+        "S104",
+        "S126",
+        "S127",
+        "S128",
+        "S129",
+        "S130",
+        "S131",
+        "S185",
+        "S186",
+        "S187",
+        "S188",
+        "S189",
+        "S190",
+        "S191",
+        "S196",
+        "S197",
+        "S198",
+        "S199",
+        "S493",
+        "S494",
+        "S495"
+      ],
+      "retrieveMs": 378.7584169999973,
+      "rawAnswer": "The waiting period for pre-existing diseases is 3 years, which is reduced to the extent of prior coverage if the insured is continuously covered without any break [S188].",
+      "verification": {
+        "status": "not-found",
+        "kept": [],
+        "dropped": [
+          {
+            "text": "The waiting period for pre-existing diseases is 3 years, which is reduced to the extent of prior coverage if the insured is continuously covered without any break.",
+            "ids": [
+              "S188"
+            ],
+            "reason": "number-mismatch"
+          }
+        ],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 3718.3585840000014,
+        "totalMs": 6443.208791999998,
+        "tokens": 37,
+        "tokensPerSec": 13.57872806782928,
+        "promptTokens": 1019
+      },
+      "citedPages": [],
+      "correct": false,
+      "rawCorrect": true,
+      "refused": true
+    },
+    {
+      "id": "H4",
+      "question": "How much co-payment do I have to pay on a claim?",
+      "answerable": true,
+      "retrievalHit": true,
+      "passageIds": [
+        "S306",
+        "S307",
+        "S308",
+        "S309",
+        "S310",
+        "S311",
+        "S312",
+        "S321",
+        "S324",
+        "S325",
+        "S326",
+        "S327",
+        "S328",
+        "S329",
+        "S330",
+        "S331",
+        "S332",
+        "S333",
+        "S336",
+        "S339",
+        "S340",
+        "S341",
+        "S342",
+        "S343",
+        "S344",
+        "S493",
+        "S494",
+        "S495"
+      ],
+      "retrieveMs": 488.2914579999997,
+      "rawAnswer": "You have to pay a co-payment of 5% on all claims [S326][S495].",
+      "verification": {
+        "status": "answered",
+        "kept": [
+          {
+            "text": "You have to pay a co-payment of 5% on all claims.",
+            "ids": [
+              "S326",
+              "S495"
+            ]
+          }
+        ],
+        "dropped": [],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 3410.3097500000003,
+        "totalMs": 5102.000583000001,
+        "tokens": 26,
+        "tokensPerSec": 15.369238570556226,
+        "promptTokens": 974
+      },
+      "citedPages": [
+        13,
+        19
+      ],
+      "correct": true,
+      "rawCorrect": true,
+      "refused": false
+    },
+    {
+      "id": "H5",
+      "question": "What is the maximum amount paid for a road ambulance?",
+      "answerable": true,
+      "retrievalHit": true,
+      "passageIds": [
+        "S131",
+        "S132",
+        "S133",
+        "S134",
+        "S136",
+        "S141",
+        "S142",
+        "S143",
+        "S144",
+        "S145",
+        "S493",
+        "S494",
+        "S495",
+        "S538",
+        "S539",
+        "S540",
+        "S541",
+        "S542",
+        "S543",
+        "S544",
+        "S545",
+        "S546",
+        "S547",
+        "S548",
+        "S549",
+        "S556",
+        "S557",
+        "S558",
+        "S559",
+        "S560",
+        "S561"
+      ],
+      "retrieveMs": 125.58841699999903,
+      "rawAnswer": "The maximum amount paid for a road ambulance is Rs.2000/- per hospitalization [S141].",
+      "verification": {
+        "status": "answered",
+        "kept": [
+          {
+            "text": "The maximum amount paid for a road ambulance is Rs.2000/- per hospitalization.",
+            "ids": [
+              "S141"
+            ]
+          }
+        ],
+        "dropped": [],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 3755.085082999998,
+        "totalMs": 5716.159749999992,
+        "tokens": 26,
+        "tokensPerSec": 13.258036747664583,
+        "promptTokens": 1028
+      },
+      "citedPages": [
+        6
+      ],
+      "correct": true,
+      "rawCorrect": true,
+      "refused": false
+    },
+    {
+      "id": "H6",
+      "question": "For how many days after discharge are medical expenses covered?",
+      "answerable": true,
+      "retrievalHit": true,
+      "passageIds": [
+        "S7",
+        "S8",
+        "S9",
+        "S102",
+        "S105",
+        "S106",
+        "S107",
+        "S108",
+        "S109",
+        "S110",
+        "S111",
+        "S112",
+        "S131",
+        "S135",
+        "S136",
+        "S137",
+        "S138",
+        "S139",
+        "S140",
+        "S150",
+        "S151",
+        "S152",
+        "S153",
+        "S483",
+        "S484",
+        "S485",
+        "S486",
+        "S487",
+        "S488"
+      ],
+      "retrieveMs": 769.0627079999977,
+      "rawAnswer": "The company shall indemnify post-hospitalization medical expenses incurred for a fixed period of 60 days from the date of discharge from the hospital [S153].",
+      "verification": {
+        "status": "answered",
+        "kept": [
+          {
+            "text": "The company shall indemnify post-hospitalization medical expenses incurred for a fixed period of 60 days from the date of discharge from the hospital.",
+            "ids": [
+              "S153"
+            ]
+          }
+        ],
+        "dropped": [],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 8435.287750000003,
+        "totalMs": 13176.063167,
+        "tokens": 36,
+        "tokensPerSec": 7.593694455743931,
+        "promptTokens": 1132
+      },
+      "citedPages": [
+        7
+      ],
+      "correct": true,
+      "rawCorrect": true,
+      "refused": false
+    },
+    {
+      "id": "H7",
+      "question": "Is hernia surgery covered from the first day?",
+      "answerable": true,
+      "retrievalHit": false,
+      "passageIds": [
+        "S7",
+        "S8",
+        "S9",
+        "S154",
+        "S155",
+        "S156",
+        "S157",
+        "S158",
+        "S159",
+        "S160",
+        "S161",
+        "S162",
+        "S163",
+        "S164",
+        "S165",
+        "S185",
+        "S186",
+        "S187",
+        "S188",
+        "S189",
+        "S190",
+        "S191",
+        "S192",
+        "S193",
+        "S194",
+        "S195"
+      ],
+      "retrieveMs": 611.3455000000104,
+      "rawAnswer": "Hernia surgery is not covered from the first day as it is excluded under the Specific Waiting Period. [S195]",
+      "verification": {
+        "status": "answered",
+        "kept": [
+          {
+            "text": "Hernia surgery is not covered from the first day as it is excluded under the Specific Waiting Period.",
+            "ids": [
+              "S195"
+            ]
+          }
+        ],
+        "dropped": [],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 5994.734041000003,
+        "totalMs": 9383.211582999997,
+        "tokens": 28,
+        "tokensPerSec": 8.263298089759054,
+        "promptTokens": 995
+      },
+      "citedPages": [
+        8
+      ],
+      "correct": false,
+      "rawCorrect": false,
+      "refused": false
+    },
+    {
+      "id": "H8",
+      "question": "How long is the free look period?",
+      "answerable": true,
+      "retrievalHit": true,
+      "passageIds": [
+        "S113",
+        "S114",
+        "S115",
+        "S116",
+        "S286",
+        "S287",
+        "S288",
+        "S289",
+        "S404",
+        "S405",
+        "S406",
+        "S407",
+        "S421",
+        "S422",
+        "S423",
+        "S424",
+        "S425",
+        "S426",
+        "S427",
+        "S428",
+        "S429",
+        "S430",
+        "S431",
+        "S432"
+      ],
+      "retrieveMs": 587.7915000000066,
+      "rawAnswer": "The Free Look Period shall be applicable at the inception of the Policy and not on renewals or at the time of porting/ migrating the policy [S422].\nThe insured shall be allowed a period of thirty days from date of receipt of the Policy document to review the terms and conditions of the Policy [S423].\nThe Free Look Period shall be applicable at the inception of the Policy and not on renewals or at the time of porting/ migrating the policy [S422].",
+      "verification": {
+        "status": "answered",
+        "kept": [
+          {
+            "text": "The Free Look Period shall be applicable at the inception of the Policy and not on renewals or at the time of porting/ migrating the policy.",
+            "ids": [
+              "S422"
+            ]
+          },
+          {
+            "text": "The Free Look Period shall be applicable at the inception of the Policy and not on renewals or at the time of porting/ migrating the policy.",
+            "ids": [
+              "S422"
+            ]
+          }
+        ],
+        "dropped": [
+          {
+            "text": "The insured shall be allowed a period of thirty days from date of receipt of the Policy document to review the terms and conditions of the Policy.",
+            "ids": [
+              "S423"
+            ],
+            "reason": "number-wrong-subject"
+          }
+        ],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 5990.334333000006,
+        "totalMs": 13935.07033300001,
+        "tokens": 106,
+        "tokensPerSec": 13.342167694433137,
+        "promptTokens": 1030
+      },
+      "citedPages": [
+        17,
+        17
+      ],
+      "correct": false,
+      "rawCorrect": true,
+      "refused": false
+    },
+    {
+      "id": "H9",
+      "question": "By how much does the cumulative bonus increase for a claim-free year?",
+      "answerable": true,
+      "retrievalHit": true,
+      "passageIds": [
+        "S10",
+        "S11",
+        "S12",
+        "S38",
+        "S39",
+        "S40",
+        "S121",
+        "S122",
+        "S123",
+        "S162",
+        "S166",
+        "S167",
+        "S168",
+        "S169",
+        "S170",
+        "S171",
+        "S172",
+        "S173",
+        "S174",
+        "S493",
+        "S494",
+        "S495"
+      ],
+      "retrieveMs": 262.4796670000069,
+      "rawAnswer": "The cumulative bonus increases by 5% in respect of each claim-free policy year [S169].",
+      "verification": {
+        "status": "answered",
+        "kept": [
+          {
+            "text": "The cumulative bonus increases by 5% in respect of each claim-free policy year.",
+            "ids": [
+              "S169"
+            ]
+          }
+        ],
+        "dropped": [],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 3943.6969170000084,
+        "totalMs": 5358.456375000009,
+        "tokens": 23,
+        "tokensPerSec": 16.257180589917635,
+        "promptTokens": 1029
+      },
+      "citedPages": [
+        7
+      ],
+      "correct": true,
+      "rawCorrect": true,
+      "refused": false
+    },
+    {
+      "id": "H10",
+      "question": "Is treatment taken in another country covered?",
+      "answerable": true,
+      "retrievalHit": true,
+      "passageIds": [
+        "S45",
+        "S47",
+        "S48",
+        "S49",
+        "S50",
+        "S51",
+        "S91",
+        "S92",
+        "S93",
+        "S94",
+        "S95",
+        "S96",
+        "S154",
+        "S155",
+        "S156",
+        "S157",
+        "S158",
+        "S159",
+        "S160",
+        "S161",
+        "S162",
+        "S163",
+        "S164",
+        "S165",
+        "S278",
+        "S282",
+        "S283",
+        "S284",
+        "S285",
+        "S359",
+        "S360"
+      ],
+      "retrieveMs": 287.9437500000058,
+      "rawAnswer": "Treatment taken outside the geographical limits of India is not covered [S283].",
+      "verification": {
+        "status": "answered",
+        "kept": [
+          {
+            "text": "Treatment taken outside the geographical limits of India is not covered.",
+            "ids": [
+              "S283"
+            ]
+          }
+        ],
+        "dropped": [],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 6620.380208000002,
+        "totalMs": 7943.921625000003,
+        "tokens": 18,
+        "tokensPerSec": 13.59987664065672,
+        "promptTokens": 1169
+      },
+      "citedPages": [
+        11
+      ],
+      "correct": true,
+      "rawCorrect": true,
+      "refused": false
+    },
+    {
+      "id": "H11",
+      "question": "What is the ICU charge limit per day?",
+      "answerable": true,
+      "retrievalHit": true,
+      "passageIds": [
+        "S76",
+        "S86",
+        "S87",
+        "S88",
+        "S131",
+        "S132",
+        "S133",
+        "S134",
+        "S135",
+        "S136",
+        "S137",
+        "S138",
+        "S139",
+        "S140",
+        "S141",
+        "S142",
+        "S143",
+        "S144",
+        "S145",
+        "S483",
+        "S484",
+        "S485",
+        "S486",
+        "S487",
+        "S488",
+        "S489",
+        "S490",
+        "S491",
+        "S492"
+      ],
+      "retrieveMs": 163.42050000000745,
+      "rawAnswer": "The ICU charge limit is up to 5% of the sum insured, subject to a maximum of Rs.10,000/- per day [S133][S490].",
+      "verification": {
+        "status": "answered",
+        "kept": [
+          {
+            "text": "The ICU charge limit is up to 5% of the sum insured, subject to a maximum of Rs.10,000/- per day.",
+            "ids": [
+              "S133",
+              "S490"
+            ]
+          }
+        ],
+        "dropped": [],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 5266.5097909999895,
+        "totalMs": 8899.860499999995,
+        "tokens": 43,
+        "tokensPerSec": 11.834805787805365,
+        "promptTokens": 1246
+      },
+      "citedPages": [
+        6,
+        19
+      ],
+      "correct": true,
+      "rawCorrect": true,
+      "refused": false
+    },
+    {
+      "id": "H12",
+      "question": "What is the yearly premium for a 35-year-old?",
+      "answerable": false,
+      "retrievalHit": null,
+      "passageIds": [
+        "S53",
+        "S56",
+        "S57",
+        "S58",
+        "S170",
+        "S171",
+        "S172",
+        "S173",
+        "S174",
+        "S413",
+        "S414",
+        "S415",
+        "S416",
+        "S417",
+        "S418",
+        "S419",
+        "S420",
+        "S480",
+        "S481",
+        "S482",
+        "S493",
+        "S494",
+        "S495"
+      ],
+      "retrieveMs": 450.95124999999825,
+      "rawAnswer": "The document does not specify the yearly premium for a 35-year-old. [S493]",
+      "verification": {
+        "status": "not-found",
+        "kept": [],
+        "dropped": [
+          {
+            "text": "The document does not specify the yearly premium for a 35-year-old.",
+            "ids": [
+              "S493"
+            ],
+            "reason": "says-not-found"
+          }
+        ],
+        "modelSaidNotFound": true
+      },
+      "stats": {
+        "firstTokenMs": 3681.150874999992,
+        "totalMs": 5578.049333000003,
+        "tokens": 23,
+        "tokensPerSec": 12.125055984414676,
+        "promptTokens": 1063
+      },
+      "citedPages": [],
+      "correct": true,
+      "rawCorrect": true,
+      "refused": true
+    },
+    {
+      "id": "H13",
+      "question": "Is there a discount for buying this policy online?",
+      "answerable": false,
+      "retrievalHit": null,
+      "passageIds": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S175",
+        "S176",
+        "S177",
+        "S178",
+        "S179",
+        "S180",
+        "S371",
+        "S372",
+        "S373",
+        "S374",
+        "S375",
+        "S404",
+        "S405",
+        "S406",
+        "S407",
+        "S424",
+        "S427",
+        "S428",
+        "S429",
+        "S430",
+        "S431",
+        "S432"
+      ],
+      "retrieveMs": 445.69974999999977,
+      "rawAnswer": "The provided document does not contain any information regarding discounts for purchasing the policy online. [S424]",
+      "verification": {
+        "status": "not-found",
+        "kept": [],
+        "dropped": [
+          {
+            "text": "The provided document does not contain any information regarding discounts for purchasing the policy online.",
+            "ids": [
+              "S424"
+            ],
+            "reason": "says-not-found"
+          }
+        ],
+        "modelSaidNotFound": true
+      },
+      "stats": {
+        "firstTokenMs": 4086.372374999977,
+        "totalMs": 5510.912499999977,
+        "tokens": 23,
+        "tokensPerSec": 16.145561361425326,
+        "promptTokens": 1223
+      },
+      "citedPages": [],
+      "correct": true,
+      "rawCorrect": true,
+      "refused": true
+    },
+    {
+      "id": "R1",
+      "question": "How much notice must the landlord give before increasing the rent?",
+      "answerable": true,
+      "retrievalHit": true,
+      "passageIds": [
+        "S72",
+        "S75",
+        "S76",
+        "S77",
+        "S78",
+        "S79",
+        "S81",
+        "S86",
+        "S87",
+        "S88",
+        "S89",
+        "S90",
+        "S222",
+        "S223",
+        "S224",
+        "S225",
+        "S226",
+        "S227",
+        "S228",
+        "S229",
+        "S230",
+        "S231",
+        "S232",
+        "S233",
+        "S234",
+        "S235",
+        "S236",
+        "S237",
+        "S238",
+        "S239",
+        "S240",
+        "S241"
+      ],
+      "retrieveMs": 133.85158300001058,
+      "rawAnswer": "The Landlord must give at least 2 months' prior written notice to the Tenant of any rent increase [S89].",
+      "verification": {
+        "status": "answered",
+        "kept": [
+          {
+            "text": "The Landlord must give at least 2 months' prior written notice to the Tenant of any rent increase.",
+            "ids": [
+              "S89"
+            ]
+          }
+        ],
+        "dropped": [],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 2856.9797499999986,
+        "totalMs": 4281.054375000007,
+        "tokens": 27,
+        "tokensPerSec": 18.95968057151488,
+        "promptTokens": 1120
+      },
+      "citedPages": [
+        6
+      ],
+      "correct": true,
+      "rawCorrect": true,
+      "refused": false
+    },
+    {
+      "id": "R2",
+      "question": "How often can the landlord increase the rent?",
+      "answerable": true,
+      "retrievalHit": true,
+      "passageIds": [
+        "S33",
+        "S34",
+        "S35",
+        "S36",
+        "S72",
+        "S75",
+        "S76",
+        "S77",
+        "S78",
+        "S79",
+        "S81",
+        "S86",
+        "S87",
+        "S88",
+        "S89",
+        "S90",
+        "S91",
+        "S92",
+        "S93",
+        "S94",
+        "S95",
+        "S96",
+        "S164",
+        "S165",
+        "S166",
+        "S167",
+        "S168",
+        "S169",
+        "S193",
+        "S194",
+        "S195",
+        "S196",
+        "S197",
+        "S198",
+        "S199"
+      ],
+      "retrieveMs": 434.0370830000029,
+      "rawAnswer": "The Landlord may increase the rent by no more than the annual increase in RPI, unless an exception applies [S90]. The Landlord must give at least 2 months' prior written notice to the Tenant of any rent increase [S89].",
+      "verification": {
+        "status": "answered",
+        "kept": [
+          {
+            "text": "The Landlord may increase the rent by no more than the annual increase in RPI, unless an exception applies.",
+            "ids": [
+              "S90"
+            ]
+          },
+          {
+            "text": "The Landlord must give at least 2 months' prior written notice to the Tenant of any rent increase.",
+            "ids": [
+              "S89"
+            ]
+          }
+        ],
+        "dropped": [],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 3343.818916999997,
+        "totalMs": 6154.936833000014,
+        "tokens": 54,
+        "tokensPerSec": 19.209439665497,
+        "promptTokens": 1165
+      },
+      "citedPages": [
+        6,
+        6
+      ],
+      "correct": false,
+      "rawCorrect": false,
+      "refused": false
+    },
+    {
+      "id": "R3",
+      "question": "Within how many days must the landlord put the deposit into the protection scheme?",
+      "answerable": true,
+      "retrievalHit": true,
+      "passageIds": [
+        "S33",
+        "S34",
+        "S35",
+        "S36",
+        "S56",
+        "S57",
+        "S58",
+        "S59",
+        "S97",
+        "S98",
+        "S99",
+        "S100",
+        "S101",
+        "S102",
+        "S103",
+        "S183",
+        "S185",
+        "S186",
+        "S187",
+        "S188",
+        "S193",
+        "S194",
+        "S195",
+        "S196",
+        "S197",
+        "S198",
+        "S199"
+      ],
+      "retrieveMs": 145.26020900000003,
+      "rawAnswer": "The Landlord must pay the Deposit into the Government-approved Tenancy Deposit Protection Scheme within 30 days after receiving the deposit [S100].",
+      "verification": {
+        "status": "answered",
+        "kept": [
+          {
+            "text": "The Landlord must pay the Deposit into the Government-approved Tenancy Deposit Protection Scheme within 30 days after receiving the deposit.",
+            "ids": [
+              "S100"
+            ]
+          }
+        ],
+        "dropped": [],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 3195.1073340000003,
+        "totalMs": 4936.306542000006,
+        "tokens": 32,
+        "tokensPerSec": 18.378138384726338,
+        "promptTokens": 1146
+      },
+      "citedPages": [
+        7
+      ],
+      "correct": true,
+      "rawCorrect": true,
+      "refused": false
+    },
+    {
+      "id": "R4",
+      "question": "What interest is charged if the rent is paid late?",
+      "answerable": true,
+      "retrievalHit": true,
+      "passageIds": [
+        "S72",
+        "S75",
+        "S76",
+        "S77",
+        "S78",
+        "S79",
+        "S80",
+        "S81",
+        "S82",
+        "S83",
+        "S84",
+        "S85",
+        "S86",
+        "S87",
+        "S88",
+        "S89",
+        "S90",
+        "S105",
+        "S108",
+        "S109",
+        "S110",
+        "S111",
+        "S112",
+        "S113",
+        "S114",
+        "S115",
+        "S164",
+        "S165",
+        "S166",
+        "S167",
+        "S168",
+        "S169"
+      ],
+      "retrieveMs": 126.2793749999837,
+      "rawAnswer": "If the rent is more than 14 days overdue, the Tenant is liable to pay interest of 3% above the Bank of England's base rate [S113].",
+      "verification": {
+        "status": "answered",
+        "kept": [
+          {
+            "text": "If the rent is more than 14 days overdue, the Tenant is liable to pay interest of 3% above the Bank of England's base rate.",
+            "ids": [
+              "S113"
+            ]
+          }
+        ],
+        "dropped": [],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 2953.4527499999967,
+        "totalMs": 5130.047707999998,
+        "tokens": 38,
+        "tokensPerSec": 17.458461832934177,
+        "promptTokens": 1040
+      },
+      "citedPages": [
+        8
+      ],
+      "correct": true,
+      "rawCorrect": true,
+      "refused": false
+    },
+    {
+      "id": "R5",
+      "question": "Can the tenant smoke inside the property?",
+      "answerable": true,
+      "retrievalHit": true,
+      "passageIds": [
+        "S119",
+        "S120",
+        "S121",
+        "S122",
+        "S123",
+        "S124",
+        "S125",
+        "S126",
+        "S127",
+        "S128",
+        "S129",
+        "S135",
+        "S136",
+        "S137",
+        "S138",
+        "S139",
+        "S140",
+        "S143",
+        "S152",
+        "S153",
+        "S154"
+      ],
+      "retrieveMs": 158.34233300000778,
+      "rawAnswer": "The Tenant must not smoke or allow guests or other third parties to smoke in the Property [S135].\nAnswer: NOT FOUND",
+      "verification": {
+        "status": "related",
+        "kept": [
+          {
+            "text": "The Tenant must not smoke or allow guests or other third parties to smoke in the Property.",
+            "ids": [
+              "S135"
+            ]
+          }
+        ],
+        "dropped": [
+          {
+            "text": "Answer: NOT FOUND",
+            "ids": [],
+            "reason": "says-not-found"
+          }
+        ],
+        "modelSaidNotFound": true
+      },
+      "stats": {
+        "firstTokenMs": 2778.6837499999965,
+        "totalMs": 4541.393457999977,
+        "tokens": 29,
+        "tokensPerSec": 16.4519432033447,
+        "promptTokens": 995
+      },
+      "citedPages": [
+        9
+      ],
+      "correct": false,
+      "rawCorrect": false,
+      "refused": true
+    },
+    {
+      "id": "R6",
+      "question": "How much notice must the tenant give to end a periodic tenancy?",
+      "answerable": true,
+      "retrievalHit": true,
+      "passageIds": [
+        "S187",
+        "S189",
+        "S190",
+        "S191",
+        "S192",
+        "S193",
+        "S222",
+        "S223",
+        "S224",
+        "S225",
+        "S226",
+        "S227",
+        "S228",
+        "S229",
+        "S230",
+        "S231",
+        "S232",
+        "S233",
+        "S234",
+        "S235",
+        "S236",
+        "S237",
+        "S238",
+        "S239",
+        "S240",
+        "S241",
+        "S242",
+        "S243",
+        "S244",
+        "S245",
+        "S246",
+        "S247"
+      ],
+      "retrieveMs": 130.29329199998756,
+      "rawAnswer": "The Tenant may give at least 1 month's written notice as per Article 6E of the Law [S237].",
+      "verification": {
+        "status": "answered",
+        "kept": [
+          {
+            "text": "The Tenant may give at least 1 month's written notice as per Article 6E of the Law.",
+            "ids": [
+              "S237"
+            ]
+          }
+        ],
+        "dropped": [],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 2849.179291999986,
+        "totalMs": 4198.512791999994,
+        "tokens": 28,
+        "tokensPerSec": 20.75098557917656,
+        "promptTokens": 1105
+      },
+      "citedPages": [
+        14
+      ],
+      "correct": true,
+      "rawCorrect": true,
+      "refused": false
+    },
+    {
+      "id": "R7",
+      "question": "How much notice must the landlord give to end a periodic tenancy without giving a reason?",
+      "answerable": true,
+      "retrievalHit": true,
+      "passageIds": [
+        "S187",
+        "S189",
+        "S190",
+        "S191",
+        "S192",
+        "S193",
+        "S222",
+        "S223",
+        "S224",
+        "S225",
+        "S226",
+        "S227",
+        "S228",
+        "S229",
+        "S230",
+        "S231",
+        "S232",
+        "S233",
+        "S234",
+        "S235",
+        "S236",
+        "S237",
+        "S238",
+        "S239",
+        "S240",
+        "S241",
+        "S242",
+        "S243",
+        "S244",
+        "S245",
+        "S246",
+        "S247"
+      ],
+      "retrieveMs": 231.96508299998823,
+      "rawAnswer": "The Landlord may give at least 1 year's written notice to end a periodic tenancy without giving a reason [S236].",
+      "verification": {
+        "status": "answered",
+        "kept": [
+          {
+            "text": "The Landlord may give at least 1 year's written notice to end a periodic tenancy without giving a reason.",
+            "ids": [
+              "S236"
+            ]
+          }
+        ],
+        "dropped": [],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 1715.3782500000088,
+        "totalMs": 3080.306125000003,
+        "tokens": 30,
+        "tokensPerSec": 21.979183332306206,
+        "promptTokens": 1109
+      },
+      "citedPages": [
+        14
+      ],
+      "correct": true,
+      "rawCorrect": true,
+      "refused": false
+    },
+    {
+      "id": "R8",
+      "question": "Within how many days must the landlord give the tenant the condition report?",
+      "answerable": true,
+      "retrievalHit": true,
+      "passageIds": [
+        "S26",
+        "S27",
+        "S28",
+        "S29",
+        "S56",
+        "S57",
+        "S58",
+        "S59",
+        "S183",
+        "S185",
+        "S186",
+        "S187",
+        "S188",
+        "S193",
+        "S194",
+        "S195",
+        "S196",
+        "S197",
+        "S198",
+        "S199",
+        "S222",
+        "S223",
+        "S224",
+        "S225",
+        "S226",
+        "S227",
+        "S228",
+        "S229",
+        "S230",
+        "S231"
+      ],
+      "retrieveMs": 180.0855000000156,
+      "rawAnswer": "The Landlord must complete a Condition Report within 7 days of completion. [S56]",
+      "verification": {
+        "status": "answered",
+        "kept": [
+          {
+            "text": "The Landlord must complete a Condition Report within 7 days of completion.",
+            "ids": [
+              "S56"
+            ]
+          }
+        ],
+        "dropped": [],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 3056.291082999989,
+        "totalMs": 3991.816292000003,
+        "tokens": 21,
+        "tokensPerSec": 22.44728394058667,
+        "promptTokens": 1185
+      },
+      "citedPages": [
+        5
+      ],
+      "correct": true,
+      "rawCorrect": true,
+      "refused": false
+    },
+    {
+      "id": "R9",
+      "question": "Who pays for the broadband internet connection?",
+      "answerable": false,
+      "retrievalHit": null,
+      "passageIds": [
+        "S97",
+        "S98",
+        "S99",
+        "S100",
+        "S104",
+        "S105",
+        "S106",
+        "S107",
+        "S108",
+        "S109",
+        "S110",
+        "S111",
+        "S112",
+        "S113",
+        "S114",
+        "S115",
+        "S116",
+        "S117",
+        "S118",
+        "S119",
+        "S193",
+        "S194",
+        "S195",
+        "S196",
+        "S197",
+        "S198",
+        "S199"
+      ],
+      "retrieveMs": 114.6971659999981,
+      "rawAnswer": "The document does not specify who pays for the broadband internet connection. [S106]",
+      "verification": {
+        "status": "not-found",
+        "kept": [],
+        "dropped": [
+          {
+            "text": "The document does not specify who pays for the broadband internet connection.",
+            "ids": [
+              "S106"
+            ],
+            "reason": "says-not-found"
+          }
+        ],
+        "modelSaidNotFound": true
+      },
+      "stats": {
+        "firstTokenMs": 2738.8255000000063,
+        "totalMs": 4076.6274170000106,
+        "tokens": 20,
+        "tokensPerSec": 14.949896353003906,
+        "promptTokens": 1113
+      },
+      "citedPages": [],
+      "correct": true,
+      "rawCorrect": true,
+      "refused": true
+    },
+    {
+      "id": "R10",
+      "question": "How much stamp duty must be paid to register this agreement?",
+      "answerable": false,
+      "retrievalHit": null,
+      "passageIds": [
+        "S7",
+        "S8",
+        "S9",
+        "S10",
+        "S53",
+        "S54",
+        "S55",
+        "S77",
+        "S80",
+        "S81",
+        "S82",
+        "S83",
+        "S84",
+        "S85",
+        "S97",
+        "S98",
+        "S99",
+        "S100",
+        "S111",
+        "S113",
+        "S114",
+        "S115",
+        "S198",
+        "S201"
+      ],
+      "retrieveMs": 274.25920900001074,
+      "rawAnswer": "The provided document does not contain information regarding stamp duty.\nNOT FOUND",
+      "verification": {
+        "status": "not-found",
+        "kept": [],
+        "dropped": [
+          {
+            "text": "The provided document does not contain information regarding stamp duty.",
+            "ids": [],
+            "reason": "says-not-found"
+          },
+          {
+            "text": "NOT FOUND",
+            "ids": [],
+            "reason": "says-not-found"
+          }
+        ],
+        "modelSaidNotFound": true
+      },
+      "stats": {
+        "firstTokenMs": 4450.6248749999795,
+        "totalMs": 5622.288540999987,
+        "tokens": 15,
+        "tokensPerSec": 12.802308747192901,
+        "promptTokens": 990
+      },
+      "citedPages": [],
+      "correct": true,
+      "rawCorrect": true,
+      "refused": true
+    },
+    {
+      "id": "O1",
+      "question": "What is my total annual CTC?",
+      "answerable": true,
+      "retrievalHit": true,
+      "passageIds": [
+        "S19",
+        "S20",
+        "S21",
+        "S22",
+        "S23",
+        "S24",
+        "S25",
+        "S26",
+        "S27",
+        "S28",
+        "S29",
+        "S30",
+        "S31",
+        "S32",
+        "S33",
+        "S34",
+        "S35",
+        "S48",
+        "S49",
+        "S50",
+        "S51",
+        "S52",
+        "S53",
+        "S54",
+        "S55",
+        "S56",
+        "S57",
+        "S58",
+        "S59",
+        "S60",
+        "S61",
+        "S62",
+        "S63"
+      ],
+      "retrieveMs": 508.2033330000122,
+      "rawAnswer": "Your total annual cost to company (CTC) will be Rs. 18,50,000 (Rupees Eighteen Lakh Fifty Thousand only). [S20]",
+      "verification": {
+        "status": "answered",
+        "kept": [
+          {
+            "text": "Your total annual cost to company (CTC) will be Rs. 18,50,000 (Rupees Eighteen Lakh Fifty Thousand only).",
+            "ids": [
+              "S20"
+            ]
+          }
+        ],
+        "dropped": [],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 3932.108666999993,
+        "totalMs": 6299.813792000001,
+        "tokens": 41,
+        "tokensPerSec": 17.316345505650695,
+        "promptTokens": 939
+      },
+      "citedPages": [
+        1
+      ],
+      "correct": true,
+      "rawCorrect": true,
+      "refused": false
+    },
+    {
+      "id": "O2",
+      "question": "How long is the probation period?",
+      "answerable": true,
+      "retrievalHit": true,
+      "passageIds": [
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S18",
+        "S36",
+        "S37",
+        "S38",
+        "S39",
+        "S40",
+        "S41",
+        "S42",
+        "S43",
+        "S44",
+        "S45",
+        "S46",
+        "S47",
+        "S54",
+        "S55",
+        "S56",
+        "S57",
+        "S64",
+        "S65",
+        "S66",
+        "S67",
+        "S68",
+        "S69",
+        "S70",
+        "S71",
+        "S72",
+        "S73",
+        "S74",
+        "S75"
+      ],
+      "retrieveMs": 501.55354200000875,
+      "rawAnswer": "The probation period is 6 months from your date of joining [S41].\n[S41]",
+      "verification": {
+        "status": "answered",
+        "kept": [
+          {
+            "text": "The probation period is 6 months from your date of joining.",
+            "ids": [
+              "S41"
+            ]
+          }
+        ],
+        "dropped": [],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 4070.622624999989,
+        "totalMs": 5670.213332999992,
+        "tokens": 23,
+        "tokensPerSec": 14.378678173716892,
+        "promptTokens": 950
+      },
+      "citedPages": [
+        3
+      ],
+      "correct": true,
+      "rawCorrect": true,
+      "refused": false
+    },
+    {
+      "id": "O3",
+      "question": "What is the notice period after confirmation?",
+      "answerable": true,
+      "retrievalHit": true,
+      "passageIds": [
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S18",
+        "S36",
+        "S37",
+        "S38",
+        "S39",
+        "S40",
+        "S41",
+        "S42",
+        "S43",
+        "S44",
+        "S45",
+        "S46",
+        "S47",
+        "S64",
+        "S65",
+        "S66",
+        "S67",
+        "S68",
+        "S69",
+        "S76",
+        "S77",
+        "S78",
+        "S79",
+        "S80",
+        "S81",
+        "S82",
+        "S83",
+        "S84",
+        "S85",
+        "S86",
+        "S87"
+      ],
+      "retrieveMs": 368.3648749999993,
+      "rawAnswer": "After confirmation, the notice period is 60 days [S46].",
+      "verification": {
+        "status": "answered",
+        "kept": [
+          {
+            "text": "After confirmation, the notice period is 60 days.",
+            "ids": [
+              "S46"
+            ]
+          }
+        ],
+        "dropped": [],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 1846.3241660000058,
+        "totalMs": 2920.5365830000082,
+        "tokens": 17,
+        "tokensPerSec": 15.825547844137386,
+        "promptTokens": 923
+      },
+      "citedPages": [
+        3
+      ],
+      "correct": true,
+      "rawCorrect": true,
+      "refused": false
+    },
+    {
+      "id": "O4",
+      "question": "How many days of paid annual leave do I get?",
+      "answerable": true,
+      "retrievalHit": true,
+      "passageIds": [
+        "S31",
+        "S32",
+        "S33",
+        "S34",
+        "S35",
+        "S36",
+        "S37",
+        "S38",
+        "S39",
+        "S40",
+        "S41",
+        "S48",
+        "S49",
+        "S50",
+        "S51",
+        "S52",
+        "S53",
+        "S54",
+        "S55",
+        "S56",
+        "S57",
+        "S64",
+        "S65",
+        "S66",
+        "S67",
+        "S68",
+        "S69",
+        "S70",
+        "S71",
+        "S72",
+        "S73",
+        "S74",
+        "S75"
+      ],
+      "retrieveMs": 862.4910410000011,
+      "rawAnswer": "You are entitled to 24 days of paid annual leave per calendar year [S53].\nAdditionally, you get 12 days of sick leave and 10 public holidays per year [S55].\nThe total paid leave entitlement is 36 days per year [S53][S55].",
+      "verification": {
+        "status": "answered",
+        "kept": [
+          {
+            "text": "You are entitled to 24 days of paid annual leave per calendar year.",
+            "ids": [
+              "S53"
+            ]
+          },
+          {
+            "text": "Additionally, you get 12 days of sick leave and 10 public holidays per year.",
+            "ids": [
+              "S55"
+            ]
+          }
+        ],
+        "dropped": [
+          {
+            "text": "The total paid leave entitlement is 36 days per year.",
+            "ids": [
+              "S53",
+              "S55"
+            ],
+            "reason": "number-mismatch"
+          }
+        ],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 4207.4418749999895,
+        "totalMs": 9393.12487499998,
+        "tokens": 68,
+        "tokensPerSec": 13.113026770051338,
+        "promptTokens": 979
+      },
+      "citedPages": [
+        3,
+        3
+      ],
+      "correct": true,
+      "rawCorrect": true,
+      "refused": false
+    },
+    {
+      "id": "O5",
+      "question": "Do I have to pay back the joining bonus if I leave early?",
+      "answerable": true,
+      "retrievalHit": true,
+      "passageIds": [
+        "S25",
+        "S26",
+        "S27",
+        "S28",
+        "S29",
+        "S30",
+        "S31",
+        "S32",
+        "S33",
+        "S34",
+        "S35",
+        "S36",
+        "S37",
+        "S38",
+        "S39",
+        "S40",
+        "S41",
+        "S54",
+        "S55",
+        "S56",
+        "S57",
+        "S70",
+        "S71",
+        "S72",
+        "S73",
+        "S74",
+        "S75",
+        "S76",
+        "S77",
+        "S78",
+        "S79",
+        "S80",
+        "S81"
+      ],
+      "retrieveMs": 358.01987499999814,
+      "rawAnswer": "Yes, you must repay the full joining bonus if you resign or are terminated for cause within 12 months of your joining date [S35].",
+      "verification": {
+        "status": "answered",
+        "kept": [
+          {
+            "text": "Yes, you must repay the full joining bonus if you resign or are terminated for cause within 12 months of your joining date.",
+            "ids": [
+              "S35"
+            ]
+          }
+        ],
+        "dropped": [],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 7023.4074580000015,
+        "totalMs": 10696.163583000016,
+        "tokens": 32,
+        "tokensPerSec": 8.71280284094547,
+        "promptTokens": 955
+      },
+      "citedPages": [
+        2
+      ],
+      "correct": true,
+      "rawCorrect": true,
+      "refused": false
+    },
+    {
+      "id": "O6",
+      "question": "How many days a week do I need to work from the office?",
+      "answerable": true,
+      "retrievalHit": true,
+      "passageIds": [
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S18",
+        "S42",
+        "S43",
+        "S44",
+        "S45",
+        "S46",
+        "S47",
+        "S48",
+        "S49",
+        "S50",
+        "S51",
+        "S52",
+        "S53",
+        "S54",
+        "S55",
+        "S56",
+        "S57",
+        "S64",
+        "S65",
+        "S66",
+        "S67",
+        "S68",
+        "S69",
+        "S70",
+        "S71",
+        "S72",
+        "S73",
+        "S74",
+        "S75"
+      ],
+      "retrieveMs": 1107.5318329999864,
+      "rawAnswer": "You are expected to work from the office at least 3 days per week [S17].",
+      "verification": {
+        "status": "answered",
+        "kept": [
+          {
+            "text": "You are expected to work from the office at least 3 days per week.",
+            "ids": [
+              "S17"
+            ]
+          }
+        ],
+        "dropped": [],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 6428.705749999994,
+        "totalMs": 8653.091665999993,
+        "tokens": 21,
+        "tokensPerSec": 9.440807842266524,
+        "promptTokens": 958
+      },
+      "citedPages": [
+        1
+      ],
+      "correct": true,
+      "rawCorrect": true,
+      "refused": false
+    },
+    {
+      "id": "O7",
+      "question": "What is the sum insured of the group health insurance?",
+      "answerable": true,
+      "retrievalHit": true,
+      "passageIds": [
+        "S19",
+        "S20",
+        "S21",
+        "S22",
+        "S23",
+        "S24",
+        "S25",
+        "S26",
+        "S27",
+        "S28",
+        "S29",
+        "S30",
+        "S31",
+        "S32",
+        "S33",
+        "S34",
+        "S35",
+        "S48",
+        "S49",
+        "S50",
+        "S51",
+        "S52",
+        "S53",
+        "S58",
+        "S59",
+        "S60",
+        "S61",
+        "S62",
+        "S63",
+        "S64",
+        "S65",
+        "S66",
+        "S67",
+        "S68",
+        "S69"
+      ],
+      "retrieveMs": 783.02674999999,
+      "rawAnswer": "The sum insured for the group health insurance is Rs. 5,00,000 per year [S59].",
+      "verification": {
+        "status": "answered",
+        "kept": [
+          {
+            "text": "The sum insured for the group health insurance is Rs. 5,00,000 per year.",
+            "ids": [
+              "S59"
+            ]
+          }
+        ],
+        "dropped": [],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 3865.983084000007,
+        "totalMs": 5506.953000000009,
+        "tokens": 28,
+        "tokensPerSec": 17.06307941845289,
+        "promptTokens": 956
+      },
+      "citedPages": [
+        3
+      ],
+      "correct": true,
+      "rawCorrect": true,
+      "refused": false
+    },
+    {
+      "id": "O8",
+      "question": "Does the company give stock options (ESOPs)?",
+      "answerable": false,
+      "retrievalHit": null,
+      "passageIds": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S9",
+        "S10",
+        "S11",
+        "S12",
+        "S25",
+        "S26",
+        "S27",
+        "S28",
+        "S29",
+        "S30",
+        "S58",
+        "S59",
+        "S60",
+        "S61",
+        "S62",
+        "S63",
+        "S64",
+        "S65",
+        "S66",
+        "S67",
+        "S68",
+        "S69",
+        "S70",
+        "S71",
+        "S72",
+        "S73",
+        "S74",
+        "S75"
+      ],
+      "retrieveMs": 225.2879580000008,
+      "rawAnswer": "The provided document does not mention stock options or ESOPs.\n[NOT FOUND]",
+      "verification": {
+        "status": "not-found",
+        "kept": [],
+        "dropped": [
+          {
+            "text": "The provided document does not mention stock options or ESOPs [NOT FOUND].",
+            "ids": [],
+            "reason": "says-not-found"
+          }
+        ],
+        "modelSaidNotFound": true
+      },
+      "stats": {
+        "firstTokenMs": 3199.0050829999964,
+        "totalMs": 4834.3203329999815,
+        "tokens": 19,
+        "tokensPerSec": 11.61855489331502,
+        "promptTokens": 939
+      },
+      "citedPages": [],
+      "correct": true,
+      "rawCorrect": true,
+      "refused": true
+    },
+    {
+      "id": "O9",
+      "question": "How much extra pay do I get for overtime hours?",
+      "answerable": false,
+      "retrievalHit": null,
+      "passageIds": [
+        "S31",
+        "S32",
+        "S33",
+        "S34",
+        "S35",
+        "S42",
+        "S43",
+        "S44",
+        "S45",
+        "S46",
+        "S47",
+        "S48",
+        "S49",
+        "S50",
+        "S51",
+        "S52",
+        "S53",
+        "S54",
+        "S55",
+        "S56",
+        "S57",
+        "S58",
+        "S59",
+        "S60",
+        "S61",
+        "S62",
+        "S63",
+        "S64",
+        "S65",
+        "S66",
+        "S67",
+        "S68",
+        "S69"
+      ],
+      "retrieveMs": 1624.1994169999962,
+      "rawAnswer": "The document does not state how much extra pay is received for overtime hours. [S51]",
+      "verification": {
+        "status": "not-found",
+        "kept": [],
+        "dropped": [
+          {
+            "text": "The document does not state how much extra pay is received for overtime hours.",
+            "ids": [
+              "S51"
+            ],
+            "reason": "says-not-found"
+          }
+        ],
+        "modelSaidNotFound": true
+      },
+      "stats": {
+        "firstTokenMs": 5195.205917000014,
+        "totalMs": 6267.164416999993,
+        "tokens": 21,
+        "tokensPerSec": 19.59031063236162,
+        "promptTokens": 973
+      },
+      "citedPages": [],
+      "correct": true,
+      "rawCorrect": true,
+      "refused": true
+    }
+  ]
+}

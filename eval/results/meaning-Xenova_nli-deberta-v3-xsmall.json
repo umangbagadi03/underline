@@ -1,0 +1,803 @@
+[
+ {
+  "id": "H1",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The limit for room rent is 2% of the sum insured, subject to a maximum of Rs.5000/- per day.",
+  "verdict": "unreviewed",
+  "contradiction": 0.0062440969843468004,
+  "entailment": 0.7164554095865516,
+  "neutral": 0.2773004934291015
+ },
+ {
+  "id": "H2",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The policy pays for cataract treatment subject to a limit of 25% of the Sum Insured or Rs.40,000/-, whichever is lower, per eye in one policy year.",
+  "verdict": "ok",
+  "contradiction": 0.0035261437749702427,
+  "entailment": 0.9695715259367028,
+  "neutral": 0.02690233028832693
+ },
+ {
+  "id": "H4",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "You have to pay a co-payment of 5% on all claims.",
+  "verdict": "ok",
+  "contradiction": 0.0076615476356381934,
+  "entailment": 0.974356891282369,
+  "neutral": 0.0179815610819928
+ },
+ {
+  "id": "H5",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The maximum amount paid for a road ambulance is Rs.2000/- per hospitalization.",
+  "verdict": "ok",
+  "contradiction": 0.0014838611822337014,
+  "entailment": 0.992188935732143,
+  "neutral": 0.006327203085623391
+ },
+ {
+  "id": "H6",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The company shall indemnify post-hospitalization medical expenses incurred for a fixed period of 60 days from the date of discharge from the hospital.",
+  "verdict": "ok",
+  "contradiction": 0.0010781672918155358,
+  "entailment": 0.991564961195626,
+  "neutral": 0.007356871512558604
+ },
+ {
+  "id": "H7",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "Hernia surgery is not covered from the first day as it is excluded under the Specific Waiting Period.",
+  "verdict": "ok",
+  "contradiction": 0.0024949762931414992,
+  "entailment": 0.002626346457070181,
+  "neutral": 0.9948786772497883
+ },
+ {
+  "id": "H8",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The Free Look Period shall be applicable at the inception of the Policy and not on renewals or at the time of porting/ migrating the policy.",
+  "verdict": "offtopic",
+  "contradiction": 0.0007833109004596247,
+  "entailment": 0.9947704200304762,
+  "neutral": 0.004446269069064117
+ },
+ {
+  "id": "H9",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The cumulative bonus increases by 5% in respect of each claim-free policy year.",
+  "verdict": "ok",
+  "contradiction": 0.0005204763337292972,
+  "entailment": 0.9946637795361898,
+  "neutral": 0.004815744130080859
+ },
+ {
+  "id": "H10",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "Treatment taken outside the geographical limits of India is not covered.",
+  "verdict": "ok",
+  "contradiction": 0.9261933477113167,
+  "entailment": 0.010030018793592143,
+  "neutral": 0.06377663349509116
+ },
+ {
+  "id": "H11",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The ICU charge limit is up to 5% of the sum insured, subject to a maximum of Rs.10,000/- per day.",
+  "verdict": "ok",
+  "contradiction": 0.0013150215418790605,
+  "entailment": 0.990299454270875,
+  "neutral": 0.008385524187245901
+ },
+ {
+  "id": "R1",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The Landlord must give at least 2 months' prior written notice to the Tenant of any rent increase.",
+  "verdict": "ok",
+  "contradiction": 0.0013474409885124725,
+  "entailment": 0.9914071366429417,
+  "neutral": 0.007245422368545648
+ },
+ {
+  "id": "R2",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The Landlord may increase the rent by no more than the annual increase in RPI, unless an exception applies.",
+  "verdict": "offtopic",
+  "contradiction": 0.0012630751019982937,
+  "entailment": 0.9907450512091603,
+  "neutral": 0.007991873688841487
+ },
+ {
+  "id": "R2",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The Landlord must give at least 2 months' prior written notice to the Tenant of any rent increase.",
+  "verdict": "offtopic",
+  "contradiction": 0.0013474409885124725,
+  "entailment": 0.9914071366429417,
+  "neutral": 0.007245422368545648
+ },
+ {
+  "id": "R3",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The Landlord must pay the Deposit into the Government-approved Tenancy Deposit Protection Scheme within 30 days after receiving the deposit.",
+  "verdict": "ok",
+  "contradiction": 0.0006610694595544579,
+  "entailment": 0.9907204971641643,
+  "neutral": 0.008618433376281162
+ },
+ {
+  "id": "R4",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "If the rent is more than 14 days overdue, the Tenant is liable to pay interest of 3% above the Bank of England's base rate.",
+  "verdict": "ok",
+  "contradiction": 0.001734789621280992,
+  "entailment": 0.988646925991355,
+  "neutral": 0.009618284387364088
+ },
+ {
+  "id": "R5",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The Tenant must not smoke or allow guests or other third parties to smoke in the Property.",
+  "verdict": "ok",
+  "contradiction": 0.0004580476709579341,
+  "entailment": 0.9946760955273131,
+  "neutral": 0.004865856801728861
+ },
+ {
+  "id": "R6",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The Tenant may give at least 1 month's written notice as per Article 6E of the Law.",
+  "verdict": "ok",
+  "contradiction": 0.0008135593272691675,
+  "entailment": 0.9923856054838057,
+  "neutral": 0.006800835188925159
+ },
+ {
+  "id": "R7",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The Landlord may give at least 1 year's written notice to end a periodic tenancy without giving a reason.",
+  "verdict": "ok",
+  "contradiction": 0.0006431013811245557,
+  "entailment": 0.9946325731121807,
+  "neutral": 0.00472432550669469
+ },
+ {
+  "id": "R8",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The Landlord must complete a Condition Report within 7 days of completion.",
+  "verdict": "partial",
+  "contradiction": 0.0017712698661609062,
+  "entailment": 0.9795894623408847,
+  "neutral": 0.018639267792954405
+ },
+ {
+  "id": "O1",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "Your total annual cost to company (CTC) will be Rs. 18,50,000 (Rupees Eighteen Lakh Fifty Thousand only).",
+  "verdict": "ok",
+  "contradiction": 0.03590344047477598,
+  "entailment": 0.9294821076497121,
+  "neutral": 0.034614451875512
+ },
+ {
+  "id": "O2",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The probation period is 6 months from your date of joining.",
+  "verdict": "ok",
+  "contradiction": 0.0006132737175203948,
+  "entailment": 0.9936515894578174,
+  "neutral": 0.005735136824662279
+ },
+ {
+  "id": "O3",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "After confirmation, the notice period is 60 days.",
+  "verdict": "ok",
+  "contradiction": 0.0015480088016997548,
+  "entailment": 0.9882973740352171,
+  "neutral": 0.010154617163083291
+ },
+ {
+  "id": "O4",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "You are entitled to 24 days of paid annual leave per calendar year.",
+  "verdict": "ok",
+  "contradiction": 0.0005741400389586209,
+  "entailment": 0.9936802308023647,
+  "neutral": 0.0057456291586766356
+ },
+ {
+  "id": "O4",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "Additionally, you get 12 days of sick leave and 10 public holidays per year.",
+  "verdict": "ok",
+  "contradiction": 0.001178030723983416,
+  "entailment": 0.9927126311264728,
+  "neutral": 0.006109338149543772
+ },
+ {
+  "id": "O5",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "Yes, you must repay the full joining bonus if you resign or are terminated for cause within 12 months of your joining date.",
+  "verdict": "ok",
+  "contradiction": 0.0007748032423071341,
+  "entailment": 0.9624725128727958,
+  "neutral": 0.03675268388489696
+ },
+ {
+  "id": "O6",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "You are expected to work from the office at least 3 days per week.",
+  "verdict": "ok",
+  "contradiction": 0.0013064493763714933,
+  "entailment": 0.9840917720994956,
+  "neutral": 0.01460177852413277
+ },
+ {
+  "id": "O7",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The sum insured for the group health insurance is Rs. 5,00,000 per year.",
+  "verdict": "ok",
+  "contradiction": 0.0008124317105928584,
+  "entailment": 0.9921657169658303,
+  "neutral": 0.007021851323576973
+ },
+ {
+  "id": "H1",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The limit for room rent is up to 2% of the sum insured, subject to a maximum of Rs.5000/- per day.",
+  "verdict": "ok",
+  "contradiction": 0.0007584282910392032,
+  "entailment": 0.9878113261643131,
+  "neutral": 0.011430245544647657
+ },
+ {
+  "id": "H2",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The policy will pay up to 25% of the Sum Insured or Rs.40,000/-, whichever is lower, per each eye in one policy year.",
+  "verdict": "ok",
+  "contradiction": 0.0022223933969334237,
+  "entailment": 0.9762779800532785,
+  "neutral": 0.021499626549788
+ },
+ {
+  "id": "H3",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "This period applies until the expiry of 36 months of continuous coverage after the date of inception of the first policy.",
+  "verdict": "ok",
+  "contradiction": 0.002269236416015449,
+  "entailment": 0.986944367744021,
+  "neutral": 0.01078639583996369
+ },
+ {
+  "id": "H4",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "You have to pay a co-payment of 5% on all claims.",
+  "verdict": "ok",
+  "contradiction": 0.000638726513574541,
+  "entailment": 0.9917703168116115,
+  "neutral": 0.007590956674814039
+ },
+ {
+  "id": "H4",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "This amount is applicable to the claim amount admissible and payable as per the policy terms.",
+  "verdict": "ok",
+  "contradiction": 0.006858563372730467,
+  "entailment": 0.8755564762044704,
+  "neutral": 0.11758496042279903
+ },
+ {
+  "id": "H4",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The final payable amount will be after the deduction of this co-payment.",
+  "verdict": "ok",
+  "contradiction": 0.001909681539935194,
+  "entailment": 0.9003422642762511,
+  "neutral": 0.09774805418381353
+ },
+ {
+  "id": "H5",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The maximum amount paid for a road ambulance is Rs.2000/- per hospitalization.",
+  "verdict": "ok",
+  "contradiction": 0.0014838611822337014,
+  "entailment": 0.992188935732143,
+  "neutral": 0.006327203085623391
+ },
+ {
+  "id": "H6",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "Medical expenses are covered for a fixed period of 60 days from the date of discharge from the hospital.",
+  "verdict": "ok",
+  "contradiction": 0.0012352310077409403,
+  "entailment": 0.9857012261617402,
+  "neutral": 0.0130635428305189
+ },
+ {
+  "id": "H9",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The cumulative bonus increases by 5% for each claim-free policy year.",
+  "verdict": "ok",
+  "contradiction": 0.0005041885465430704,
+  "entailment": 0.9948622419817098,
+  "neutral": 0.004633569471747249
+ },
+ {
+  "id": "H9",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "This increase is subject to a maximum of 50% of the sum insured.",
+  "verdict": "ok",
+  "contradiction": 0.0014852620054194346,
+  "entailment": 0.9771839924922989,
+  "neutral": 0.021330745502281853
+ },
+ {
+  "id": "H10",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "Treatment taken outside the geographical limits of India is not covered.",
+  "verdict": "ok",
+  "contradiction": 0.9261933477113167,
+  "entailment": 0.010030018793592143,
+  "neutral": 0.06377663349509116
+ },
+ {
+  "id": "H11",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The ICU charge limit is up to 5% of the sum insured subject to a maximum of Rs.10,000/- per day.",
+  "verdict": "ok",
+  "contradiction": 0.0009238528034065751,
+  "entailment": 0.9913595712702529,
+  "neutral": 0.007716575926340509
+ },
+ {
+  "id": "R1",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The landlord must give at least 2 months' prior written notice to the tenant of any rent increase.",
+  "verdict": "ok",
+  "contradiction": 0.0010746494693276356,
+  "entailment": 0.9929355427692228,
+  "neutral": 0.005989807761449529
+ },
+ {
+  "id": "R2",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The landlord may only increase the rent after a minimum of 1 year has passed since the rent was last set or last increased.",
+  "verdict": "ok",
+  "contradiction": 0.0028258536394102306,
+  "entailment": 0.9846815105886718,
+  "neutral": 0.012492635771917917
+ },
+ {
+  "id": "R2",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "Additionally, the landlord must give at least 2 months' prior written notice for any such increase.",
+  "verdict": "ok",
+  "contradiction": 0.0008144491576451936,
+  "entailment": 0.8752666458529832,
+  "neutral": 0.12391890498937161
+ },
+ {
+  "id": "R3",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The Landlord must pay the Deposit into the Government-approved Tenancy Deposit Protection Scheme within 30 days after receiving the deposit.",
+  "verdict": "ok",
+  "contradiction": 0.0006610694595544579,
+  "entailment": 0.9907204971641643,
+  "neutral": 0.008618433376281162
+ },
+ {
+  "id": "R4",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "If rent is more than 14 days overdue, the Tenant is liable to pay interest of 3% above the Bank of England's base rate.",
+  "verdict": "ok",
+  "contradiction": 0.001471008585328568,
+  "entailment": 0.9891220989831113,
+  "neutral": 0.0094068924315601
+ },
+ {
+  "id": "R5",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The Tenant must not smoke in the Property.",
+  "verdict": "ok",
+  "contradiction": 0.000722585340046401,
+  "entailment": 0.9921418157463967,
+  "neutral": 0.007135598913556716
+ },
+ {
+  "id": "R6",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The Tenant may give at least 1 month's written notice to end a periodic tenancy.",
+  "verdict": "ok",
+  "contradiction": 0.003804869495984581,
+  "entailment": 0.22340361034708214,
+  "neutral": 0.7727915201569332
+ },
+ {
+  "id": "R7",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The Landlord may give at least 1 year's written notice to end a periodic tenancy without giving a reason.",
+  "verdict": "ok",
+  "contradiction": 0.0006431013811245557,
+  "entailment": 0.9946325731121807,
+  "neutral": 0.00472432550669469
+ },
+ {
+  "id": "R8",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The landlord must provide 2 signed copies of the Condition Report within 7 days of completion.",
+  "verdict": "ok",
+  "contradiction": 0.0009401765421101258,
+  "entailment": 0.9896672413844491,
+  "neutral": 0.009392582073440835
+ },
+ {
+  "id": "O1",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "Your total annual cost to company (CTC) is Rs. 18,50,000.",
+  "verdict": "ok",
+  "contradiction": 0.0010818797937272196,
+  "entailment": 0.9922341320431329,
+  "neutral": 0.006683988163139896
+ },
+ {
+  "id": "O2",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The probation period is 6 months from your date of joining.",
+  "verdict": "ok",
+  "contradiction": 0.0006132737175203948,
+  "entailment": 0.9936515894578174,
+  "neutral": 0.005735136824662279
+ },
+ {
+  "id": "O2",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "It may be extended by up to 3 more months if performance needs improvement.",
+  "verdict": "ok",
+  "contradiction": 0.001050054764597506,
+  "entailment": 0.9884233910230715,
+  "neutral": 0.01052655421233075
+ },
+ {
+  "id": "O3",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "After confirmation, the notice period is 60 days.",
+  "verdict": "ok",
+  "contradiction": 0.0015480088016997548,
+  "entailment": 0.9882973740352171,
+  "neutral": 0.010154617163083291
+ },
+ {
+  "id": "O4",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "You are entitled to 24 days of paid annual leave per calendar year.",
+  "verdict": "ok",
+  "contradiction": 0.0005741400389586209,
+  "entailment": 0.9936802308023647,
+  "neutral": 0.0057456291586766356
+ },
+ {
+  "id": "O5",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "You must repay the full joining bonus if you resign or are terminated for cause within 12 months of your joining date.",
+  "verdict": "ok",
+  "contradiction": 0.0006555344751820992,
+  "entailment": 0.9922636995431361,
+  "neutral": 0.007080765981681836
+ },
+ {
+  "id": "O6",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "You are expected to work from the office at least 3 days per week.",
+  "verdict": "ok",
+  "contradiction": 0.0013064493763714933,
+  "entailment": 0.9840917720994956,
+  "neutral": 0.01460177852413277
+ },
+ {
+  "id": "O6",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "Fully remote work is allowed only with written approval.",
+  "verdict": "offtopic",
+  "contradiction": 0.0006385289540828644,
+  "entailment": 0.9881995268688182,
+  "neutral": 0.011161944177099
+ },
+ {
+  "id": "O7",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The sum insured for the group health insurance is Rs. 5,00,000 per year.",
+  "verdict": "ok",
+  "contradiction": 0.0008124317105928584,
+  "entailment": 0.9921657169658303,
+  "neutral": 0.007021851323576973
+ },
+ {
+  "id": "H1",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "Room Rent is covered up to 2% of the sum insured subject to a maximum of Rs.5000/- per day.",
+  "verdict": "ok",
+  "contradiction": 0.0011206931746605936,
+  "entailment": 0.9768968460577145,
+  "neutral": 0.02198246076762481
+ },
+ {
+  "id": "H2",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "The Company shall indemnify medical expenses incurred for treatment of Cataract, subject to a limit of 25% of Sum Insured or Rs.40,000/-, whichever is lower, per each eye in one policy year.",
+  "verdict": "ok",
+  "contradiction": 0.0017424352340624568,
+  "entailment": 0.02485380023610369,
+  "neutral": 0.9734037645298338
+ },
+ {
+  "id": "H3",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "The waiting period for pre-existing diseases is 3 years.",
+  "verdict": "ok",
+  "contradiction": 0.00062763567877584,
+  "entailment": 0.9845686989450435,
+  "neutral": 0.014803665376180474
+ },
+ {
+  "id": "H3",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "If the Insured Person is continuously covered without any break, the waiting period for the same would be reduced to the extent of prior coverage.",
+  "verdict": "ok",
+  "contradiction": 0.0010872120479603984,
+  "entailment": 0.9944899137599381,
+  "neutral": 0.004422874192101436
+ },
+ {
+  "id": "H4",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "Each and every claim under the Policy is subject to a Co-payment of 5% applicable to the claim amount admissible.",
+  "verdict": "ok",
+  "contradiction": 0.0006002324271841304,
+  "entailment": 0.9904958148260594,
+  "neutral": 0.008903952746756323
+ },
+ {
+  "id": "H5",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "The maximum amount paid for expenses incurred on a road ambulance is Rs.2000 per hospitalisation.",
+  "verdict": "ok",
+  "contradiction": 0.0012719008821105429,
+  "entailment": 0.9926344021122897,
+  "neutral": 0.006093697005599797
+ },
+ {
+  "id": "H6",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "The company shall indemnify post hospitalization medical expenses incurred for a fixed period of 60 days from the date of discharge from the hospital.",
+  "verdict": "ok",
+  "contradiction": 0.0011511988063013783,
+  "entailment": 0.9873544502227811,
+  "neutral": 0.011494350970917557
+ },
+ {
+  "id": "H8",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "The Free Look Period is applicable at the inception of the Policy.",
+  "verdict": "offtopic",
+  "contradiction": 0.0008402641942498363,
+  "entailment": 0.9920032249445639,
+  "neutral": 0.007156510861186214
+ },
+ {
+  "id": "H9",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "Cumulative Bonus will be increased by 5% in respect of each claim free policy year where no claims are reported.",
+  "verdict": "ok",
+  "contradiction": 0.0007049674995116558,
+  "entailment": 0.9916112729809873,
+  "neutral": 0.007683759519501221
+ },
+ {
+  "id": "H9",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "This increase is subject to a maximum of 50% of the sum insured under the current policy year.",
+  "verdict": "ok",
+  "contradiction": 0.0016245504918599193,
+  "entailment": 0.9731351398210897,
+  "neutral": 0.025240309687050287
+ },
+ {
+  "id": "H10",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "Treatment taken outside the geographical limits of India is not covered.",
+  "verdict": "ok",
+  "contradiction": 0.9261933477113167,
+  "entailment": 0.010030018793592143,
+  "neutral": 0.06377663349509116
+ },
+ {
+  "id": "H11",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "Intensive Care Unit (ICU) charges are limited to 5% of the sum insured, subject to a maximum of Rs.10,000 per day.",
+  "verdict": "ok",
+  "contradiction": 0.0020348587807521184,
+  "entailment": 0.987147616237288,
+  "neutral": 0.010817524981959942
+ },
+ {
+  "id": "R1",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "The Landlord must give at least 2 months’ prior written notice to the Tenant of any rent increase.",
+  "verdict": "ok",
+  "contradiction": 0.001130988055718363,
+  "entailment": 0.9909718310454642,
+  "neutral": 0.00789718089881739
+ },
+ {
+  "id": "R3",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "The Landlord must pay the Deposit into the Government-approved Tenancy Deposit Protection Scheme within 30 days after receiving the deposit.",
+  "verdict": "ok",
+  "contradiction": 0.0006610694595544579,
+  "entailment": 0.9907204971641643,
+  "neutral": 0.008618433376281162
+ },
+ {
+  "id": "R3",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "They must also notify the Tenant in writing of the Deposit having been protected by this scheme as soon as reasonably practicable.",
+  "verdict": "ok",
+  "contradiction": 0.0006941714115218724,
+  "entailment": 0.22359402314333607,
+  "neutral": 0.7757118054451421
+ },
+ {
+  "id": "R4",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "If any rent is more than 14 days overdue, the Tenant is liable to pay interest of 3% above the Bank of England’s base rate.",
+  "verdict": "ok",
+  "contradiction": 0.0016890515220863288,
+  "entailment": 0.9892907126222543,
+  "neutral": 0.009020235855659356
+ },
+ {
+  "id": "R5",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "The tenant must not smoke in the Property.",
+  "verdict": "ok",
+  "contradiction": 0.0005575440569582296,
+  "entailment": 0.993758288955424,
+  "neutral": 0.005684166987617818
+ },
+ {
+  "id": "R5",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "If damages occur because of smoking, the tenant must clean, repair, and redecorate the Property at their own expense if the Landlord requests it.",
+  "verdict": "ok",
+  "contradiction": 0.00041479967185054724,
+  "entailment": 0.9942675915952038,
+  "neutral": 0.005317608732945571
+ },
+ {
+  "id": "R6",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "The Tenant may give at least 1 month’s written notice to end a periodic tenancy, as per Article 6E of the Law.",
+  "verdict": "ok",
+  "contradiction": 0.005229587977814354,
+  "entailment": 0.024332531981156588,
+  "neutral": 0.9704378800410289
+ },
+ {
+  "id": "R7",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "The Landlord may give at least 1 year’s written notice to end the Tenancy as per Article 6E of the Law.",
+  "verdict": "ok",
+  "contradiction": 0.0008263771360328424,
+  "entailment": 0.9889935647964803,
+  "neutral": 0.01018005806748683
+ },
+ {
+  "id": "R8",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "The Landlord must complete a Condition Report in accordance with Residential Tenancy (Condition Reports) (Jersey) Order 2014 and provide 2 signed copies to the tenant within 7 days of completion.",
+  "verdict": "ok",
+  "contradiction": 0.001522151281583426,
+  "entailment": 0.9899820782378308,
+  "neutral": 0.00849577048058591
+ },
+ {
+  "id": "O1",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "Your total annual cost to company (CTC) will be Rs. 18,50,000.",
+  "verdict": "ok",
+  "contradiction": 0.0016224819929377059,
+  "entailment": 0.9896305914947582,
+  "neutral": 0.008746926512304102
+ },
+ {
+  "id": "O1",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "This is also stated as the Annual cost to company is 18,50,000.",
+  "verdict": "ok",
+  "contradiction": 0.0018632757542873359,
+  "entailment": 0.9832108075238631,
+  "neutral": 0.014925916721849583
+ },
+ {
+  "id": "O2",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "You will be on probation for a period of 6 months from your date of joining.",
+  "verdict": "ok",
+  "contradiction": 0.002145865974627756,
+  "entailment": 0.9846240526820992,
+  "neutral": 0.013230081343272934
+ },
+ {
+  "id": "O2",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "The probation period may be extended by up to 3 more months if your performance needs improvement.",
+  "verdict": "ok",
+  "contradiction": 0.0023207754312963686,
+  "entailment": 0.9882880702848623,
+  "neutral": 0.009391154283841296
+ },
+ {
+  "id": "O3",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "After confirmation, the notice period is 60 days.",
+  "verdict": "ok",
+  "contradiction": 0.0015480088016997548,
+  "entailment": 0.9882973740352171,
+  "neutral": 0.010154617163083291
+ },
+ {
+  "id": "O3",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "The Company may also accept payment of basic salary in lieu of the notice period.",
+  "verdict": "ok",
+  "contradiction": 0.003100911499773347,
+  "entailment": 0.8951042598431259,
+  "neutral": 0.10179482865710093
+ },
+ {
+  "id": "O4",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "You are entitled to 24 days of paid annual leave per calendar year.",
+  "verdict": "ok",
+  "contradiction": 0.0005741400389586209,
+  "entailment": 0.9936802308023647,
+  "neutral": 0.0057456291586766356
+ },
+ {
+  "id": "O4",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "This is credited at 2 days per month.",
+  "verdict": "ok",
+  "contradiction": 0.001797832856876106,
+  "entailment": 0.9722854424676757,
+  "neutral": 0.025916724675448033
+ },
+ {
+  "id": "O5",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "If you resign or are terminated for cause within 12 months of your joining date, you must repay the full joining bonus to the Company.",
+  "verdict": "ok",
+  "contradiction": 0.0145478692330075,
+  "entailment": 0.9561888278523674,
+  "neutral": 0.029263302914625002
+ },
+ {
+  "id": "O6",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "Employees are expected to work from the office at least 3 days per week.",
+  "verdict": "ok",
+  "contradiction": 0.0029018355447529114,
+  "entailment": 0.9809196418848872,
+  "neutral": 0.0161785225703598
+ },
+ {
+  "id": "O7",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "You and your dependants will be covered under the Company group health insurance with a sum insured of Rs. 5,00,000 per year.",
+  "verdict": "ok",
+  "contradiction": 0.00350225904282963,
+  "entailment": 0.9804449078583388,
+  "neutral": 0.016052833098831584
+ }
+]

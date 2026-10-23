@@ -1,0 +1,4411 @@
+{
+  "provider": "ollama",
+  "model": "qwen3:4b",
+  "date": "2026-10-22T16:47:26.339Z",
+  "embedLoadMs": 231.80475,
+  "modelLoadMs": 3598.158208,
+  "indexing": {
+    "health": {
+      "pages": 37,
+      "sentences": 1116,
+      "readMs": 396.05229199999985,
+      "keywordMs": 27.114917000000105,
+      "readyMs": 423.16720899999996,
+      "embedMs": 10200.636417,
+      "totalMs": 10623.803625999999
+    },
+    "rent": {
+      "pages": 15,
+      "sentences": 259,
+      "readMs": 155.2495829999989,
+      "keywordMs": 8.492333000000144,
+      "readyMs": 163.74191599999904,
+      "embedMs": 3593.8085410000003,
+      "totalMs": 3757.5504569999994
+    },
+    "offer": {
+      "pages": 5,
+      "sentences": 87,
+      "readMs": 47.325542000000496,
+      "keywordMs": 2.2317910000001575,
+      "readyMs": 49.557333000000654,
+      "embedMs": 290.3921250000003,
+      "totalMs": 339.94945800000096
+    }
+  },
+  "rows": [
+    {
+      "id": "H1",
+      "question": "What is the limit for room rent?",
+      "answerable": true,
+      "retrievalHit": true,
+      "passageIds": [
+        "S119",
+        "S120",
+        "S131",
+        "S132",
+        "S133",
+        "S134",
+        "S136",
+        "S141",
+        "S142",
+        "S143",
+        "S144",
+        "S145",
+        "S483",
+        "S484",
+        "S485",
+        "S486",
+        "S487",
+        "S488",
+        "S562",
+        "S563",
+        "S564",
+        "S565",
+        "S566",
+        "S567",
+        "S568",
+        "S569",
+        "S570",
+        "S571",
+        "S572",
+        "S573"
+      ],
+      "retrieveMs": 203.9853750000002,
+      "rawAnswer": "First, I need to answer the question: \"What is the limit for room rent?\" based only on the given sentences. I must use the sentences provided and cite the sentence IDs correctly.\n\nLet me go through the sentences to find information about room rent limits.\n\nLooking at the sentences:\n\n- [S131] talks about indemnifying medical expenses, but it's not directly about room rent limits.\n\n- [S132] says: \"i. Room Rent, Boarding, Nursing Expenses as provided by the Hospital / Nursing Home up to 2% of the sum insured subject to maximum of Rs.5000/-, per day.\"\n\nThis seems relevant. It specifies that room rent, boarding, and nursing expenses are up to 2% of the sum insured, with a maximum of Rs.5000 per day.\n\n- [S133] is about ICU expenses, not room rent.\n\n- [S134] is about surgeon fees, not relevant.\n\n- [S136] is \"4.1.1.Other expenses\" – not specific.\n\n- [S141] is about ambulance expenses.\n\n- [S142] is \"Note:\" – probably a note, but not detailed.\n\n- [S143] says: \"Expenses of Hospitalization for a minimum period of 24 consecutive hours only shall be admissible.\" – this is about admissibility, not the limit.\n\n-",
+      "verification": {
+        "status": "not-found",
+        "kept": [],
+        "dropped": [
+          {
+            "text": "First, I need to answer the question: \"What is the limit for room rent?\" based only on the given sentences.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I must use the sentences provided and cite the sentence IDs correctly.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Let me go through the sentences to find information about room rent limits.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Looking at the sentences:",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "talks about indemnifying medical expenses, but it's not directly about room rent limits. says: \"i. Room Rent, Boarding, Nursing Expenses as provided by the Hospital / Nursing Home up to 2% of the sum insured subject to maximum of Rs.5000/-, per day.\"",
+            "ids": [
+              "S131",
+              "S132"
+            ],
+            "reason": "negation-mismatch"
+          },
+          {
+            "text": "This seems relevant.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "It specifies that room rent, boarding, and nursing expenses are up to 2% of the sum insured, with a maximum of Rs.5000 per day. is about ICU expenses, not room rent. is about surgeon fees, not relevant. is \"4.1.1.Other expenses\" – not specific. is about ambulance expenses. is \"Note:\" – probably a note, but not detailed. says: \"Expenses of Hospitalization for a minimum period of 24 consecutive hours only shall be admissible.\" – this is about admissibility, not the limit.",
+            "ids": [
+              "S133",
+              "S134",
+              "S136",
+              "S141",
+              "S142",
+              "S143"
+            ],
+            "reason": "number-mismatch"
+          },
+          {
+            "text": "-",
+            "ids": [],
+            "reason": "no-citation"
+          }
+        ],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 7358.099250000003,
+        "totalMs": 36684.27583300001,
+        "tokens": 300,
+        "tokensPerSec": 10.226816471801497,
+        "loadMs": 25.105167,
+        "promptTokens": 991
+      },
+      "citedPages": [],
+      "correct": false,
+      "rawCorrect": true,
+      "refused": true
+    },
+    {
+      "id": "H2",
+      "question": "How much will the policy pay for cataract treatment?",
+      "answerable": true,
+      "retrievalHit": true,
+      "passageIds": [
+        "S7",
+        "S8",
+        "S9",
+        "S131",
+        "S135",
+        "S136",
+        "S137",
+        "S138",
+        "S139",
+        "S140",
+        "S146",
+        "S147",
+        "S148",
+        "S149",
+        "S254",
+        "S255",
+        "S256",
+        "S257",
+        "S278",
+        "S282",
+        "S283",
+        "S284",
+        "S285",
+        "S489",
+        "S490",
+        "S491",
+        "S492"
+      ],
+      "retrieveMs": 173.4516250000015,
+      "rawAnswer": "First, I need to answer the question: \"How much will the policy pay for cataract treatment?\" based only on the given sentences.\n\nI'll go through the sentences to find information about cataract treatment payments.\n\nLooking at the sentences:\n\n- [S137] i. Expenses incurred on treatment of cataract subject to the sub limits\n\nThis mentions cataract treatment but doesn't specify the amount.\n\n- [S149] The Company shall indemnify medical expenses incurred for treatment of Cataract, subject to a limit of 25% of Sum Insured or Rs.40,000/-, whichever is lower, per each eye in one policy year.\n\nThis gives a specific limit: 25% of Sum Insured or Rs.40,000/-, whichever is lower, per eye per policy year.\n\n- [S491] Cataract Up to 25% of Sum insured or Rs.40,000/-, whichever is lower, per eye, under one policy Treatment year.\n\nThis repeats the same information but in a different context. It says \"Cataract Up to 25% of Sum insured or Rs.40,000/-, whichever is lower, per eye, under one policy Treatment year.\" So it's consistent with [S149].\n\nThe question is about how much the policy will pay for cataract treatment. From",
+      "verification": {
+        "status": "answered",
+        "kept": [
+          {
+            "text": "i. Expenses incurred on treatment of cataract subject to the sub limits",
+            "ids": [
+              "S137"
+            ]
+          },
+          {
+            "text": "This gives a specific limit: 25% of Sum Insured or Rs.40,000/-, whichever is lower, per eye per policy year.",
+            "ids": [
+              "S491"
+            ]
+          }
+        ],
+        "dropped": [
+          {
+            "text": "First, I need to answer the question: \"How much will the policy pay for cataract treatment?\" based only on the given sentences.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I'll go through the sentences to find information about cataract treatment payments.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Looking at the sentences:",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "This mentions cataract treatment but doesn't specify the amount.",
+            "ids": [
+              "S149"
+            ],
+            "reason": "low-overlap"
+          },
+          {
+            "text": "The Company shall indemnify medical expenses incurred for treatment of Cataract, subject to a limit of 25% of Sum Insured or Rs.40,000/-, whichever is lower, per each eye in one policy year.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Cataract Up to 25% of Sum insured or Rs.40,000/-, whichever is lower, per eye, under one policy Treatment year.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "This repeats the same information but in a different context.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "It says \"Cataract Up to 25% of Sum insured or Rs.40,000/-, whichever is lower, per eye, under one policy Treatment year.\"",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "So it's consistent with.",
+            "ids": [
+              "S149"
+            ],
+            "reason": "too-vague"
+          },
+          {
+            "text": "The question is about how much the policy will pay for cataract treatment.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "From",
+            "ids": [],
+            "reason": "no-citation"
+          }
+        ],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 6850.289333000008,
+        "totalMs": 36915.267833000005,
+        "tokens": 300,
+        "tokensPerSec": 9.982274475214362,
+        "loadMs": 27.941625,
+        "promptTokens": 1125
+      },
+      "citedPages": [
+        6,
+        19
+      ],
+      "correct": true,
+      "rawCorrect": true,
+      "refused": false
+    },
+    {
+      "id": "H3",
+      "question": "What is the waiting period for pre-existing diseases?",
+      "answerable": true,
+      "retrievalHit": true,
+      "passageIds": [
+        "S101",
+        "S102",
+        "S103",
+        "S104",
+        "S126",
+        "S127",
+        "S128",
+        "S129",
+        "S130",
+        "S131",
+        "S185",
+        "S186",
+        "S187",
+        "S188",
+        "S189",
+        "S190",
+        "S191",
+        "S196",
+        "S197",
+        "S198",
+        "S199",
+        "S493",
+        "S494",
+        "S495"
+      ],
+      "retrieveMs": 169.28816699999152,
+      "rawAnswer": "First, I need to answer the question: \"What is the waiting period for pre-existing diseases?\" based only on the given sentences. I must use the sentences provided and cite the IDs correctly.\n\nLet me list out the relevant sentences from the document:\n\n- [S101] The insured is not admitted as a day care or in-patient (this seems unrelated to waiting period for pre-existing diseases)\n\n- [S102] 3.35.Pre-Existing Disease (PED): It means any condition, ailment, injury or disease: (this defines PED but doesn't give waiting period)\n\n- [S103] a) that is/are diagnosed by a physician not more than 36 months prior to the date of commencement of the policy issued by the insurer; or (this is part of PED definition)\n\n- [S104] b) for which medical advice or treatment was recommended by, or received from, a physician, not more than 36 months prior to the date of commencement of the policy. (more part of PED definition)\n\n- [S126] 3.50. Waiting Period means a period from the inception of this Policy during which specified diseases/treatments are not covered. (this defines waiting period generally)\n\n- [S127] On completion of the period, diseases/treatments shall be covered provided the Policy has been continuously renewed without any break. (this is about what happens",
+      "verification": {
+        "status": "answered",
+        "kept": [
+          {
+            "text": "a) that is/are diagnosed by a physician not more than 36 months prior to the date of commencement of the policy issued by the insurer; or (this is part of PED definition)",
+            "ids": [
+              "S103"
+            ]
+          },
+          {
+            "text": "b) for which medical advice or treatment was recommended by, or received from, a physician, not more than 36 months prior to the date of commencement of the policy. (more part of PED definition)",
+            "ids": [
+              "S104"
+            ]
+          },
+          {
+            "text": "On completion of the period, diseases/treatments shall be covered provided the Policy has been continuously renewed without any break. (this is about what happens",
+            "ids": [
+              "S127"
+            ]
+          }
+        ],
+        "dropped": [
+          {
+            "text": "First, I need to answer the question: \"What is the waiting period for pre-existing diseases?\" based only on the given sentences.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I must use the sentences provided and cite the IDs correctly.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Let me list out the relevant sentences from the document:",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "The insured is not admitted as a day care or in-patient (this seems unrelated to waiting period for pre-existing diseases)",
+            "ids": [
+              "S101"
+            ],
+            "reason": "low-overlap"
+          },
+          {
+            "text": "3.35.Pre-Existing Disease (PED): It means any condition, ailment, injury or disease: (this defines PED but doesn't give waiting period)",
+            "ids": [
+              "S102"
+            ],
+            "reason": "negation-mismatch"
+          },
+          {
+            "text": "3.50.",
+            "ids": [
+              "S126"
+            ],
+            "reason": "too-vague"
+          },
+          {
+            "text": "Waiting Period means a period from the inception of this Policy during which specified diseases/treatments are not covered. (this defines waiting period generally)",
+            "ids": [],
+            "reason": "no-citation"
+          }
+        ],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 5967.894916999998,
+        "totalMs": 36976.21683399999,
+        "tokens": 300,
+        "tokensPerSec": 9.678667590742831,
+        "loadMs": 21.996667,
+        "promptTokens": 981
+      },
+      "citedPages": [
+        5,
+        5,
+        6
+      ],
+      "correct": true,
+      "rawCorrect": true,
+      "refused": false
+    },
+    {
+      "id": "H4",
+      "question": "How much co-payment do I have to pay on a claim?",
+      "answerable": true,
+      "retrievalHit": true,
+      "passageIds": [
+        "S306",
+        "S307",
+        "S308",
+        "S309",
+        "S310",
+        "S311",
+        "S312",
+        "S321",
+        "S324",
+        "S325",
+        "S326",
+        "S327",
+        "S328",
+        "S329",
+        "S330",
+        "S331",
+        "S332",
+        "S333",
+        "S336",
+        "S339",
+        "S340",
+        "S341",
+        "S342",
+        "S343",
+        "S344",
+        "S493",
+        "S494",
+        "S495"
+      ],
+      "retrieveMs": 170.51875000001746,
+      "rawAnswer": "First, I need to answer the question: \"How much co-payment do I have to pay on a claim?\" based only on the given sentences.\n\nI'll go through the sentences to find information about co-payment.\n\nLooking at the sentences:\n\n- [S325] 9.3 Co-payment\n\n- [S326] Each and every claim under the Policy shall be subject to a Co-payment of 5% applicable to claim amount admissible and payable as per the terms and conditions of the Policy.\n\nThis sentence directly states that the co-payment is 5% of the claim amount. It says \"Co-payment of 5% applicable to claim amount\".\n\nAlso, [S327] The amount payable shall be after deduction of the copayment. But this doesn't specify the amount, just that it's deducted.\n\nThere's another sentence: [S345] Co Pay 5% co pay on all claims. Wait, in the list, it's [S495] Co Pay 5% co pay on all claims. Let me check the numbering.\n\nThe sentences are:\n\n[S306] to [S333] and then [S336], [S339] to [S344], and [S493] to [S495].\n\nSpecifically, [S495] says: \"Co Pay 5% co pay on all claims\". But in the",
+      "verification": {
+        "status": "answered",
+        "kept": [
+          {
+            "text": "9.3 Co-payment",
+            "ids": [
+              "S325"
+            ]
+          },
+          {
+            "text": "Each and every claim under the Policy shall be subject to a Co-payment of 5% applicable to claim amount admissible and payable as per the terms and conditions of the Policy.",
+            "ids": [
+              "S326"
+            ]
+          },
+          {
+            "text": "Also, The amount payable shall be after deduction of the copayment.",
+            "ids": [
+              "S327"
+            ]
+          },
+          {
+            "text": "Wait, in the list, it's Co Pay 5% co pay on all claims.",
+            "ids": [
+              "S495"
+            ]
+          },
+          {
+            "text": "Specifically, says: \"Co Pay 5% co pay on all claims\".",
+            "ids": [
+              "S495"
+            ]
+          }
+        ],
+        "dropped": [
+          {
+            "text": "First, I need to answer the question: \"How much co-payment do I have to pay on a claim?\" based only on the given sentences.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I'll go through the sentences to find information about co-payment.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Looking at the sentences:",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "This sentence directly states that the co-payment is 5% of the claim amount.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "It says \"Co-payment of 5% applicable to claim amount\".",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "But this doesn't specify the amount, just that it's deducted.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "There's another sentence: Co Pay 5% co pay on all claims.",
+            "ids": [
+              "S345"
+            ],
+            "reason": "unknown-id"
+          },
+          {
+            "text": "Let me check the numbering.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "The sentences are:",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "to and then, to, and to.",
+            "ids": [
+              "S306",
+              "S333",
+              "S336",
+              "S339",
+              "S344",
+              "S493",
+              "S495"
+            ],
+            "reason": "too-vague"
+          },
+          {
+            "text": "But in the",
+            "ids": [],
+            "reason": "no-citation"
+          }
+        ],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 5501.456291999988,
+        "totalMs": 35271.92633399999,
+        "tokens": 300,
+        "tokensPerSec": 10.081626900361467,
+        "loadMs": 23.402708,
+        "promptTokens": 939
+      },
+      "citedPages": [
+        13,
+        13,
+        13,
+        19,
+        19
+      ],
+      "correct": true,
+      "rawCorrect": true,
+      "refused": false
+    },
+    {
+      "id": "H5",
+      "question": "What is the maximum amount paid for a road ambulance?",
+      "answerable": true,
+      "retrievalHit": true,
+      "passageIds": [
+        "S131",
+        "S132",
+        "S133",
+        "S134",
+        "S136",
+        "S141",
+        "S142",
+        "S143",
+        "S144",
+        "S145",
+        "S493",
+        "S494",
+        "S495",
+        "S538",
+        "S539",
+        "S540",
+        "S541",
+        "S542",
+        "S543",
+        "S544",
+        "S545",
+        "S546",
+        "S547",
+        "S548",
+        "S549",
+        "S556",
+        "S557",
+        "S558",
+        "S559",
+        "S560",
+        "S561"
+      ],
+      "retrieveMs": 167.4649170000048,
+      "rawAnswer": "First, I need to answer the question: \"What is the maximum amount paid for a road ambulance?\"\n\nI have the sentences provided, each with an ID like [S131], [S132], etc. I must use only these sentences and not add any outside knowledge.\n\nLet me go through the sentences to find information about road ambulances.\n\nLooking at the sentences:\n\n- [S131] is about medical expenses for hospitalization, but it doesn't mention road ambulance.\n\n- [S132] talks about room rent, boarding, nursing expenses up to 2% of sum insured, max Rs.5000 per day.\n\n- [S133] is about ICU expenses up to 5% of sum insured, max Rs.10,000 per day.\n\n- [S134] is about surgeon fees, etc.\n\n- [S136] is \"4.1.1. Other expenses\" – this might be a section header.\n\n- [S141] says: \"v. Expenses incurred on road Ambulance subject to a maximum of Rs.2000/- per hospitalisation.\"\n\nThat's it! [S141] directly states: \"Expenses incurred on road Ambulance subject to a maximum of Rs.2000/- per hospitalisation.\"\n\nSo, the maximum amount paid for a road ambulance is Rs.2000 per hospitalisation",
+      "verification": {
+        "status": "answered",
+        "kept": [
+          {
+            "text": "Other expenses\" – this might be a section header. says: \"v. Expenses incurred on road Ambulance subject to a maximum of Rs.2000/- per hospitalisation.\"",
+            "ids": [
+              "S141"
+            ]
+          },
+          {
+            "text": "That's it! directly states: \"Expenses incurred on road Ambulance subject to a maximum of Rs.2000/- per hospitalisation.\"",
+            "ids": [
+              "S141"
+            ]
+          }
+        ],
+        "dropped": [
+          {
+            "text": "First, I need to answer the question: \"What is the maximum amount paid for a road ambulance?\"",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I have the sentences provided, each with an ID like,, etc. I must use only these sentences and not add any outside knowledge.",
+            "ids": [
+              "S131",
+              "S132"
+            ],
+            "reason": "low-overlap"
+          },
+          {
+            "text": "Let me go through the sentences to find information about road ambulances.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Looking at the sentences:",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "is about medical expenses for hospitalization, but it doesn't mention road ambulance. talks about room rent, boarding, nursing expenses up to 2% of sum insured, max Rs.5000 per day. is about ICU expenses up to 5% of sum insured, max Rs.10,000 per day. is about surgeon fees, etc. is \"4.1.1.",
+            "ids": [
+              "S131",
+              "S132",
+              "S133",
+              "S134",
+              "S136"
+            ],
+            "reason": "negation-mismatch"
+          },
+          {
+            "text": "So, the maximum amount paid for a road ambulance is Rs.2000 per hospitalisation",
+            "ids": [],
+            "reason": "no-citation"
+          }
+        ],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 6023.881499999989,
+        "totalMs": 35124.616167,
+        "tokens": 300,
+        "tokensPerSec": 10.30529965492704,
+        "loadMs": 25.532375,
+        "promptTokens": 1001
+      },
+      "citedPages": [
+        6,
+        6
+      ],
+      "correct": true,
+      "rawCorrect": true,
+      "refused": false
+    },
+    {
+      "id": "H6",
+      "question": "For how many days after discharge are medical expenses covered?",
+      "answerable": true,
+      "retrievalHit": true,
+      "passageIds": [
+        "S7",
+        "S8",
+        "S9",
+        "S102",
+        "S105",
+        "S106",
+        "S107",
+        "S108",
+        "S109",
+        "S110",
+        "S111",
+        "S112",
+        "S131",
+        "S135",
+        "S136",
+        "S137",
+        "S138",
+        "S139",
+        "S140",
+        "S150",
+        "S151",
+        "S152",
+        "S153",
+        "S483",
+        "S484",
+        "S485",
+        "S486",
+        "S487",
+        "S488"
+      ],
+      "retrieveMs": 136.74224999998114,
+      "rawAnswer": "First, I need to answer the question: \"For how many days after discharge are medical expenses covered?\"\n\nI have to use only the given sentences and cite the sentence IDs where the information comes from. The answer should be in 1 to 3 short sentences, and every sentence must end with the ID of the sentence that proves it, like [S12]. I can cite two IDs if needed.\n\nLet me go through the sentences to find information about days after discharge.\n\nLooking at the sentences:\n\n- [S105] talks about Pre-hospitalisation Medical Expenses: \"medical expenses incurred during the period of 30days preceding the hospitalisation\"\n\n- [S108] is about Post-hospitalisation Medical Expenses: \"medical expenses incurred during the period of 60days immediately after the insured person is discharged from the hospital\"\n\nThat seems directly relevant. [S108] says: \"medical expenses incurred during the period of 60days immediately after the insured person is discharged from the hospital\"\n\nAlso, [S153] says: \"The company shall indemnify post hospitalization medical expenses incurred, related to an admissible hospitalization requiring inpatient care, for a fixed period of 60 days from the date of discharge from the hospital\"\n\nAnd [S487] says: \"Hospitalisation For 60 days from the date of discharge from the hospital\"\n\n[S487] is a bit short: \"Hospital",
+      "verification": {
+        "status": "answered",
+        "kept": [
+          {
+            "text": "talks about Pre-hospitalisation Medical Expenses: \"medical expenses incurred during the period of 30days preceding the hospitalisation\"",
+            "ids": [
+              "S105"
+            ]
+          },
+          {
+            "text": "is about Post-hospitalisation Medical Expenses: \"medical expenses incurred during the period of 60days immediately after the insured person is discharged from the hospital\"",
+            "ids": [
+              "S108"
+            ]
+          },
+          {
+            "text": "That seems directly relevant. says: \"medical expenses incurred during the period of 60days immediately after the insured person is discharged from the hospital\"",
+            "ids": [
+              "S108"
+            ]
+          },
+          {
+            "text": "Also, says: \"The company shall indemnify post hospitalization medical expenses incurred, related to an admissible hospitalization requiring inpatient care, for a fixed period of 60 days from the date of discharge from the hospital\"",
+            "ids": [
+              "S153"
+            ]
+          },
+          {
+            "text": "And says: \"Hospitalisation For 60 days from the date of discharge from the hospital\"",
+            "ids": [
+              "S487"
+            ]
+          }
+        ],
+        "dropped": [
+          {
+            "text": "First, I need to answer the question: \"For how many days after discharge are medical expenses covered?\"",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I have to use only the given sentences and cite the sentence IDs where the information comes from.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "The answer should be in 1 to 3 short sentences, and every sentence must end with the ID of the sentence that proves it, like.",
+            "ids": [
+              "S12"
+            ],
+            "reason": "unknown-id"
+          },
+          {
+            "text": "I can cite two IDs if needed.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Let me go through the sentences to find information about days after discharge.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Looking at the sentences:",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "is a bit short: \"Hospital",
+            "ids": [
+              "S487"
+            ],
+            "reason": "low-overlap"
+          }
+        ],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 7117.768833999988,
+        "totalMs": 39040.31941699999,
+        "tokens": 300,
+        "tokensPerSec": 9.399392598717748,
+        "loadMs": 2.454791,
+        "promptTokens": 1097
+      },
+      "citedPages": [
+        5,
+        5,
+        5,
+        7,
+        19
+      ],
+      "correct": true,
+      "rawCorrect": true,
+      "refused": false
+    },
+    {
+      "id": "H7",
+      "question": "Is hernia surgery covered from the first day?",
+      "answerable": true,
+      "retrievalHit": false,
+      "passageIds": [
+        "S7",
+        "S8",
+        "S9",
+        "S154",
+        "S155",
+        "S156",
+        "S157",
+        "S158",
+        "S159",
+        "S160",
+        "S161",
+        "S162",
+        "S163",
+        "S164",
+        "S165",
+        "S185",
+        "S186",
+        "S187",
+        "S188",
+        "S189",
+        "S190",
+        "S191",
+        "S192",
+        "S193",
+        "S194",
+        "S195"
+      ],
+      "retrieveMs": 198.04491600001347,
+      "rawAnswer": "First, I need to answer the question: \"Is hernia surgery covered from the first day?\"\n\nI have to use only the given sentences from the document. The sentences are labeled with IDs like [S7] to [S194]. I must not use outside knowledge.\n\nLet me list out the relevant sentences to see if they mention hernia surgery or coverage from the first day.\n\nThe question is about hernia surgery specifically. Looking at the sentences:\n\n- [S7] is just \"2. OPERATIVE CLAUSE\" – not relevant.\n\n- [S8] talks about indemnifying expenses for hospitalization due to illness or injury, but it doesn't specify hernia surgery.\n\n- [S9] is about terms of coverage, but again, no specific mention.\n\nThen there's a list from [S154] to [S165] which are procedures covered: things like Uterine Artery Embolization, Balloon Sinuplasty, etc. But hernia surgery isn't listed here. Let me check:\n\n[S154] says procedures covered up to 50% of Sum Insured, but it lists specific treatments: A to J, which include things like \"Vaporisation of the prostrate\" but not hernia surgery. Hernia surgery isn't in the list.\n\n[S155] to [S165] are the procedures: A. Uterine Artery Embolization, B",
+      "verification": {
+        "status": "answered",
+        "kept": [
+          {
+            "text": "OPERATIVE CLAUSE\" – not relevant. talks about indemnifying expenses for hospitalization due to illness or injury, but it doesn't specify hernia surgery. is about terms of coverage, but again, no specific mention.",
+            "ids": [
+              "S8",
+              "S9"
+            ]
+          }
+        ],
+        "dropped": [
+          {
+            "text": "First, I need to answer the question: \"Is hernia surgery covered from the first day?\"",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I have to use only the given sentences from the document.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "The sentences are labeled with IDs like to.",
+            "ids": [
+              "S7",
+              "S194"
+            ],
+            "reason": "low-overlap"
+          },
+          {
+            "text": "I must not use outside knowledge.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Let me list out the relevant sentences to see if they mention hernia surgery or coverage from the first day.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "The question is about hernia surgery specifically.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Looking at the sentences:",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "is just \"2.",
+            "ids": [
+              "S7"
+            ],
+            "reason": "too-vague"
+          },
+          {
+            "text": "Then there's a list from to which are procedures covered: things like Uterine Artery Embolization, Balloon Sinuplasty, etc. But hernia surgery isn't listed here.",
+            "ids": [
+              "S154",
+              "S165"
+            ],
+            "reason": "low-overlap"
+          },
+          {
+            "text": "Let me check:",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "says procedures covered up to 50% of Sum Insured, but it lists specific treatments: A to J, which include things like \"Vaporisation of the prostrate\" but not hernia surgery.",
+            "ids": [
+              "S154"
+            ],
+            "reason": "low-overlap"
+          },
+          {
+            "text": "Hernia surgery isn't in the list. to are the procedures: A. Uterine Artery Embolization, B",
+            "ids": [
+              "S155",
+              "S165"
+            ],
+            "reason": "negation-mismatch"
+          }
+        ],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 5027.146582999994,
+        "totalMs": 34956.35962500001,
+        "tokens": 300,
+        "tokensPerSec": 10.02504925640868,
+        "loadMs": 22.788708,
+        "promptTokens": 961
+      },
+      "citedPages": [
+        1,
+        1
+      ],
+      "correct": false,
+      "rawCorrect": false,
+      "refused": false
+    },
+    {
+      "id": "H8",
+      "question": "How long is the free look period?",
+      "answerable": true,
+      "retrievalHit": true,
+      "passageIds": [
+        "S113",
+        "S114",
+        "S115",
+        "S116",
+        "S286",
+        "S287",
+        "S288",
+        "S289",
+        "S404",
+        "S405",
+        "S406",
+        "S407",
+        "S421",
+        "S422",
+        "S423",
+        "S424",
+        "S425",
+        "S426",
+        "S427",
+        "S428",
+        "S429",
+        "S430",
+        "S431",
+        "S432"
+      ],
+      "retrieveMs": 162.07824999996228,
+      "rawAnswer": "First, I need to answer the question: \"How long is the free look period?\" based only on the given sentences.\n\nI'll go through the sentences to find information about the free look period.\n\nLooking at the sentences:\n\n- [S404] iii. Moratorium Period – This seems to be about moratorium, not free look.\n\n- [S405] 10.16 Renewal of Policy – This is about renewal, not free look.\n\n- [S406] The policy shall be renewable... – Again, renewal.\n\n- [S407] i. The Company shall send renewal notices... – Renewal related.\n\n- [S421] 10.19 Free look period – This is the title for the free look period section.\n\n- [S422] The Free Look Period shall be applicable at the inception of the Policy and not on renewals or at the time of porting/ migrating the policy. – This talks about when it applies, but not the duration.\n\n- [S423] You/the insured shall be allowed a period of thirty days from date of receipt of the Policy document to review the terms and conditions of the Policy, and to return the same if not acceptable. – Here it says \"a period of thirty days\". That sounds like the free look period duration.\n\n- [S424] If the insured has not made any claim during the Free Look Period...",
+      "verification": {
+        "status": "answered",
+        "kept": [
+          {
+            "text": "The policy shall be renewable... – Again, renewal. i. The Company shall send renewal notices... – Renewal related.",
+            "ids": [
+              "S407",
+              "S421"
+            ]
+          },
+          {
+            "text": "That sounds like the free look period duration.",
+            "ids": [
+              "S424"
+            ]
+          }
+        ],
+        "dropped": [
+          {
+            "text": "First, I need to answer the question: \"How long is the free look period?\" based only on the given sentences.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I'll go through the sentences to find information about the free look period.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Looking at the sentences:",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "iii.",
+            "ids": [
+              "S404"
+            ],
+            "reason": "too-vague"
+          },
+          {
+            "text": "Moratorium Period – This seems to be about moratorium, not free look.",
+            "ids": [
+              "S405"
+            ],
+            "reason": "low-overlap"
+          },
+          {
+            "text": "10.16 Renewal of Policy – This is about renewal, not free look.",
+            "ids": [
+              "S406"
+            ],
+            "reason": "number-mismatch"
+          },
+          {
+            "text": "10.19 Free look period – This is the title for the free look period section.",
+            "ids": [
+              "S422"
+            ],
+            "reason": "number-mismatch"
+          },
+          {
+            "text": "The Free Look Period shall be applicable at the inception of the Policy and not on renewals or at the time of porting/ migrating the policy. – This talks about when it applies, but not the duration.",
+            "ids": [
+              "S423"
+            ],
+            "reason": "low-overlap"
+          },
+          {
+            "text": "You/the insured shall be allowed a period of thirty days from date of receipt of the Policy document to review the terms and conditions of the Policy, and to return the same if not acceptable. – Here it says \"a period of thirty days\".",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "If the insured has not made any claim during the Free Look Period...",
+            "ids": [],
+            "reason": "no-citation"
+          }
+        ],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 6416.669334000035,
+        "totalMs": 36338.81516699999,
+        "tokens": 300,
+        "tokensPerSec": 10.028077949720688,
+        "loadMs": 23.949375,
+        "promptTokens": 996
+      },
+      "citedPages": [
+        16,
+        17,
+        17
+      ],
+      "correct": false,
+      "rawCorrect": true,
+      "refused": false
+    },
+    {
+      "id": "H9",
+      "question": "By how much does the cumulative bonus increase for a claim-free year?",
+      "answerable": true,
+      "retrievalHit": true,
+      "passageIds": [
+        "S10",
+        "S11",
+        "S12",
+        "S38",
+        "S39",
+        "S40",
+        "S121",
+        "S122",
+        "S123",
+        "S162",
+        "S166",
+        "S167",
+        "S168",
+        "S169",
+        "S170",
+        "S171",
+        "S172",
+        "S173",
+        "S174",
+        "S493",
+        "S494",
+        "S495"
+      ],
+      "retrieveMs": 193.88299999997253,
+      "rawAnswer": "First, I need to answer the question: \"By how much does the cumulative bonus increase for a claim-free year?\"\n\nI have to use only the given sentences and cite the sentence IDs where the information comes from. I can't use outside knowledge.\n\nLet me look through the sentences to find what says about cumulative bonus increasing for claim-free years.\n\nHere are the relevant sentences:\n\n- [S169] Cumulative Bonus will be increased by 5% in respect of each claim free policy year (where no claims are reported), provided the policy is renewed with the company without a break subject to maximum of 50% of the sum insured under the current policy year.\n\nThis sentence directly says that cumulative bonus increases by 5% for each claim-free policy year.\n\n- [S170] If a claim is made in any particular year, the cumulative bonus accrued shall be reduced at the same rate at which it has accrued.\n\nThis is about reduction when a claim is made, not increase.\n\n- [S171] However, sum insured will be maintained and will not be reduced in the policy year.\n\nThis is about sum insured, not cumulative bonus increase.\n\n- [S493] Pre Existing Only PEDs declared in the Proposal Form and accepted for coverage by the company shall Disease be covered after a waiting period of 3 years Increase in the sum insured by 5% in respect of each claim free year subject to a maximum Cumulative bonus of 50",
+      "verification": {
+        "status": "answered",
+        "kept": [
+          {
+            "text": "Cumulative Bonus will be increased by 5% in respect of each claim free policy year (where no claims are reported), provided the policy is renewed with the company without a break subject to maximum of 50% of the sum insured under the current policy year.",
+            "ids": [
+              "S169"
+            ]
+          }
+        ],
+        "dropped": [
+          {
+            "text": "First, I need to answer the question: \"By how much does the cumulative bonus increase for a claim-free year?\"",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I have to use only the given sentences and cite the sentence IDs where the information comes from.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I can't use outside knowledge.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Let me look through the sentences to find what says about cumulative bonus increasing for claim-free years.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Here are the relevant sentences:",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "This sentence directly says that cumulative bonus increases by 5% for each claim-free policy year.",
+            "ids": [
+              "S170"
+            ],
+            "reason": "number-mismatch"
+          },
+          {
+            "text": "If a claim is made in any particular year, the cumulative bonus accrued shall be reduced at the same rate at which it has accrued.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "This is about reduction when a claim is made, not increase.",
+            "ids": [
+              "S171"
+            ],
+            "reason": "low-overlap"
+          },
+          {
+            "text": "However, sum insured will be maintained and will not be reduced in the policy year.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "This is about sum insured, not cumulative bonus increase.",
+            "ids": [
+              "S493"
+            ],
+            "reason": "negation-mismatch"
+          },
+          {
+            "text": "Pre Existing Only PEDs declared in the Proposal Form and accepted for coverage by the company shall Disease be covered after a waiting period of 3 years Increase in the sum insured by 5% in respect of each claim free year subject to a maximum Cumulative bonus of 50",
+            "ids": [],
+            "reason": "no-citation"
+          }
+        ],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 5914.56124999997,
+        "totalMs": 36234.55712499999,
+        "tokens": 300,
+        "tokensPerSec": 9.89828032226821,
+        "loadMs": 22.410708,
+        "promptTokens": 991
+      },
+      "citedPages": [
+        7
+      ],
+      "correct": true,
+      "rawCorrect": true,
+      "refused": false
+    },
+    {
+      "id": "H10",
+      "question": "Is treatment taken in another country covered?",
+      "answerable": true,
+      "retrievalHit": true,
+      "passageIds": [
+        "S45",
+        "S47",
+        "S48",
+        "S49",
+        "S50",
+        "S51",
+        "S91",
+        "S92",
+        "S93",
+        "S94",
+        "S95",
+        "S96",
+        "S154",
+        "S155",
+        "S156",
+        "S157",
+        "S158",
+        "S159",
+        "S160",
+        "S161",
+        "S162",
+        "S163",
+        "S164",
+        "S165",
+        "S278",
+        "S282",
+        "S283",
+        "S284",
+        "S285",
+        "S359",
+        "S360"
+      ],
+      "retrieveMs": 165.6915840000147,
+      "rawAnswer": "First, I need to answer the question: \"Is treatment taken in another country covered?\" based only on the given sentences.\n\nI'll go through the sentences to find relevant information.\n\nThe sentences are numbered from S45 to S360, but I'll focus on the ones that might relate to international treatment.\n\nLooking at S283: \"7.19 Treatment taken outside the geographical limits of India\"\n\nThis seems directly relevant. It says \"Treatment taken outside the geographical limits of India\" – which would mean treatment in another country, since India has geographical limits.\n\nThe sentence is: [S283] 7.19 Treatment taken outside the geographical limits of India\n\nThis implies that treatment outside India is not covered, because it's listed as an exclusion. The context is that this is part of exclusions.\n\nAlso, S284 talks about existing diseases, but that's not directly about country.\n\nS285 is about moratorium period, not relevant.\n\nS360 is about multiple policies, not relevant.\n\nThe key sentence here is S283. It says \"Treatment taken outside the geographical limits of India\" – this is an exclusion, meaning it's not covered.\n\nThe question is: \"Is treatment taken in another country covered?\" So, if treatment outside India is excluded, then no, it's not covered.\n\nLet me confirm the wording. S283 says: \"7.19 Treatment taken outside the geographical",
+      "verification": {
+        "status": "answered",
+        "kept": [
+          {
+            "text": "The sentence is: 7.19 Treatment taken outside the geographical limits of India",
+            "ids": [
+              "S283"
+            ]
+          }
+        ],
+        "dropped": [
+          {
+            "text": "First, I need to answer the question: \"Is treatment taken in another country covered?\" based only on the given sentences.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I'll go through the sentences to find relevant information.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "The sentences are numbered from S45 to S360, but I'll focus on the ones that might relate to international treatment.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Looking at S283: \"7.19 Treatment taken outside the geographical limits of India\"",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "This seems directly relevant.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "It says \"Treatment taken outside the geographical limits of India\" – which would mean treatment in another country, since India has geographical limits.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "This implies that treatment outside India is not covered, because it's listed as an exclusion.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "The context is that this is part of exclusions.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Also, S284 talks about existing diseases, but that's not directly about country.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "S285 is about moratorium period, not relevant.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "S360 is about multiple policies, not relevant.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "The key sentence here is S283.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "It says \"Treatment taken outside the geographical limits of India\" – this is an exclusion, meaning it's not covered.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "The question is: \"Is treatment taken in another country covered?\"",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "So, if treatment outside India is excluded, then no, it's not covered.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Let me confirm the wording.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "S283 says: \"7.19 Treatment taken outside the geographical",
+            "ids": [],
+            "reason": "no-citation"
+          }
+        ],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 7082.731709000014,
+        "totalMs": 38018.957334000035,
+        "tokens": 300,
+        "tokensPerSec": 9.702746339711714,
+        "loadMs": 25.462167,
+        "promptTokens": 1130
+      },
+      "citedPages": [
+        11
+      ],
+      "correct": true,
+      "rawCorrect": true,
+      "refused": false
+    },
+    {
+      "id": "H11",
+      "question": "What is the ICU charge limit per day?",
+      "answerable": true,
+      "retrievalHit": true,
+      "passageIds": [
+        "S76",
+        "S86",
+        "S87",
+        "S88",
+        "S131",
+        "S132",
+        "S133",
+        "S134",
+        "S135",
+        "S136",
+        "S137",
+        "S138",
+        "S139",
+        "S140",
+        "S141",
+        "S142",
+        "S143",
+        "S144",
+        "S145",
+        "S483",
+        "S484",
+        "S485",
+        "S486",
+        "S487",
+        "S488",
+        "S489",
+        "S490",
+        "S491",
+        "S492"
+      ],
+      "retrieveMs": 169.46520800003782,
+      "rawAnswer": "First, I need to answer the question: \"What is the ICU charge limit per day?\" based only on the given sentences.\n\nI'll go through the sentences to find information about ICU charges and their limits.\n\nLooking at the sentences:\n\n- [S86] talks about ICU (Intensive Care Unit) Charges, but it's a definition, not the limit.\n\n- [S133] says: \"ii. Intensive Care Unit (ICU) / Intensive Cardiac Care Unit (ICCU) expenses up to 5% of sum insured subject to maximum of Rs.10,000/- per day.\"\n\nThis directly mentions the ICU expense limit per day: maximum of Rs.10,000/- per day.\n\n- [S490] says: \"2.Intensive Care Unit (ICU) charges/ Intensive Cardiac Care Unit (ICCU) charges all room/doctors fee inclusive as provided by the Hospital / Nursing Home up to 5% of sum insured subject to maximum of Rs.10,000/-, per day\"\n\nThis also states the same limit: maximum of Rs.10,000/- per day.\n\nThe question is about the ICU charge limit per day. From [S133] and [S490], it's clear that the maximum limit per day is Rs.10,000/-.\n\nI need to end every sentence with the ID",
+      "verification": {
+        "status": "answered",
+        "kept": [
+          {
+            "text": "This directly mentions the ICU expense limit per day: maximum of Rs.10,000/- per day. says: \"2.Intensive Care Unit (ICU) charges/ Intensive Cardiac Care Unit (ICCU) charges all room/doctors fee inclusive as provided by the Hospital / Nursing Home up to 5% of sum insured subject to maximum of Rs.10,000/-, per day\"",
+            "ids": [
+              "S490"
+            ]
+          },
+          {
+            "text": "From and, it's clear that the maximum limit per day is Rs.10,000/-.",
+            "ids": [
+              "S133",
+              "S490"
+            ]
+          }
+        ],
+        "dropped": [
+          {
+            "text": "First, I need to answer the question: \"What is the ICU charge limit per day?\" based only on the given sentences.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I'll go through the sentences to find information about ICU charges and their limits.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Looking at the sentences:",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "talks about ICU (Intensive Care Unit) Charges, but it's a definition, not the limit. says: \"ii.",
+            "ids": [
+              "S86",
+              "S133"
+            ],
+            "reason": "negation-mismatch"
+          },
+          {
+            "text": "Intensive Care Unit (ICU) / Intensive Cardiac Care Unit (ICCU) expenses up to 5% of sum insured subject to maximum of Rs.10,000/- per day.\"",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "This also states the same limit: maximum of Rs.10,000/- per day.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "The question is about the ICU charge limit per day.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I need to end every sentence with the ID",
+            "ids": [],
+            "reason": "no-citation"
+          }
+        ],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 7698.826750000007,
+        "totalMs": 37734.350167000026,
+        "tokens": 300,
+        "tokensPerSec": 9.985739697995283,
+        "loadMs": 26.434667,
+        "promptTokens": 1216
+      },
+      "citedPages": [
+        19,
+        6,
+        19
+      ],
+      "correct": true,
+      "rawCorrect": true,
+      "refused": false
+    },
+    {
+      "id": "H12",
+      "question": "What is the yearly premium for a 35-year-old?",
+      "answerable": false,
+      "retrievalHit": null,
+      "passageIds": [
+        "S53",
+        "S56",
+        "S57",
+        "S58",
+        "S170",
+        "S171",
+        "S172",
+        "S173",
+        "S174",
+        "S413",
+        "S414",
+        "S415",
+        "S416",
+        "S417",
+        "S418",
+        "S419",
+        "S420",
+        "S480",
+        "S481",
+        "S482",
+        "S493",
+        "S494",
+        "S495"
+      ],
+      "retrieveMs": 179.9130839999998,
+      "rawAnswer": "First, I need to answer the question: \"What is the yearly premium for a 35-year-old?\" based on the given sentences.\n\nI have to use only the provided sentences and not add any outside knowledge. The answer should be in 1 to 3 short sentences, and every sentence must end with the ID of the sentence that proves it, like [S12]. I can cite up to two IDs per sentence.\n\nLet me go through the sentences to see if any of them mention the yearly premium for a 35-year-old.\n\nHere are the sentences:\n\n- [S53]: 3.18. Family means, the Family that consists of the proposer and any one or more of the family members as mentioned below: (This is about family definition, not premium)\n\n- [S56]: iii. dependent Children (i.e. natural or legally adopted) between the age 3 months to 25 years. (This is about children, not premium)\n\n- [S57]: If the child above 18 years of age is financially independent, he or she shall be ineligible for coverage in the subsequent renewals. (About children, not premium)\n\n- [S58]: 3.19. Grace period means the specified period of time... (About grace period, not premium)\n\n- [S170]: If a claim is made in any particular year, the cumulative bonus accrued shall be reduced at the same",
+      "verification": {
+        "status": "answered",
+        "kept": [
+          {
+            "text": ": iii. dependent Children (i.e. natural or legally adopted) between the age 3 months to 25 years.",
+            "ids": [
+              "S56"
+            ]
+          },
+          {
+            "text": ": If the child above 18 years of age is financially independent, he or she shall be ineligible for coverage in the subsequent renewals.",
+            "ids": [
+              "S57"
+            ]
+          },
+          {
+            "text": ": If a claim is made in any particular year, the cumulative bonus accrued shall be reduced at the same",
+            "ids": [
+              "S170"
+            ]
+          }
+        ],
+        "dropped": [
+          {
+            "text": "First, I need to answer the question: \"What is the yearly premium for a 35-year-old?\" based on the given sentences.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I have to use only the provided sentences and not add any outside knowledge.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "The answer should be in 1 to 3 short sentences, and every sentence must end with the ID of the sentence that proves it, like.",
+            "ids": [
+              "S12"
+            ],
+            "reason": "unknown-id"
+          },
+          {
+            "text": "I can cite up to two IDs per sentence.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Let me go through the sentences to see if any of them mention the yearly premium for a 35-year-old.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Here are the sentences:",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": ": 3.18.",
+            "ids": [
+              "S53"
+            ],
+            "reason": "too-vague"
+          },
+          {
+            "text": "Family means, the Family that consists of the proposer and any one or more of the family members as mentioned below: (This is about family definition, not premium)",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "(This is about children, not premium)",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "(About children, not premium)",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": ": 3.19.",
+            "ids": [
+              "S58"
+            ],
+            "reason": "too-vague"
+          },
+          {
+            "text": "Grace period means the specified period of time...",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "(About grace period, not premium)",
+            "ids": [],
+            "reason": "no-citation"
+          }
+        ],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 6311.998415999988,
+        "totalMs": 38549.21195799997,
+        "tokens": 300,
+        "tokensPerSec": 9.309716774831093,
+        "loadMs": 26.359834,
+        "promptTokens": 1023
+      },
+      "citedPages": [
+        3,
+        3,
+        7
+      ],
+      "correct": false,
+      "rawCorrect": false,
+      "refused": false
+    },
+    {
+      "id": "H13",
+      "question": "Is there a discount for buying this policy online?",
+      "answerable": false,
+      "retrievalHit": null,
+      "passageIds": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S175",
+        "S176",
+        "S177",
+        "S178",
+        "S179",
+        "S180",
+        "S371",
+        "S372",
+        "S373",
+        "S374",
+        "S375",
+        "S404",
+        "S405",
+        "S406",
+        "S407",
+        "S424",
+        "S427",
+        "S428",
+        "S429",
+        "S430",
+        "S431",
+        "S432"
+      ],
+      "retrieveMs": 169.29320899996674,
+      "rawAnswer": "First, I need to answer the question: \"Is there a discount for buying this policy online?\" I have to use only the given sentences from the document. I can't use outside knowledge.\n\nLet me list out all the sentences provided:\n\n- [S1] Policy Wording\n- [S2] Arogya Sanjeevani Policy, IFFCO-Tokio General Insurance Company Limited\n- [S3] UIN: IFFHLIP20161V011920\n- [S4] 1. PREAMBLE\n- [S5] This Policy is a contract of insurance issued by IFFCO-Tokio General Insurance Company Limited (hereinafter called the ‘Company’) to the proposer mentioned in the schedule (hereinafter called the ‘Insured’) to cover the person(s) named in the schedule (hereinafter called the ‘Insured Persons’).\n- [S6] The policy is based on the statements and declaration provided in the proposal Form by the proposer and is subject to receipt of the requisite premium.\n- [S175] ii. In case where the policy is on floater basis, the CB shall be added and available to the family on floater basis, provided no claim has been reported from any member of the family.\n- [S176] CB shall reduce in case of claim from any of the Insured Persons.\n- [S1",
+      "verification": {
+        "status": "answered",
+        "kept": [
+          {
+            "text": "Policy Wording",
+            "ids": [
+              "S1"
+            ]
+          },
+          {
+            "text": "Arogya Sanjeevani Policy, IFFCO-Tokio General Insurance Company Limited",
+            "ids": [
+              "S2"
+            ]
+          },
+          {
+            "text": "UIN: IFFHLIP20161V011920",
+            "ids": [
+              "S3"
+            ]
+          },
+          {
+            "text": "This Policy is a contract of insurance issued by IFFCO-Tokio General Insurance Company Limited (hereinafter called the ‘Company’) to the proposer mentioned in the schedule (hereinafter called the ‘Insured’) to cover the person(s) named in the schedule (hereinafter called the ‘Insured Persons’).",
+            "ids": [
+              "S5",
+              "S6"
+            ]
+          }
+        ],
+        "dropped": [
+          {
+            "text": "First, I need to answer the question: \"Is there a discount for buying this policy online?\"",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I have to use only the given sentences from the document.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I can't use outside knowledge.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Let me list out all the sentences provided:",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "1.",
+            "ids": [
+              "S4"
+            ],
+            "reason": "too-vague"
+          },
+          {
+            "text": "PREAMBLE",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "The policy is based on the statements and declaration provided in the proposal Form by the proposer and is subject to receipt of the requisite premium. ii.",
+            "ids": [
+              "S175"
+            ],
+            "reason": "low-overlap"
+          },
+          {
+            "text": "In case where the policy is on floater basis, the CB shall be added and available to the family on floater basis, provided no claim has been reported from any member of the family.",
+            "ids": [
+              "S176"
+            ],
+            "reason": "low-overlap"
+          },
+          {
+            "text": "CB shall reduce in case of claim from any of the Insured Persons.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "[S1",
+            "ids": [],
+            "reason": "no-citation"
+          }
+        ],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 7346.787500000035,
+        "totalMs": 36675.85820800002,
+        "tokens": 300,
+        "tokensPerSec": 10.227567467171554,
+        "loadMs": 26.797541,
+        "promptTokens": 1188
+      },
+      "citedPages": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "correct": false,
+      "rawCorrect": false,
+      "refused": false
+    },
+    {
+      "id": "R1",
+      "question": "How much notice must the landlord give before increasing the rent?",
+      "answerable": true,
+      "retrievalHit": true,
+      "passageIds": [
+        "S72",
+        "S75",
+        "S76",
+        "S77",
+        "S78",
+        "S79",
+        "S81",
+        "S86",
+        "S87",
+        "S88",
+        "S89",
+        "S90",
+        "S222",
+        "S223",
+        "S224",
+        "S225",
+        "S226",
+        "S227",
+        "S228",
+        "S229",
+        "S230",
+        "S231",
+        "S232",
+        "S233",
+        "S234",
+        "S235",
+        "S236",
+        "S237",
+        "S238",
+        "S239",
+        "S240",
+        "S241"
+      ],
+      "retrieveMs": 157.93304199998965,
+      "rawAnswer": "First, I need to answer the question: \"How much notice must the landlord give before increasing the rent?\" based only on the given sentences.\n\nI'll go through the sentences to find the relevant information. The key part should be about rent increases and the notice required from the landlord.\n\nLooking at the sentences:\n\n- [S88] a. The Landlord may only increase the rent after a minimum of 1 year has passed since the rent was last set or last increased.\n\n- [S89] b. The Landlord must give at least 2 months’ prior written notice to the Tenant of any rent increase.\n\nThis seems directly relevant. [S89] says: \"The Landlord must give at least 2 months’ prior written notice to the Tenant of any rent increase.\"\n\nAlso, [S90] talks about the maximum increase but not the notice period, so it's not relevant for this question.\n\nThe question is specifically about how much notice the landlord must give before increasing the rent. From [S89], it's \"at least 2 months’ prior written notice\".\n\nI need to end every sentence with the ID of the sentence that proves it. So for this answer, I should cite [S89] since it directly states the notice requirement.\n\nThe answer should be in 1 to 3 short sentences. I can make it concise.\n\nAlso, rule 4: Copy numbers, amounts and time periods exactly as the source writes them",
+      "verification": {
+        "status": "answered",
+        "kept": [
+          {
+            "text": "a. The Landlord may only increase the rent after a minimum of 1 year has passed since the rent was last set or last increased. b. The Landlord must give at least 2 months’ prior written notice to the Tenant of any rent increase.",
+            "ids": [
+              "S88",
+              "S89"
+            ]
+          },
+          {
+            "text": "This seems directly relevant. says: \"The Landlord must give at least 2 months’ prior written notice to the Tenant of any rent increase.\"",
+            "ids": [
+              "S89"
+            ]
+          },
+          {
+            "text": "From, it's \"at least 2 months’ prior written notice\".",
+            "ids": [
+              "S89"
+            ]
+          }
+        ],
+        "dropped": [
+          {
+            "text": "First, I need to answer the question: \"How much notice must the landlord give before increasing the rent?\" based only on the given sentences.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I'll go through the sentences to find the relevant information.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "The key part should be about rent increases and the notice required from the landlord.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Looking at the sentences:",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Also, talks about the maximum increase but not the notice period, so it's not relevant for this question.",
+            "ids": [
+              "S90"
+            ],
+            "reason": "low-overlap"
+          },
+          {
+            "text": "The question is specifically about how much notice the landlord must give before increasing the rent.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I need to end every sentence with the ID of the sentence that proves it.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "So for this answer, I should cite since it directly states the notice requirement.",
+            "ids": [
+              "S89"
+            ],
+            "reason": "low-overlap"
+          },
+          {
+            "text": "The answer should be in 1 to 3 short sentences.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I can make it concise.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Also, rule 4: Copy numbers, amounts and time periods exactly as the source writes them",
+            "ids": [],
+            "reason": "no-citation"
+          }
+        ],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 7191.408999999985,
+        "totalMs": 36755.733958999976,
+        "tokens": 300,
+        "tokensPerSec": 10.140097616691737,
+        "loadMs": 2.487833,
+        "promptTokens": 1078
+      },
+      "citedPages": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "correct": true,
+      "rawCorrect": true,
+      "refused": false
+    },
+    {
+      "id": "R2",
+      "question": "How often can the landlord increase the rent?",
+      "answerable": true,
+      "retrievalHit": true,
+      "passageIds": [
+        "S33",
+        "S34",
+        "S35",
+        "S36",
+        "S72",
+        "S75",
+        "S76",
+        "S77",
+        "S78",
+        "S79",
+        "S81",
+        "S86",
+        "S87",
+        "S88",
+        "S89",
+        "S90",
+        "S91",
+        "S92",
+        "S93",
+        "S94",
+        "S95",
+        "S96",
+        "S164",
+        "S165",
+        "S166",
+        "S167",
+        "S168",
+        "S169",
+        "S193",
+        "S194",
+        "S195",
+        "S196",
+        "S197",
+        "S198",
+        "S199"
+      ],
+      "retrieveMs": 151.11220800003503,
+      "rawAnswer": "First, I need to answer the question: \"How often can the landlord increase the rent?\" based only on the given sentences.\n\nI'll go through the sentences to find information about rent increases.\n\nLooking at the sentences:\n\n- [S88] a. The Landlord may only increase the rent after a minimum of 1 year has passed since the rent was last set or last increased.\n\nThis says that the landlord can only increase rent after a minimum of 1 year has passed since the last rent increase or setting. So, the frequency is at least once every 1 year.\n\n- [S89] b. The Landlord must give at least 2 months’ prior written notice to the Tenant of any rent increase.\n\nThis is about notice, not directly about how often the increases happen.\n\n- [S90] c. The Landlord may increase the rent by no more than the annual increase in RPI (as defined in Article 7A(5) of the Law), unless an exception (specified in Article 7D of the Law) applies.\n\nThis talks about the amount of increase, not the frequency.\n\n- [S91] d. If an exemption (specified in Articles 7B and 7C of the Law) applies, the restrictions in Subclauses B.7.a. to c. do not apply.\n\nThis is about exemptions, not frequency.\n\nThe key point for frequency is in [S88] a: \"The",
+      "verification": {
+        "status": "answered",
+        "kept": [
+          {
+            "text": "a. The Landlord may only increase the rent after a minimum of 1 year has passed since the rent was last set or last increased.",
+            "ids": [
+              "S88"
+            ]
+          },
+          {
+            "text": "This is about notice, not directly about how often the increases happen. c. The Landlord may increase the rent by no more than the annual increase in RPI (as defined in Article 7A(5) of the Law), unless an exception (specified in Article 7D of the Law) applies.",
+            "ids": [
+              "S90"
+            ]
+          },
+          {
+            "text": "This talks about the amount of increase, not the frequency. d. If an exemption (specified in Articles 7B and 7C of the Law) applies, the restrictions in Subclauses B.7.a. to c. do not apply.",
+            "ids": [
+              "S91"
+            ]
+          }
+        ],
+        "dropped": [
+          {
+            "text": "First, I need to answer the question: \"How often can the landlord increase the rent?\" based only on the given sentences.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I'll go through the sentences to find information about rent increases.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Looking at the sentences:",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "This says that the landlord can only increase rent after a minimum of 1 year has passed since the last rent increase or setting.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "So, the frequency is at least once every 1 year. b. The Landlord must give at least 2 months’ prior written notice to the Tenant of any rent increase.",
+            "ids": [
+              "S89"
+            ],
+            "reason": "number-mismatch"
+          },
+          {
+            "text": "This is about exemptions, not frequency.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "The key point for frequency is in a: \"The",
+            "ids": [
+              "S88"
+            ],
+            "reason": "low-overlap"
+          }
+        ],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 6748.808499999926,
+        "totalMs": 36782.24424999999,
+        "tokens": 300,
+        "tokensPerSec": 9.993394699216974,
+        "loadMs": 43.4165,
+        "promptTokens": 1118
+      },
+      "citedPages": [
+        6,
+        6,
+        6
+      ],
+      "correct": true,
+      "rawCorrect": true,
+      "refused": false
+    },
+    {
+      "id": "R3",
+      "question": "Within how many days must the landlord put the deposit into the protection scheme?",
+      "answerable": true,
+      "retrievalHit": true,
+      "passageIds": [
+        "S33",
+        "S34",
+        "S35",
+        "S36",
+        "S56",
+        "S57",
+        "S58",
+        "S59",
+        "S97",
+        "S98",
+        "S99",
+        "S100",
+        "S101",
+        "S102",
+        "S103",
+        "S183",
+        "S185",
+        "S186",
+        "S187",
+        "S188",
+        "S193",
+        "S194",
+        "S195",
+        "S196",
+        "S197",
+        "S198",
+        "S199"
+      ],
+      "retrieveMs": 168.30999999993946,
+      "rawAnswer": "First, I need to answer the question: \"Within how many days must the landlord put the deposit into the protection scheme?\"\n\nI have to use only the given sentences and cite the sentence IDs where the information comes from. The answer should be in 1 to 3 short sentences, and every sentence must end with the ID of the sentence that proves it.\n\nLet me look through the sentences to find the relevant information.\n\nI see that there's a section about the Tenancy Deposit Protection Scheme. Specifically, sentence [S100] says: \"The Landlord must pay the Deposit into the Government-approved Tenancy Deposit Protection Scheme within 30 days after receiving the deposit and must notify the Tenant in writing of the Deposit having been protected by this scheme as soon as reasonably practicable.\"\n\nThis directly answers the question. The landlord must put the deposit into the protection scheme within 30 days after receiving the deposit.\n\nI should check if there are other sentences that might provide additional context or if this is the only one.\n\nSentence [S97] mentions the deposit amount, but it doesn't specify the time frame for putting it into the scheme.\n\nSentence [S100] is the key one here. It says \"within 30 days after receiving the deposit\".\n\nThe question is: \"Within how many days must the landlord put the deposit into the protection scheme?\"\n\nSo, the answer is 30 days.\n\nNow, I need to end the sentence with the ID.",
+      "verification": {
+        "status": "answered",
+        "kept": [
+          {
+            "text": "Specifically, sentence says: \"The Landlord must pay the Deposit into the Government-approved Tenancy Deposit Protection Scheme within 30 days after receiving the deposit and must notify the Tenant in writing of the Deposit having been protected by this scheme as soon as reasonably practicable.\"",
+            "ids": [
+              "S100"
+            ]
+          }
+        ],
+        "dropped": [
+          {
+            "text": "First, I need to answer the question: \"Within how many days must the landlord put the deposit into the protection scheme?\"",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I have to use only the given sentences and cite the sentence IDs where the information comes from.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "The answer should be in 1 to 3 short sentences, and every sentence must end with the ID of the sentence that proves it.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Let me look through the sentences to find the relevant information.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I see that there's a section about the Tenancy Deposit Protection Scheme.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "This directly answers the question.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "The landlord must put the deposit into the protection scheme within 30 days after receiving the deposit.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I should check if there are other sentences that might provide additional context or if this is the only one.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Sentence mentions the deposit amount, but it doesn't specify the time frame for putting it into the scheme.",
+            "ids": [
+              "S97"
+            ],
+            "reason": "low-overlap"
+          },
+          {
+            "text": "Sentence is the key one here.",
+            "ids": [
+              "S100"
+            ],
+            "reason": "number-mismatch"
+          },
+          {
+            "text": "It says \"within 30 days after receiving the deposit\".",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "The question is: \"Within how many days must the landlord put the deposit into the protection scheme?\"",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "So, the answer is 30 days.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Now, I need to end the sentence with the ID.",
+            "ids": [],
+            "reason": "no-citation"
+          }
+        ],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 6005.629042000044,
+        "totalMs": 35410.19845899998,
+        "tokens": 300,
+        "tokensPerSec": 10.201115675619212,
+        "loadMs": 24.429084,
+        "promptTokens": 1104
+      },
+      "citedPages": [
+        7
+      ],
+      "correct": true,
+      "rawCorrect": true,
+      "refused": false
+    },
+    {
+      "id": "R4",
+      "question": "What interest is charged if the rent is paid late?",
+      "answerable": true,
+      "retrievalHit": true,
+      "passageIds": [
+        "S72",
+        "S75",
+        "S76",
+        "S77",
+        "S78",
+        "S79",
+        "S80",
+        "S81",
+        "S82",
+        "S83",
+        "S84",
+        "S85",
+        "S86",
+        "S87",
+        "S88",
+        "S89",
+        "S90",
+        "S105",
+        "S108",
+        "S109",
+        "S110",
+        "S111",
+        "S112",
+        "S113",
+        "S114",
+        "S115",
+        "S164",
+        "S165",
+        "S166",
+        "S167",
+        "S168",
+        "S169"
+      ],
+      "retrieveMs": 154.7213749999646,
+      "rawAnswer": "First, I need to answer the question: \"What interest is charged if the rent is paid late?\" based only on the given sentences.\n\nI'll go through the sentences to find information about late rent payments and interest.\n\nLooking at the sentences:\n\n- [S112] a. The Tenant agrees to pay the rent in full on the days and in the manner provided by this Agreement.\n\n- [S113] b. If any rent is more than 14 days overdue, the Tenant is liable to pay interest of 3% above the Bank of England’s base rate.\n\n- [S114] The interest will be payable from the date that the rent was due to the date it is paid by the Tenant, calculated and accrued on a day-to-day basis.\n\nThis seems directly relevant. [S113] says that if rent is more than 14 days overdue, the Tenant must pay interest of 3% above the Bank of England’s base rate.\n\nAlso, [S114] provides more detail about how the interest is calculated.\n\nThe question is: \"What interest is charged if the rent is paid late?\"\n\nFrom [S113], the interest is \"3% above the Bank of England’s base rate\" when rent is more than 14 days overdue.\n\nI need to end every sentence with the ID of the sentence that proves it. I can cite one or two IDs.\n\nThe answer should be in 1",
+      "verification": {
+        "status": "answered",
+        "kept": [
+          {
+            "text": "a. The Tenant agrees to pay the rent in full on the days and in the manner provided by this Agreement. b. If any rent is more than 14 days overdue, the Tenant is liable to pay interest of 3% above the Bank of England’s base rate.",
+            "ids": [
+              "S112",
+              "S113",
+              "S114"
+            ]
+          },
+          {
+            "text": "This seems directly relevant. says that if rent is more than 14 days overdue, the Tenant must pay interest of 3% above the Bank of England’s base rate.",
+            "ids": [
+              "S113"
+            ]
+          },
+          {
+            "text": "Also, provides more detail about how the interest is calculated.",
+            "ids": [
+              "S114"
+            ]
+          },
+          {
+            "text": "From, the interest is \"3% above the Bank of England’s base rate\" when rent is more than 14 days overdue.",
+            "ids": [
+              "S113"
+            ]
+          }
+        ],
+        "dropped": [
+          {
+            "text": "First, I need to answer the question: \"What interest is charged if the rent is paid late?\" based only on the given sentences.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I'll go through the sentences to find information about late rent payments and interest.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Looking at the sentences:",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "The interest will be payable from the date that the rent was due to the date it is paid by the Tenant, calculated and accrued on a day-to-day basis.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "The question is: \"What interest is charged if the rent is paid late?\"",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I need to end every sentence with the ID of the sentence that proves it.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I can cite one or two IDs.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "The answer should be in 1",
+            "ids": [],
+            "reason": "no-citation"
+          }
+        ],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 6112.2653329999885,
+        "totalMs": 36073.90341599996,
+        "tokens": 300,
+        "tokensPerSec": 10.015431108556657,
+        "loadMs": 2.449083,
+        "promptTokens": 999
+      },
+      "citedPages": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "correct": true,
+      "rawCorrect": true,
+      "refused": false
+    },
+    {
+      "id": "R5",
+      "question": "Can the tenant smoke inside the property?",
+      "answerable": true,
+      "retrievalHit": true,
+      "passageIds": [
+        "S119",
+        "S120",
+        "S121",
+        "S122",
+        "S123",
+        "S124",
+        "S125",
+        "S126",
+        "S127",
+        "S128",
+        "S129",
+        "S135",
+        "S136",
+        "S137",
+        "S138",
+        "S139",
+        "S140",
+        "S143",
+        "S152",
+        "S153",
+        "S154"
+      ],
+      "retrieveMs": 167.7316250000149,
+      "rawAnswer": "First, I need to answer the question: \"Can the tenant smoke inside the property?\" based only on the given sentences.\n\nI have the sentences from S119 to S154. Let me look for information about smoking.\n\nI see that [S135] says: \"l. The Tenant must not smoke or allow guests or other third parties to smoke in the Property.\"\n\nThis directly addresses smoking. It says the tenant must not smoke in the property.\n\nAlso, [S136] talks about damages from smoking, but it's about what happens if smoking occurs, not whether it's allowed.\n\nThe key point is in [S135]: The Tenant must not smoke or allow guests or other third parties to smoke in the Property.\n\nSo, for the question \"Can the tenant smoke inside the property?\", the answer is no, because they must not smoke there.\n\nI need to end every sentence with the ID of the sentence that proves it. I can cite one or two IDs.\n\nHere, [S135] is the sentence that says they must not smoke, so it proves that smoking is not allowed.\n\nLet me check if there's any other sentence that might contradict or add context.\n\n[S136] says: \"If any damages are incurred because of smoking in the Property...\" but this is conditional on smoking happening, so it doesn't change the prohibition. The prohibition is in [S135].\n\nAlso, the question is about",
+      "verification": {
+        "status": "answered",
+        "kept": [
+          {
+            "text": "I see that says: \"l. The Tenant must not smoke or allow guests or other third parties to smoke in the Property.\"",
+            "ids": [
+              "S135"
+            ]
+          },
+          {
+            "text": "The key point is in: The Tenant must not smoke or allow guests or other third parties to smoke in the Property.",
+            "ids": [
+              "S135"
+            ]
+          }
+        ],
+        "dropped": [
+          {
+            "text": "First, I need to answer the question: \"Can the tenant smoke inside the property?\" based only on the given sentences.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I have the sentences from S119 to S154.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Let me look for information about smoking.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "This directly addresses smoking.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "It says the tenant must not smoke in the property.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Also, talks about damages from smoking, but it's about what happens if smoking occurs, not whether it's allowed.",
+            "ids": [
+              "S136"
+            ],
+            "reason": "low-overlap"
+          },
+          {
+            "text": "So, for the question \"Can the tenant smoke inside the property?\", the answer is no, because they must not smoke there.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I need to end every sentence with the ID of the sentence that proves it.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I can cite one or two IDs.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Here, is the sentence that says they must not smoke, so it proves that smoking is not allowed.",
+            "ids": [
+              "S135"
+            ],
+            "reason": "low-overlap"
+          },
+          {
+            "text": "Let me check if there's any other sentence that might contradict or add context. says: \"If any damages are incurred because of smoking in the Property...\" but this is conditional on smoking happening, so it doesn't change the prohibition.",
+            "ids": [
+              "S136"
+            ],
+            "reason": "low-overlap"
+          },
+          {
+            "text": "The prohibition is in.",
+            "ids": [
+              "S135"
+            ],
+            "reason": "too-vague"
+          },
+          {
+            "text": "Also, the question is about",
+            "ids": [],
+            "reason": "no-citation"
+          }
+        ],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 5584.442207999993,
+        "totalMs": 34696.680458000046,
+        "tokens": 300,
+        "tokensPerSec": 10.302557967170694,
+        "loadMs": 20.458292,
+        "promptTokens": 958
+      },
+      "citedPages": [
+        9,
+        9
+      ],
+      "correct": true,
+      "rawCorrect": true,
+      "refused": false
+    },
+    {
+      "id": "R6",
+      "question": "How much notice must the tenant give to end a periodic tenancy?",
+      "answerable": true,
+      "retrievalHit": true,
+      "passageIds": [
+        "S187",
+        "S189",
+        "S190",
+        "S191",
+        "S192",
+        "S193",
+        "S222",
+        "S223",
+        "S224",
+        "S225",
+        "S226",
+        "S227",
+        "S228",
+        "S229",
+        "S230",
+        "S231",
+        "S232",
+        "S233",
+        "S234",
+        "S235",
+        "S236",
+        "S237",
+        "S238",
+        "S239",
+        "S240",
+        "S241",
+        "S242",
+        "S243",
+        "S244",
+        "S245",
+        "S246",
+        "S247"
+      ],
+      "retrieveMs": 131.4618339999579,
+      "rawAnswer": "First, I need to answer the question: \"How much notice must the tenant give to end a periodic tenancy?\"\n\nI have to use only the given sentences from the document. I'll go through the sentences to find relevant information.\n\nThe sentences are numbered from S187 to S247, but I'll focus on the parts that talk about notice for ending tenancies, especially for periodic tenancies.\n\nLet me scan for key phrases:\n\n- S235: \"Periodic Tenancy\" – this is relevant.\n\n- S236: \"The Landlord may give at least 1 year’s written notice, as per Article 6E of the Law.\" But this is for the landlord, not the tenant.\n\n- S237: \"The Tenant may give at least 1 month’s written notice, as per Article 6E of the Law.\" This seems directly relevant. It says the tenant must give at least 1 month’s written notice to end a periodic tenancy.\n\nLet me check the context. S237 is under \"S235 Periodic Tenancy\" and it says: \"b. The Tenant may give at least 1 month’s written notice, as per Article 6E of the Law.\"\n\nAlso, S222 says: \"Direction: delete this clause if the residential tenancy agreement is for a periodic tenancy.\" But this is a direction, not the notice amount.\n\nS231",
+      "verification": {
+        "status": "not-found",
+        "kept": [],
+        "dropped": [
+          {
+            "text": "First, I need to answer the question: \"How much notice must the tenant give to end a periodic tenancy?\"",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I have to use only the given sentences from the document.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I'll go through the sentences to find relevant information.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "The sentences are numbered from S187 to S247, but I'll focus on the parts that talk about notice for ending tenancies, especially for periodic tenancies.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Let me scan for key phrases:",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "S235: \"Periodic Tenancy\" – this is relevant.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "S236: \"The Landlord may give at least 1 year’s written notice, as per Article 6E of the Law.\"",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "But this is for the landlord, not the tenant.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "S237: \"The Tenant may give at least 1 month’s written notice, as per Article 6E of the Law.\"",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "This seems directly relevant.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "It says the tenant must give at least 1 month’s written notice to end a periodic tenancy.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Let me check the context.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "S237 is under \"S235 Periodic Tenancy\" and it says: \"b. The Tenant may give at least 1 month’s written notice, as per Article 6E of the Law.\"",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Also, S222 says: \"Direction: delete this clause if the residential tenancy agreement is for a periodic tenancy.\"",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "But this is a direction, not the notice amount.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "S231",
+            "ids": [],
+            "reason": "no-citation"
+          }
+        ],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 7328.590250000008,
+        "totalMs": 36306.317500000005,
+        "tokens": 300,
+        "tokensPerSec": 10.352121548261918,
+        "loadMs": 11.006042,
+        "promptTokens": 1067
+      },
+      "citedPages": [],
+      "correct": false,
+      "rawCorrect": true,
+      "refused": true
+    },
+    {
+      "id": "R7",
+      "question": "How much notice must the landlord give to end a periodic tenancy without giving a reason?",
+      "answerable": true,
+      "retrievalHit": true,
+      "passageIds": [
+        "S187",
+        "S189",
+        "S190",
+        "S191",
+        "S192",
+        "S193",
+        "S222",
+        "S223",
+        "S224",
+        "S225",
+        "S226",
+        "S227",
+        "S228",
+        "S229",
+        "S230",
+        "S231",
+        "S232",
+        "S233",
+        "S234",
+        "S235",
+        "S236",
+        "S237",
+        "S238",
+        "S239",
+        "S240",
+        "S241",
+        "S242",
+        "S243",
+        "S244",
+        "S245",
+        "S246",
+        "S247"
+      ],
+      "retrieveMs": 128.62691700004507,
+      "rawAnswer": "First, I need to answer the question: \"How much notice must the landlord give to end a periodic tenancy without giving a reason?\"\n\nI have to use only the given sentences from the document. I'll go through the sentences to find relevant information.\n\nThe sentences are numbered from S187 to S247, but I'll focus on the parts that talk about ending tenancies, especially for periodic tenancies.\n\nLet me scan for key phrases:\n\n- S234: Ending Tenancy Without Giving a Reason During Periodic Tenancy\n\n- S235: Periodic Tenancy\n\n- S236: a. The Landlord may give at least 1 year’s written notice, as per Article 6E of the Law.\n\n- S237: b. The Tenant may give at least 1 month’s written notice, as per Article 6E of the Law.\n\nS236 and S237 seem directly relevant. S236 says: \"The Landlord may give at least 1 year’s written notice, as per Article 6E of the Law.\" This is for ending a periodic tenancy without giving a reason.\n\nThe question is about how much notice the landlord must give. S236 says \"at least 1 year’s written notice\". But I need to check if this is for periodic tenancies specifically.\n\nS234 is titled \"Ending Tenancy Without Giving a Reason During Period",
+      "verification": {
+        "status": "not-found",
+        "kept": [],
+        "dropped": [
+          {
+            "text": "First, I need to answer the question: \"How much notice must the landlord give to end a periodic tenancy without giving a reason?\"",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I have to use only the given sentences from the document.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I'll go through the sentences to find relevant information.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "The sentences are numbered from S187 to S247, but I'll focus on the parts that talk about ending tenancies, especially for periodic tenancies.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Let me scan for key phrases:",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "S234: Ending Tenancy Without Giving a Reason During Periodic Tenancy",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "S235: Periodic Tenancy",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "S236: a. The Landlord may give at least 1 year’s written notice, as per Article 6E of the Law.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "S237: b. The Tenant may give at least 1 month’s written notice, as per Article 6E of the Law.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "S236 and S237 seem directly relevant.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "S236 says: \"The Landlord may give at least 1 year’s written notice, as per Article 6E of the Law.\"",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "This is for ending a periodic tenancy without giving a reason.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "The question is about how much notice the landlord must give.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "S236 says \"at least 1 year’s written notice\".",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "But I need to check if this is for periodic tenancies specifically.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "S234 is titled \"Ending Tenancy Without Giving a Reason During Period",
+            "ids": [],
+            "reason": "no-citation"
+          }
+        ],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 350.57433299999684,
+        "totalMs": 30753.75762499997,
+        "tokens": 300,
+        "tokensPerSec": 9.872010697574046,
+        "loadMs": 3.008542,
+        "promptTokens": 1071
+      },
+      "citedPages": [],
+      "correct": false,
+      "rawCorrect": true,
+      "refused": true
+    },
+    {
+      "id": "R8",
+      "question": "Within how many days must the landlord give the tenant the condition report?",
+      "answerable": true,
+      "retrievalHit": true,
+      "passageIds": [
+        "S26",
+        "S27",
+        "S28",
+        "S29",
+        "S56",
+        "S57",
+        "S58",
+        "S59",
+        "S183",
+        "S185",
+        "S186",
+        "S187",
+        "S188",
+        "S193",
+        "S194",
+        "S195",
+        "S196",
+        "S197",
+        "S198",
+        "S199",
+        "S222",
+        "S223",
+        "S224",
+        "S225",
+        "S226",
+        "S227",
+        "S228",
+        "S229",
+        "S230",
+        "S231"
+      ],
+      "retrieveMs": 189.49058300000615,
+      "rawAnswer": "First, I need to answer the question: \"Within how many days must the landlord give the tenant the condition report?\"\n\nI have the sentences provided, and I must use only those sentences. I can't use outside knowledge.\n\nLet me look for sentences that mention the condition report and the time frame for giving it to the tenant.\n\nI see sentence [S56]: \"e. The Landlord must complete a Condition Report in accordance with Residential Tenancy (Condition Reports) (Jersey) Order 2014 and provide 2 signed copies to the tenant within 7 days of completion.\"\n\nThis sentence directly says that the landlord must provide 2 signed copies to the tenant within 7 days of completion.\n\nThe question is about how many days the landlord must give the tenant the condition report. According to [S56], it's within 7 days of completion.\n\nI should check if there are other sentences that might provide more context, but [S56] seems to be the key one here.\n\nLet me review the other sentences quickly to make sure.\n\n[S26] is about what a Condition Report is, but it doesn't specify the time frame.\n\n[S27] is about Deposit, not relevant.\n\n[S28] is about Inventory, not relevant.\n\n[S29] is about Landlord, not relevant.\n\n[S57] is just \"B.4.\" which might be a section header, but no content.\n\n[S58] is \"The",
+      "verification": {
+        "status": "answered",
+        "kept": [
+          {
+            "text": "I see sentence: \"e. The Landlord must complete a Condition Report in accordance with Residential Tenancy (Condition Reports) (Jersey) Order 2014 and provide 2 signed copies to the tenant within 7 days of completion.\"",
+            "ids": [
+              "S56"
+            ]
+          },
+          {
+            "text": "According to, it's within 7 days of completion.",
+            "ids": [
+              "S56"
+            ]
+          }
+        ],
+        "dropped": [
+          {
+            "text": "First, I need to answer the question: \"Within how many days must the landlord give the tenant the condition report?\"",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I have the sentences provided, and I must use only those sentences.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I can't use outside knowledge.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Let me look for sentences that mention the condition report and the time frame for giving it to the tenant.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "This sentence directly says that the landlord must provide 2 signed copies to the tenant within 7 days of completion.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "The question is about how many days the landlord must give the tenant the condition report.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I should check if there are other sentences that might provide more context, but seems to be the key one here.",
+            "ids": [
+              "S56"
+            ],
+            "reason": "number-mismatch"
+          },
+          {
+            "text": "Let me review the other sentences quickly to make sure. is about what a Condition Report is, but it doesn't specify the time frame. is about Deposit, not relevant. is about Inventory, not relevant. is about Landlord, not relevant. is just \"B.4.\" which might be a section header, but no content. is \"The",
+            "ids": [
+              "S26",
+              "S27",
+              "S28",
+              "S29",
+              "S57",
+              "S58"
+            ],
+            "reason": "low-overlap"
+          }
+        ],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 7045.4211249999935,
+        "totalMs": 36009.68741699995,
+        "tokens": 300,
+        "tokensPerSec": 10.356355638495389,
+        "loadMs": 36.589042,
+        "promptTokens": 1143
+      },
+      "citedPages": [
+        5,
+        5
+      ],
+      "correct": true,
+      "rawCorrect": true,
+      "refused": false
+    },
+    {
+      "id": "R9",
+      "question": "Who pays for the broadband internet connection?",
+      "answerable": false,
+      "retrievalHit": null,
+      "passageIds": [
+        "S97",
+        "S98",
+        "S99",
+        "S100",
+        "S104",
+        "S105",
+        "S106",
+        "S107",
+        "S108",
+        "S109",
+        "S110",
+        "S111",
+        "S112",
+        "S113",
+        "S114",
+        "S115",
+        "S116",
+        "S117",
+        "S118",
+        "S119",
+        "S193",
+        "S194",
+        "S195",
+        "S196",
+        "S197",
+        "S198",
+        "S199"
+      ],
+      "retrieveMs": 126.17579100001603,
+      "rawAnswer": "First, I need to answer the question: \"Who pays for the broadband internet connection?\" based only on the given sentences.\n\nI'll go through the sentences to see if any mention broadband internet connection.\n\nThe sentences are:\n\n- [S97] b. The Deposit (if any) is £[amount in GBP].\n\n- [S98] c. The Tenant must pay the Deposit to the Landlord or Managing Agent when this Agreement is signed.\n\n- [S99] d. The Landlord must provide the Tenant with a receipt for the Deposit paid by the Tenant as soon as possible after it is paid.\n\n- [S100] e. The Landlord must pay the Deposit into the Government-approved Tenancy Deposit Protection Scheme within 30 days after receiving the deposit and must notify the Tenant in writing of the Deposit having been protected by this scheme as soon as reasonably practicable.\n\n- [S104] B.9.\n\n- [S105] Service Charges\n\n- [S106] a. The Landlord/Tenant must arrange and pay for the supply of the following services: Direction: list relevant services Landlord/Tenant must pay for [e.g., electricity, gas, water, ensuring to clearly specify for each service whether it is the responsibility of the Landlord or the Tenant.\n\n- [S107] b. The Landlord/Tenant must arrange and pay for the maintenance and repair of the following equipment (",
+      "verification": {
+        "status": "answered",
+        "kept": [
+          {
+            "text": "b. The Deposit (if any) is £[amount in GBP]. c. The Tenant must pay the Deposit to the Landlord or Managing Agent when this Agreement is signed. d. The Landlord must provide the Tenant with a receipt for the Deposit paid by the Tenant as soon as possible after it is paid. e. The Landlord must pay the Deposit into the Government-approved Tenancy Deposit Protection Scheme within 30 days after receiving the deposit and must notify the Tenant in writing of the Deposit having been protected by this scheme as soon as reasonably practicable.",
+            "ids": [
+              "S97",
+              "S98",
+              "S99",
+              "S100",
+              "S104"
+            ]
+          },
+          {
+            "text": "a. The Landlord/Tenant must arrange and pay for the supply of the following services: Direction: list relevant services Landlord/Tenant must pay for [e.g., electricity, gas, water, ensuring to clearly specify for each service whether it is the responsibility of the Landlord or the Tenant. b. The Landlord/Tenant must arrange and pay for the maintenance and repair of the following equipment (",
+            "ids": [
+              "S106",
+              "S107"
+            ]
+          }
+        ],
+        "dropped": [
+          {
+            "text": "First, I need to answer the question: \"Who pays for the broadband internet connection?\" based only on the given sentences.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I'll go through the sentences to see if any mention broadband internet connection.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "The sentences are:",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "B.9.",
+            "ids": [
+              "S105"
+            ],
+            "reason": "number-mismatch"
+          },
+          {
+            "text": "Service Charges",
+            "ids": [],
+            "reason": "no-citation"
+          }
+        ],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 6490.254042000044,
+        "totalMs": 35649.93125000002,
+        "tokens": 300,
+        "tokensPerSec": 10.287889086679272,
+        "loadMs": 4.749792,
+        "promptTokens": 1076
+      },
+      "citedPages": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "correct": false,
+      "rawCorrect": false,
+      "refused": false
+    },
+    {
+      "id": "R10",
+      "question": "How much stamp duty must be paid to register this agreement?",
+      "answerable": false,
+      "retrievalHit": null,
+      "passageIds": [
+        "S7",
+        "S8",
+        "S9",
+        "S10",
+        "S53",
+        "S54",
+        "S55",
+        "S77",
+        "S80",
+        "S81",
+        "S82",
+        "S83",
+        "S84",
+        "S85",
+        "S97",
+        "S98",
+        "S99",
+        "S100",
+        "S111",
+        "S113",
+        "S114",
+        "S115",
+        "S198",
+        "S201"
+      ],
+      "retrieveMs": 127.94791600003373,
+      "rawAnswer": "First, I need to answer the question: \"How much stamp duty must be paid to register this agreement?\" based solely on the given sentences.\n\nI'll go through the sentences to see if any mention stamp duty or registration fees.\n\nThe sentences provided are:\n\n- [S7] If you are in any doubt as to the implications of using this Agreement, you should seek independent legal advice.\n\n- [S8] Explanatory note\n\n- [S9] This Model Residential Tenancy Agreement (“the Agreement”) has been produced by the Government of Jersey to support landlords and tenants in creating a clear and compliant written tenancy agreement.\n\n- [S10] It is designed to reflect the requirements of the Residential Tenancy (Jersey) Law 2011 (as amended by the Residential Tenancy (Jersey) Amendment Law 2025, commencing 15 April 2026) and to promote good practice across the rental sector.\n\n- [S53] In particular, the Parties must ensure that Article 19 is complied with, namely that the Tenant must be in possession of an appropriate registration card.\n\n- [S54] c. The Tenant must ensure that any member of the Tenant’s household or any visitor to the Property does not breach any of the Tenant’s obligations.\n\n- [S55] d. The Landlord must serve the Tenant a copy of the Agreement as made or varied as soon as reasonably practicable after",
+      "verification": {
+        "status": "answered",
+        "kept": [
+          {
+            "text": "If you are in any doubt as to the implications of using this Agreement, you should seek independent legal advice.",
+            "ids": [
+              "S7",
+              "S8"
+            ]
+          },
+          {
+            "text": "This Model Residential Tenancy Agreement (“the Agreement”) has been produced by the Government of Jersey to support landlords and tenants in creating a clear and compliant written tenancy agreement.",
+            "ids": [
+              "S9",
+              "S10"
+            ]
+          }
+        ],
+        "dropped": [
+          {
+            "text": "First, I need to answer the question: \"How much stamp duty must be paid to register this agreement?\" based solely on the given sentences.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I'll go through the sentences to see if any mention stamp duty or registration fees.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "The sentences provided are:",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Explanatory note",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "It is designed to reflect the requirements of the Residential Tenancy (Jersey) Law 2011 (as amended by the Residential Tenancy (Jersey) Amendment Law 2025, commencing 15 April 2026) and to promote good practice across the rental sector.",
+            "ids": [
+              "S53"
+            ],
+            "reason": "number-mismatch"
+          },
+          {
+            "text": "In particular, the Parties must ensure that Article 19 is complied with, namely that the Tenant must be in possession of an appropriate registration card. c. The Tenant must ensure that any member of the Tenant’s household or any visitor to the Property does not breach any of the Tenant’s obligations. d. The Landlord must serve the Tenant a copy of the Agreement as made or varied as soon as reasonably practicable after",
+            "ids": [
+              "S54",
+              "S55"
+            ],
+            "reason": "number-mismatch"
+          }
+        ],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 5516.323166999966,
+        "totalMs": 34463.5689999999,
+        "tokens": 300,
+        "tokensPerSec": 10.366324483509976,
+        "loadMs": 3.233958,
+        "promptTokens": 947
+      },
+      "citedPages": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "correct": false,
+      "rawCorrect": false,
+      "refused": false
+    },
+    {
+      "id": "O1",
+      "question": "What is my total annual CTC?",
+      "answerable": true,
+      "retrievalHit": true,
+      "passageIds": [
+        "S19",
+        "S20",
+        "S21",
+        "S22",
+        "S23",
+        "S24",
+        "S25",
+        "S26",
+        "S27",
+        "S28",
+        "S29",
+        "S30",
+        "S31",
+        "S32",
+        "S33",
+        "S34",
+        "S35",
+        "S48",
+        "S49",
+        "S50",
+        "S51",
+        "S52",
+        "S53",
+        "S54",
+        "S55",
+        "S56",
+        "S57",
+        "S58",
+        "S59",
+        "S60",
+        "S61",
+        "S62",
+        "S63"
+      ],
+      "retrieveMs": 123.54995799995959,
+      "rawAnswer": "First, I need to answer the question: \"What is my total annual CTC?\" based only on the given sentences.\n\nCTC stands for Cost to Company, which is mentioned in the sentences. Let me look for the sentence that defines the total annual CTC.\n\nFrom the sentences:\n\n[S20] Your total annual cost to company (CTC) will be Rs. 18,50,000 (Rupees Eighteen Lakh Fifty Thousand only).\n\nThis sentence directly states the total annual CTC as Rs. 18,50,000.\n\nAlso, [S28] Annual cost to company 18,50,000 – this seems to be a repetition or confirmation, but it's the same amount.\n\nThe question is about \"my total annual CTC\", and [S20] says \"Your total annual cost to company (CTC) will be Rs. 18,50,000\", so that's the answer.\n\nI should check if there's any other sentence that might provide more context, but the question is straightforward: what is the total annual CTC? And [S20] gives it directly.\n\nRule 3 says: End EVERY sentence with the ID of the sentence that proves it, like [S12]. I may cite two IDs.\n\nIn this case, [S20] is the sentence that states it. [S28] also says",
+      "verification": {
+        "status": "answered",
+        "kept": [
+          {
+            "text": "Your total annual cost to company (CTC) will be Rs. 18,50,000 (Rupees Eighteen Lakh Fifty Thousand only).",
+            "ids": [
+              "S20"
+            ]
+          },
+          {
+            "text": "The question is about \"my total annual CTC\", and says \"Your total annual cost to company (CTC) will be Rs. 18,50,000\", so that's the answer.",
+            "ids": [
+              "S20"
+            ]
+          }
+        ],
+        "dropped": [
+          {
+            "text": "First, I need to answer the question: \"What is my total annual CTC?\" based only on the given sentences.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "CTC stands for Cost to Company, which is mentioned in the sentences.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Let me look for the sentence that defines the total annual CTC.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "From the sentences:",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "This sentence directly states the total annual CTC as Rs. 18,50,000.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Also, Annual cost to company 18,50,000 – this seems to be a repetition or confirmation, but it's the same amount.",
+            "ids": [
+              "S28"
+            ],
+            "reason": "low-overlap"
+          },
+          {
+            "text": "I should check if there's any other sentence that might provide more context, but the question is straightforward: what is the total annual CTC?",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "And gives it directly.",
+            "ids": [
+              "S20"
+            ],
+            "reason": "low-overlap"
+          },
+          {
+            "text": "Rule 3 says: End EVERY sentence with the ID of the sentence that proves it, like.",
+            "ids": [
+              "S12"
+            ],
+            "reason": "unknown-id"
+          },
+          {
+            "text": "I may cite two IDs.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "In this case, is the sentence that states it. also says",
+            "ids": [
+              "S20",
+              "S28"
+            ],
+            "reason": "low-overlap"
+          }
+        ],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 5235.245790999965,
+        "totalMs": 34704.79104099993,
+        "tokens": 300,
+        "tokensPerSec": 10.181799422624094,
+        "loadMs": 14.538917,
+        "promptTokens": 902
+      },
+      "citedPages": [
+        1,
+        1
+      ],
+      "correct": true,
+      "rawCorrect": true,
+      "refused": false
+    },
+    {
+      "id": "O2",
+      "question": "How long is the probation period?",
+      "answerable": true,
+      "retrievalHit": true,
+      "passageIds": [
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S18",
+        "S36",
+        "S37",
+        "S38",
+        "S39",
+        "S40",
+        "S41",
+        "S42",
+        "S43",
+        "S44",
+        "S45",
+        "S46",
+        "S47",
+        "S54",
+        "S55",
+        "S56",
+        "S57",
+        "S64",
+        "S65",
+        "S66",
+        "S67",
+        "S68",
+        "S69",
+        "S70",
+        "S71",
+        "S72",
+        "S73",
+        "S74",
+        "S75"
+      ],
+      "retrieveMs": 130.19054199999664,
+      "rawAnswer": "First, I need to answer the question: \"How long is the probation period?\" based only on the given sentences.\n\nI'll go through the sentences to find information about the probation period.\n\nLooking at the sentences:\n\n- [S40] 5. Probation\n\n- [S41] You will be on probation for a period of 6 months from your date of joining.\n\nThis directly states that the probation period is 6 months from the date of joining.\n\n- [S42] The probation period may be extended by up to 3 more months if your performance needs improvement.\n\nThis talks about possible extension, but the standard period is 6 months.\n\nThe question is \"How long is the probation period?\" which seems to be asking for the standard duration, not the possible extension.\n\nFrom [S41], it says: \"You will be on probation for a period of 6 months from your date of joining.\" So the probation period is 6 months.\n\nI should check if there's any other sentence that might contradict or add to this.\n\n[S44] 6. Notice Period – this is about notice period, not probation duration.\n\n[S45] During probation, either you or the Company may end your employment by giving 15 days' written notice. – This is about notice during probation, not the length of probation.\n\n[S46] After confirmation, the notice period is 60 days. – Again, not about probation length.",
+      "verification": {
+        "status": "answered",
+        "kept": [
+          {
+            "text": "You will be on probation for a period of 6 months from your date of joining.",
+            "ids": [
+              "S41"
+            ]
+          },
+          {
+            "text": "From, it says: \"You will be on probation for a period of 6 months from your date of joining.\"",
+            "ids": [
+              "S41"
+            ]
+          }
+        ],
+        "dropped": [
+          {
+            "text": "First, I need to answer the question: \"How long is the probation period?\" based only on the given sentences.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I'll go through the sentences to find information about the probation period.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Looking at the sentences:",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "5.",
+            "ids": [
+              "S40"
+            ],
+            "reason": "too-vague"
+          },
+          {
+            "text": "Probation",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "This directly states that the probation period is 6 months from the date of joining.",
+            "ids": [
+              "S42"
+            ],
+            "reason": "number-mismatch"
+          },
+          {
+            "text": "The probation period may be extended by up to 3 more months if your performance needs improvement.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "This talks about possible extension, but the standard period is 6 months.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "The question is \"How long is the probation period?\" which seems to be asking for the standard duration, not the possible extension.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "So the probation period is 6 months.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I should check if there's any other sentence that might contradict or add to this.",
+            "ids": [
+              "S44"
+            ],
+            "reason": "low-overlap"
+          },
+          {
+            "text": "6. Notice Period – this is about notice period, not probation duration.",
+            "ids": [
+              "S45"
+            ],
+            "reason": "number-mismatch"
+          },
+          {
+            "text": "During probation, either you or the Company may end your employment by giving 15 days' written notice. – This is about notice during probation, not the length of probation.",
+            "ids": [
+              "S46"
+            ],
+            "reason": "number-mismatch"
+          },
+          {
+            "text": "After confirmation, the notice period is 60 days. – Again, not about probation length.",
+            "ids": [],
+            "reason": "no-citation"
+          }
+        ],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 5204.318874999997,
+        "totalMs": 35058.112375000026,
+        "tokens": 300,
+        "tokensPerSec": 10.04903863862056,
+        "loadMs": 5.448792,
+        "promptTokens": 905
+      },
+      "citedPages": [
+        3,
+        3
+      ],
+      "correct": true,
+      "rawCorrect": true,
+      "refused": false
+    },
+    {
+      "id": "O3",
+      "question": "What is the notice period after confirmation?",
+      "answerable": true,
+      "retrievalHit": true,
+      "passageIds": [
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S18",
+        "S36",
+        "S37",
+        "S38",
+        "S39",
+        "S40",
+        "S41",
+        "S42",
+        "S43",
+        "S44",
+        "S45",
+        "S46",
+        "S47",
+        "S64",
+        "S65",
+        "S66",
+        "S67",
+        "S68",
+        "S69",
+        "S76",
+        "S77",
+        "S78",
+        "S79",
+        "S80",
+        "S81",
+        "S82",
+        "S83",
+        "S84",
+        "S85",
+        "S86",
+        "S87"
+      ],
+      "retrieveMs": 157.41095799999312,
+      "rawAnswer": "First, I need to answer the question: \"What is the notice period after confirmation?\"\n\nI have the sentences provided, and I must use only those sentences. I can't use outside knowledge.\n\nLet me look for sentences that mention the notice period after confirmation.\n\nI see that there's a section labeled [S44] \"6. Notice Period\" which seems relevant.\n\nSpecifically:\n\n[S45] During probation, either you or the Company may end your employment by giving 15 days' written notice.\n\n[S46] After confirmation, the notice period is 60 days.\n\n[S47] The Company may, at its sole discretion, accept payment of basic salary in lieu of the notice period.\n\nThe question is about the notice period after confirmation. So, [S46] directly says: \"After confirmation, the notice period is 60 days.\"\n\nThat seems straightforward.\n\nI should check if there's any other sentence that might contradict or add to this.\n\n[S44] is the section title, but it doesn't give the period.\n\n[S46] is the key sentence here.\n\nAlso, the question says \"after confirmation\", and [S46] specifies \"After confirmation, the notice period is 60 days.\"\n\nSo, the notice period after confirmation is 60 days.\n\nNow, I need to answer in 1 to 3 short sentences, ending every sentence with the ID of the sentence that proves it.\n\nFor this, I",
+      "verification": {
+        "status": "answered",
+        "kept": [
+          {
+            "text": "During probation, either you or the Company may end your employment by giving 15 days' written notice.",
+            "ids": [
+              "S45",
+              "S46"
+            ]
+          },
+          {
+            "text": "So, directly says: \"After confirmation, the notice period is 60 days.\"",
+            "ids": [
+              "S46"
+            ]
+          },
+          {
+            "text": "Also, the question says \"after confirmation\", and specifies \"After confirmation, the notice period is 60 days.\"",
+            "ids": [
+              "S46"
+            ]
+          }
+        ],
+        "dropped": [
+          {
+            "text": "First, I need to answer the question: \"What is the notice period after confirmation?\"",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I have the sentences provided, and I must use only those sentences.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I can't use outside knowledge.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Let me look for sentences that mention the notice period after confirmation.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I see that there's a section labeled \"6.",
+            "ids": [
+              "S44"
+            ],
+            "reason": "low-overlap"
+          },
+          {
+            "text": "Notice Period\" which seems relevant.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Specifically:",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "After confirmation, the notice period is 60 days.",
+            "ids": [
+              "S47"
+            ],
+            "reason": "number-mismatch"
+          },
+          {
+            "text": "The Company may, at its sole discretion, accept payment of basic salary in lieu of the notice period.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "The question is about the notice period after confirmation.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "That seems straightforward.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I should check if there's any other sentence that might contradict or add to this. is the section title, but it doesn't give the period. is the key sentence here.",
+            "ids": [
+              "S44",
+              "S46"
+            ],
+            "reason": "low-overlap"
+          },
+          {
+            "text": "So, the notice period after confirmation is 60 days.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Now, I need to answer in 1 to 3 short sentences, ending every sentence with the ID of the sentence that proves it.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "For this, I",
+            "ids": [],
+            "reason": "no-citation"
+          }
+        ],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 2858.746665999992,
+        "totalMs": 32266.144040999934,
+        "tokens": 300,
+        "tokensPerSec": 10.202393379462888,
+        "loadMs": 2.50425,
+        "promptTokens": 877
+      },
+      "citedPages": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "correct": true,
+      "rawCorrect": true,
+      "refused": false
+    },
+    {
+      "id": "O4",
+      "question": "How many days of paid annual leave do I get?",
+      "answerable": true,
+      "retrievalHit": true,
+      "passageIds": [
+        "S31",
+        "S32",
+        "S33",
+        "S34",
+        "S35",
+        "S36",
+        "S37",
+        "S38",
+        "S39",
+        "S40",
+        "S41",
+        "S48",
+        "S49",
+        "S50",
+        "S51",
+        "S52",
+        "S53",
+        "S54",
+        "S55",
+        "S56",
+        "S57",
+        "S64",
+        "S65",
+        "S66",
+        "S67",
+        "S68",
+        "S69",
+        "S70",
+        "S71",
+        "S72",
+        "S73",
+        "S74",
+        "S75"
+      ],
+      "retrieveMs": 141.33316699997522,
+      "rawAnswer": "First, I need to answer the question: \"How many days of paid annual leave do I get?\" based only on the given sentences.\n\nI'll go through the sentences to find information about paid annual leave.\n\nLooking at the sentences:\n\n- [S53] You are entitled to 24 days of paid annual leave per calendar year, credited at 2 days per month.\n\nThis sentence directly states that there are 24 days of paid annual leave per calendar year.\n\nI should check if there are other sentences that might provide additional details, but the question is straightforward: how many days of paid annual leave.\n\n[S54] talks about carrying forward unused leave, but it doesn't change the number of days you get initially.\n\n[S55] mentions sick leave and public holidays, but not annual leave.\n\nSo, the key sentence is [S53]: \"You are entitled to 24 days of paid annual leave per calendar year, credited at 2 days per month.\"\n\nThe question asks for \"how many days,\" and this says 24 days.\n\nI need to end every sentence with the ID of the sentence that proves it. So, for the answer, I should say something like: \"You are entitled to 24 days of paid annual leave per calendar year [S53].\"\n\nBut the rule says: \"End EVERY sentence with the ID of the sentence that proves it, like [S12]. You may cite two IDs, like [",
+      "verification": {
+        "status": "answered",
+        "kept": [
+          {
+            "text": "You are entitled to 24 days of paid annual leave per calendar year, credited at 2 days per month.",
+            "ids": [
+              "S53"
+            ]
+          },
+          {
+            "text": "So, the key sentence is: \"You are entitled to 24 days of paid annual leave per calendar year, credited at 2 days per month.\"",
+            "ids": [
+              "S53"
+            ]
+          },
+          {
+            "text": "So, for the answer, I should say something like: \"You are entitled to 24 days of paid annual leave per calendar year.\"",
+            "ids": [
+              "S53"
+            ]
+          }
+        ],
+        "dropped": [
+          {
+            "text": "First, I need to answer the question: \"How many days of paid annual leave do I get?\" based only on the given sentences.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I'll go through the sentences to find information about paid annual leave.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Looking at the sentences:",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "This sentence directly states that there are 24 days of paid annual leave per calendar year.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I should check if there are other sentences that might provide additional details, but the question is straightforward: how many days of paid annual leave. talks about carrying forward unused leave, but it doesn't change the number of days you get initially. mentions sick leave and public holidays, but not annual leave.",
+            "ids": [
+              "S54",
+              "S55"
+            ],
+            "reason": "low-overlap"
+          },
+          {
+            "text": "The question asks for \"how many days,\" and this says 24 days.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I need to end every sentence with the ID of the sentence that proves it.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "But the rule says: \"End EVERY sentence with the ID of the sentence that proves it, like.",
+            "ids": [
+              "S12"
+            ],
+            "reason": "unknown-id"
+          },
+          {
+            "text": "You may cite two IDs, like [",
+            "ids": [],
+            "reason": "no-citation"
+          }
+        ],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 5511.238541999948,
+        "totalMs": 35849.7699999999,
+        "tokens": 300,
+        "tokensPerSec": 9.890170644015274,
+        "loadMs": 4.136541,
+        "promptTokens": 938
+      },
+      "citedPages": [
+        3,
+        3,
+        3
+      ],
+      "correct": true,
+      "rawCorrect": true,
+      "refused": false
+    },
+    {
+      "id": "O5",
+      "question": "Do I have to pay back the joining bonus if I leave early?",
+      "answerable": true,
+      "retrievalHit": true,
+      "passageIds": [
+        "S25",
+        "S26",
+        "S27",
+        "S28",
+        "S29",
+        "S30",
+        "S31",
+        "S32",
+        "S33",
+        "S34",
+        "S35",
+        "S36",
+        "S37",
+        "S38",
+        "S39",
+        "S40",
+        "S41",
+        "S54",
+        "S55",
+        "S56",
+        "S57",
+        "S70",
+        "S71",
+        "S72",
+        "S73",
+        "S74",
+        "S75",
+        "S76",
+        "S77",
+        "S78",
+        "S79",
+        "S80",
+        "S81"
+      ],
+      "retrieveMs": 175.20066600001883,
+      "rawAnswer": "First, I need to answer the question: \"Do I have to pay back the joining bonus if I leave early?\"\n\nI have to use only the given sentences from the document. I'll go through the sentences to find relevant information.\n\nLooking at the sentences:\n\n- [S33] You will receive a one-time joining bonus of Rs. 1,00,000, paid with your first month's salary.\n\n- [S35] If you resign or are terminated for cause within 12 months of your joining date, you must repay the full joining bonus to the Company.\n\nThis seems directly relevant. [S35] says that if you resign or are terminated for cause within 12 months of your joining date, you must repay the full joining bonus.\n\nThe question is about leaving early. \"Leave early\" could mean resigning or being terminated for cause within 12 months.\n\n[S35] specifies \"resign or are terminated for cause within 12 months\". So, if you leave early (within 12 months), you have to repay.\n\nAlso, it says \"resign or are terminated for cause\", so it covers both scenarios.\n\nNow, I need to answer in 1 to 3 short sentences, ending each sentence with the ID of the sentence that proves it.\n\nThe answer should be: Yes, you have to pay back the joining bonus if you leave early within 12 months.\n\nBut I have to be",
+      "verification": {
+        "status": "answered",
+        "kept": [
+          {
+            "text": "This seems directly relevant. says that if you resign or are terminated for cause within 12 months of your joining date, you must repay the full joining bonus.",
+            "ids": [
+              "S35"
+            ]
+          },
+          {
+            "text": "\"Leave early\" could mean resigning or being terminated for cause within 12 months. specifies \"resign or are terminated for cause within 12 months\".",
+            "ids": [
+              "S35"
+            ]
+          }
+        ],
+        "dropped": [
+          {
+            "text": "First, I need to answer the question: \"Do I have to pay back the joining bonus if I leave early?\"",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I have to use only the given sentences from the document.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I'll go through the sentences to find relevant information.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Looking at the sentences:",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "You will receive a one-time joining bonus of Rs. 1,00,000, paid with your first month's salary.",
+            "ids": [
+              "S33",
+              "S35"
+            ],
+            "reason": "number-mismatch"
+          },
+          {
+            "text": "If you resign or are terminated for cause within 12 months of your joining date, you must repay the full joining bonus to the Company.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "The question is about leaving early.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "So, if you leave early (within 12 months), you have to repay.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Also, it says \"resign or are terminated for cause\", so it covers both scenarios.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Now, I need to answer in 1 to 3 short sentences, ending each sentence with the ID of the sentence that proves it.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "The answer should be: Yes, you have to pay back the joining bonus if you leave early within 12 months.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "But I have to be",
+            "ids": [],
+            "reason": "no-citation"
+          }
+        ],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 5341.379749999964,
+        "totalMs": 35235.86004199996,
+        "tokens": 300,
+        "tokensPerSec": 10.03749237610631,
+        "loadMs": 11.627,
+        "promptTokens": 917
+      },
+      "citedPages": [
+        2,
+        2
+      ],
+      "correct": true,
+      "rawCorrect": true,
+      "refused": false
+    },
+    {
+      "id": "O6",
+      "question": "How many days a week do I need to work from the office?",
+      "answerable": true,
+      "retrievalHit": true,
+      "passageIds": [
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S18",
+        "S42",
+        "S43",
+        "S44",
+        "S45",
+        "S46",
+        "S47",
+        "S48",
+        "S49",
+        "S50",
+        "S51",
+        "S52",
+        "S53",
+        "S54",
+        "S55",
+        "S56",
+        "S57",
+        "S64",
+        "S65",
+        "S66",
+        "S67",
+        "S68",
+        "S69",
+        "S70",
+        "S71",
+        "S72",
+        "S73",
+        "S74",
+        "S75"
+      ],
+      "retrieveMs": 159.28000000002794,
+      "rawAnswer": "First, I need to answer the question: \"How many days a week do I need to work from the office?\"\n\nI have the sentences provided, and I must use only those sentences. I can't use outside knowledge.\n\nLet me look for sentences that talk about working from the office or office attendance.\n\nHere are the relevant sentences:\n\n- [S17] Employees are expected to work from the office at least 3 days per week.\n\nThis sentence directly says that employees are expected to work from the office at least 3 days per week.\n\nAlso, [S16] The Company follows a hybrid working model. But this doesn't specify the number of days; it just says hybrid, which might imply a mix, but it doesn't give the exact number.\n\n[S17] is the one that gives the number: at least 3 days per week.\n\nThe question is: \"How many days a week do I need to work from the office?\"\n\nBased on [S17], it's at least 3 days per week. So, the answer should be 3 days per week, but it says \"at least 3\", so it could be more, but the minimum is 3.\n\nThe question says \"how many days\", and in the context, it might be expecting the minimum or the requirement.\n\nLet me read the sentence carefully: \"Employees are expected to work from the office at least 3 days per week.\"\n\nSo, it's at least 3",
+      "verification": {
+        "status": "answered",
+        "kept": [
+          {
+            "text": "Employees are expected to work from the office at least 3 days per week.",
+            "ids": [
+              "S17"
+            ]
+          },
+          {
+            "text": "Also, The Company follows a hybrid working model.",
+            "ids": [
+              "S16"
+            ]
+          },
+          {
+            "text": "Based on, it's at least 3 days per week.",
+            "ids": [
+              "S17"
+            ]
+          }
+        ],
+        "dropped": [
+          {
+            "text": "First, I need to answer the question: \"How many days a week do I need to work from the office?\"",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I have the sentences provided, and I must use only those sentences.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I can't use outside knowledge.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Let me look for sentences that talk about working from the office or office attendance.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Here are the relevant sentences:",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "This sentence directly says that employees are expected to work from the office at least 3 days per week.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "But this doesn't specify the number of days; it just says hybrid, which might imply a mix, but it doesn't give the exact number. is the one that gives the number: at least 3 days per week.",
+            "ids": [
+              "S17"
+            ],
+            "reason": "number-mismatch"
+          },
+          {
+            "text": "The question is: \"How many days a week do I need to work from the office?\"",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "So, the answer should be 3 days per week, but it says \"at least 3\", so it could be more, but the minimum is 3.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "The question says \"how many days\", and in the context, it might be expecting the minimum or the requirement.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Let me read the sentence carefully: \"Employees are expected to work from the office at least 3 days per week.\"",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "So, it's at least 3",
+            "ids": [],
+            "reason": "no-citation"
+          }
+        ],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 5472.099042000016,
+        "totalMs": 34892.660167000024,
+        "tokens": 300,
+        "tokensPerSec": 10.197820725710915,
+        "loadMs": 26.5235,
+        "promptTokens": 914
+      },
+      "citedPages": [
+        1,
+        1,
+        1
+      ],
+      "correct": true,
+      "rawCorrect": true,
+      "refused": false
+    },
+    {
+      "id": "O7",
+      "question": "What is the sum insured of the group health insurance?",
+      "answerable": true,
+      "retrievalHit": true,
+      "passageIds": [
+        "S19",
+        "S20",
+        "S21",
+        "S22",
+        "S23",
+        "S24",
+        "S25",
+        "S26",
+        "S27",
+        "S28",
+        "S29",
+        "S30",
+        "S31",
+        "S32",
+        "S33",
+        "S34",
+        "S35",
+        "S48",
+        "S49",
+        "S50",
+        "S51",
+        "S52",
+        "S53",
+        "S58",
+        "S59",
+        "S60",
+        "S61",
+        "S62",
+        "S63",
+        "S64",
+        "S65",
+        "S66",
+        "S67",
+        "S68",
+        "S69"
+      ],
+      "retrieveMs": 172.94095800002106,
+      "rawAnswer": "First, I need to answer the question: \"What is the sum insured of the group health insurance?\"\n\nI have the sentences provided, numbered from S19 to S69. I must use only these sentences and not add any outside knowledge.\n\nLet me look for the part about group health insurance. I see that in the sentences, there's a section starting with [S58] \"9. Benefits\". Specifically:\n\n[S59] You and your dependants (spouse, up to two children and parents) will be covered under the Company group health insurance with a sum insured of Rs. 5,00,000 per year.\n\nThis sentence directly states the sum insured: Rs. 5,00,000 per year.\n\nI should check if there's any other sentence that might mention it, but this seems clear. The question is about the sum insured, and S59 gives it as Rs. 5,00,000 per year.\n\nNow, the rules say: End EVERY sentence with the ID of the sentence that proves it, like [S12]. I may cite two IDs, but in this case, it's probably just one sentence.\n\nAlso, answer in 1 to 3 short sentences. Here, I can say it in one sentence.\n\nCopy numbers exactly as the source writes them. So, it's \"Rs. 5,00,000\" – I need to write",
+      "verification": {
+        "status": "answered",
+        "kept": [
+          {
+            "text": "You and your dependants (spouse, up to two children and parents) will be covered under the Company group health insurance with a sum insured of Rs. 5,00,000 per year.",
+            "ids": [
+              "S59"
+            ]
+          }
+        ],
+        "dropped": [
+          {
+            "text": "First, I need to answer the question: \"What is the sum insured of the group health insurance?\"",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I have the sentences provided, numbered from S19 to S69.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I must use only these sentences and not add any outside knowledge.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Let me look for the part about group health insurance.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I see that in the sentences, there's a section starting with \"9.",
+            "ids": [
+              "S58"
+            ],
+            "reason": "low-overlap"
+          },
+          {
+            "text": "Benefits\".",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Specifically:",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "This sentence directly states the sum insured: Rs. 5,00,000 per year.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I should check if there's any other sentence that might mention it, but this seems clear.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "The question is about the sum insured, and S59 gives it as Rs. 5,00,000 per year.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Now, the rules say: End EVERY sentence with the ID of the sentence that proves it, like.",
+            "ids": [
+              "S12"
+            ],
+            "reason": "unknown-id"
+          },
+          {
+            "text": "I may cite two IDs, but in this case, it's probably just one sentence.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Also, answer in 1 to 3 short sentences.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Here, I can say it in one sentence.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Copy numbers exactly as the source writes them.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "So, it's \"Rs. 5,00,000\" – I need to write",
+            "ids": [],
+            "reason": "no-citation"
+          }
+        ],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 2300.427083000075,
+        "totalMs": 31168.248374999966,
+        "tokens": 300,
+        "tokensPerSec": 10.391386731944896,
+        "loadMs": 29.277917,
+        "promptTokens": 917
+      },
+      "citedPages": [
+        3
+      ],
+      "correct": true,
+      "rawCorrect": true,
+      "refused": false
+    },
+    {
+      "id": "O8",
+      "question": "Does the company give stock options (ESOPs)?",
+      "answerable": false,
+      "retrievalHit": null,
+      "passageIds": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S9",
+        "S10",
+        "S11",
+        "S12",
+        "S25",
+        "S26",
+        "S27",
+        "S28",
+        "S29",
+        "S30",
+        "S58",
+        "S59",
+        "S60",
+        "S61",
+        "S62",
+        "S63",
+        "S64",
+        "S65",
+        "S66",
+        "S67",
+        "S68",
+        "S69",
+        "S70",
+        "S71",
+        "S72",
+        "S73",
+        "S74",
+        "S75"
+      ],
+      "retrieveMs": 126.27566700009629,
+      "rawAnswer": "First, I need to answer the question: \"Does the company give stock options (ESOPs)?\" based only on the given sentences.\n\nI'll go through each sentence to see if any mention stock options or ESOPs.\n\n- [S1] SYNTHETIC TEST DOCUMENT. - This is just a title, no relevant info.\n\n- [S2] The company and the person are fictional. - Not relevant.\n\n- [S3] Written for the ProofDoc evaluation. - Not relevant.\n\n- [S4] Northwind Orbit Software Pvt. Ltd. Plot 14, Fictional Tech Park, Pune 411057, India - Address, not relevant.\n\n- [S5] Date: 3 March 2026 - Date, not relevant.\n\n- [S6] Ref: NOS/HR/2026/0412 - Reference, not relevant.\n\n- [S7] To: Riya Sample (fictional candidate) - Recipient, not relevant.\n\n- [S8] Letter of Offer: Software Engineer II - Position, not relevant.\n\n- [S9] Dear Riya, We are pleased to offer you the position of Software Engineer II in the Platform Engineering team of Northwind Orbit Software Pvt. Ltd. (the \"Company\"). - Introduction, no mention of stock options.\n\n- [S10] This letter sets out the main terms of your employment. - General statement.",
+      "verification": {
+        "status": "not-found",
+        "kept": [],
+        "dropped": [
+          {
+            "text": "First, I need to answer the question: \"Does the company give stock options (ESOPs)?\" based only on the given sentences.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I'll go through each sentence to see if any mention stock options or ESOPs.",
+            "ids": [
+              "S1"
+            ],
+            "reason": "low-overlap"
+          },
+          {
+            "text": "SYNTHETIC TEST DOCUMENT. - This is just a title, no relevant info.",
+            "ids": [
+              "S2"
+            ],
+            "reason": "low-overlap"
+          },
+          {
+            "text": "The company and the person are fictional. - Not relevant.",
+            "ids": [
+              "S3"
+            ],
+            "reason": "low-overlap"
+          },
+          {
+            "text": "Written for the ProofDoc evaluation. - Not relevant.",
+            "ids": [
+              "S4"
+            ],
+            "reason": "low-overlap"
+          },
+          {
+            "text": "Northwind Orbit Software Pvt. Ltd. Plot 14, Fictional Tech Park, Pune 411057, India - Address, not relevant.",
+            "ids": [
+              "S5"
+            ],
+            "reason": "number-mismatch"
+          },
+          {
+            "text": "Date: 3 March 2026 - Date, not relevant.",
+            "ids": [
+              "S6"
+            ],
+            "reason": "number-mismatch"
+          },
+          {
+            "text": "Ref: NOS/HR/2026/0412 - Reference, not relevant.",
+            "ids": [
+              "S7"
+            ],
+            "reason": "number-mismatch"
+          },
+          {
+            "text": "To: Riya Sample (fictional candidate) - Recipient, not relevant.",
+            "ids": [
+              "S8"
+            ],
+            "reason": "negation-mismatch"
+          },
+          {
+            "text": "Letter of Offer: Software Engineer II - Position, not relevant.",
+            "ids": [
+              "S9"
+            ],
+            "reason": "negation-mismatch"
+          },
+          {
+            "text": "Dear Riya, We are pleased to offer you the position of Software Engineer II in the Platform Engineering team of Northwind Orbit Software Pvt. Ltd. (the \"Company\"). - Introduction, no mention of stock options.",
+            "ids": [
+              "S10"
+            ],
+            "reason": "says-not-found"
+          },
+          {
+            "text": "This letter sets out the main terms of your employment. - General statement.",
+            "ids": [],
+            "reason": "no-citation"
+          }
+        ],
+        "modelSaidNotFound": true
+      },
+      "stats": {
+        "firstTokenMs": 5277.301833000034,
+        "totalMs": 34482.12858300004,
+        "tokens": 300,
+        "tokensPerSec": 10.271349539263209,
+        "loadMs": 2.272,
+        "promptTokens": 901
+      },
+      "citedPages": [],
+      "correct": true,
+      "rawCorrect": true,
+      "refused": true
+    },
+    {
+      "id": "O9",
+      "question": "How much extra pay do I get for overtime hours?",
+      "answerable": false,
+      "retrievalHit": null,
+      "passageIds": [
+        "S31",
+        "S32",
+        "S33",
+        "S34",
+        "S35",
+        "S42",
+        "S43",
+        "S44",
+        "S45",
+        "S46",
+        "S47",
+        "S48",
+        "S49",
+        "S50",
+        "S51",
+        "S52",
+        "S53",
+        "S54",
+        "S55",
+        "S56",
+        "S57",
+        "S58",
+        "S59",
+        "S60",
+        "S61",
+        "S62",
+        "S63",
+        "S64",
+        "S65",
+        "S66",
+        "S67",
+        "S68",
+        "S69"
+      ],
+      "retrieveMs": 143.70504099992104,
+      "rawAnswer": "First, I need to answer the question: \"How much extra pay do I get for overtime hours?\" based solely on the given sentences.\n\nI'll go through the sentences to see if any mention overtime pay.\n\nThe sentences are numbered from S31 to S69. Let me list them out:\n\n- S31: The actual bonus can be between 0% and 150% of the target amount.\n\n- S32: Salary is paid monthly, on the last working day of each month, by bank transfer.\n\n- S33: 3. Joining Bonus\n\n- S34: You will receive a one-time joining bonus of Rs. 1,00,000, paid with your first month's salary.\n\n- S35: If you resign or are terminated for cause within 12 months of your joining date, you must repay the full joining bonus to the Company.\n\n- S42: The probation period may be extended by up to 3 more months if your performance needs improvement.\n\n- S43: You will be informed in writing when your employment is confirmed.\n\n- S44: 6. Notice Period\n\n- S45: During probation, either you or the Company may end your employment by giving 15 days' written notice.\n\n- S46: After confirmation, the notice period is 60 days.\n\n- S47: The Company may, at its sole discretion, accept",
+      "verification": {
+        "status": "not-found",
+        "kept": [],
+        "dropped": [
+          {
+            "text": "First, I need to answer the question: \"How much extra pay do I get for overtime hours?\" based solely on the given sentences.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "I'll go through the sentences to see if any mention overtime pay.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "The sentences are numbered from S31 to S69.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Let me list them out:",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "S31: The actual bonus can be between 0% and 150% of the target amount.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "S32: Salary is paid monthly, on the last working day of each month, by bank transfer.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "S33: 3.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Joining Bonus",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "S34: You will receive a one-time joining bonus of Rs. 1,00,000, paid with your first month's salary.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "S35: If you resign or are terminated for cause within 12 months of your joining date, you must repay the full joining bonus to the Company.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "S42: The probation period may be extended by up to 3 more months if your performance needs improvement.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "S43: You will be informed in writing when your employment is confirmed.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "S44: 6.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "Notice Period",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "S45: During probation, either you or the Company may end your employment by giving 15 days' written notice.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "S46: After confirmation, the notice period is 60 days.",
+            "ids": [],
+            "reason": "no-citation"
+          },
+          {
+            "text": "S47: The Company may, at its sole discretion, accept",
+            "ids": [],
+            "reason": "no-citation"
+          }
+        ],
+        "modelSaidNotFound": false
+      },
+      "stats": {
+        "firstTokenMs": 5105.210041000042,
+        "totalMs": 34541.65883299988,
+        "tokens": 300,
+        "tokensPerSec": 10.185635585188361,
+        "loadMs": 2.586791,
+        "promptTokens": 931
+      },
+      "citedPages": [],
+      "correct": true,
+      "rawCorrect": false,
+      "refused": true
+    }
+  ]
+}

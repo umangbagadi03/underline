@@ -1,0 +1,2882 @@
+[
+ {
+  "id": "N2",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The amount charged by a Hospital towards ICU expenses shall include the expenses for ICU bed, general medical support services provided to any ICU patient including monitoring devices, critical care nursing and intensivist charges.",
+  "verdict": "offtopic",
+  "contradiction": 0.0012147273497471647,
+  "entailment": 0.9938638751564701,
+  "neutral": 0.004921397493782836
+ },
+ {
+  "id": "N3",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The maximum amount payable for cataract surgery per eye is 20% of the Sum Insured, subject to a maximum of Rs. 50,000.",
+  "verdict": "ok",
+  "contradiction": 0.001674886222917724,
+  "entailment": 0.9893395304122005,
+  "neutral": 0.008985583364881942
+ },
+ {
+  "id": "N4",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The policy covers medical expenses incurred during thirty days preceding the hospitalization of the insured person.",
+  "verdict": "ok",
+  "contradiction": 0.003489877454428575,
+  "entailment": 0.9507048151883385,
+  "neutral": 0.0458053073572328
+ },
+ {
+  "id": "N5",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The hospital cash is paid at a rate of 0.1% of the Sum Insured for each day of hospitalisation admissible under the Policy.",
+  "verdict": "ok",
+  "contradiction": 0.000743984825014588,
+  "entailment": 0.9914993812844016,
+  "neutral": 0.007756633890583761
+ },
+ {
+  "id": "N6",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The Insured Person is entitled for reimbursement of the cost of a Medical check-up at the end of a block of every three Claim Free Years.",
+  "verdict": "partial",
+  "contradiction": 0.002063049762237763,
+  "entailment": 0.9865370961902508,
+  "neutral": 0.011399854047511591
+ },
+ {
+  "id": "N7",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The waiting period for pre-existing diseases is 48 months of continuous coverage after the date of inception of the first policy.",
+  "verdict": "ok",
+  "contradiction": 0.0025586432462349185,
+  "entailment": 0.9807513349965299,
+  "neutral": 0.016690021757235135
+ },
+ {
+  "id": "N8",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "Treatment for diabetes is excluded from coverage until the expiry of Ninety Days of continuous coverage after the date of inception of the first policy.",
+  "verdict": "ok",
+  "contradiction": 0.002721407202790125,
+  "entailment": 0.9631235705335618,
+  "neutral": 0.03415502226364805
+ },
+ {
+  "id": "N10",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The Free Look Period shall be applicable on new individual health insurance policies and not on renewals or at the time of porting/migrating the policy.",
+  "verdict": "offtopic",
+  "contradiction": 0.0009031648395823762,
+  "entailment": 0.9942209790274104,
+  "neutral": 0.0048758561330073304
+ },
+ {
+  "id": "N11",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The Sum Insured shall be increased by 25% at each renewal in respect of each claim free year of insurance, subject to a maximum of 50%.",
+  "verdict": "ok",
+  "contradiction": 0.0009188424303003168,
+  "entailment": 0.9864404158105938,
+  "neutral": 0.012640741759105813
+ },
+ {
+  "id": "N12",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "If you choose the 20% voluntary co-pay, you will receive a discount of 15% on the premium payable.",
+  "verdict": "ok",
+  "contradiction": 0.0007764916621459503,
+  "entailment": 0.9959353652146895,
+  "neutral": 0.0032881431231646372
+ },
+ {
+  "id": "N13",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The waiting period for maternity cover is 36 months from the date of opting this cover.",
+  "verdict": "ok",
+  "contradiction": 0.02649671236579925,
+  "entailment": 0.9138699884130387,
+  "neutral": 0.059633299221162075
+ },
+ {
+  "id": "N13",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "It may be relaxed only in case of miscarriage or abortion induced by accident or other medical emergency.",
+  "verdict": "ok",
+  "contradiction": 0.001007894962666704,
+  "entailment": 0.9806533961082395,
+  "neutral": 0.018338708929093846
+ },
+ {
+  "id": "N13",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The waiting period for the same would be reduced to the extent of prior coverage if continuously covered without any break.",
+  "verdict": "offtopic",
+  "contradiction": 0.0009593290893188018,
+  "entailment": 0.9955057514616875,
+  "neutral": 0.00353491944899373
+ },
+ {
+  "id": "N14",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "You must submit all claim documents for post-hospitalisation treatment within 15 days after the completion of such treatment.",
+  "verdict": "ok",
+  "contradiction": 0.0004898941006429798,
+  "entailment": 0.9939007456627996,
+  "neutral": 0.0056093602365575555
+ },
+ {
+  "id": "N14",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "However, claims filed even beyond such period will be considered if there are valid reasons for delay in submission.",
+  "verdict": "ok",
+  "contradiction": 0.0041172338707917535,
+  "entailment": 0.9834405251648133,
+  "neutral": 0.012442240964395107
+ },
+ {
+  "id": "S1",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The policy pays up to Rs. 750/- per hospitalization and Rs. 1,500/- per policy period for an emergency road ambulance.",
+  "verdict": "ok",
+  "contradiction": 0.009675930527220633,
+  "entailment": 0.9792142585723443,
+  "neutral": 0.011109810900435018
+ },
+ {
+  "id": "S2",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The limit for air ambulance is up to 10% of the Sum Insured during the entire policy period.",
+  "verdict": "ok",
+  "contradiction": 0.0019914432893005317,
+  "entailment": 0.9834422010966063,
+  "neutral": 0.014566355614092993
+ },
+ {
+  "id": "S3",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "Medical expenses are covered for a period of 60 days prior to hospitalization.",
+  "verdict": "ok",
+  "contradiction": 0.0035228565808991643,
+  "entailment": 0.9875887687115316,
+  "neutral": 0.008888374707569337
+ },
+ {
+  "id": "S3",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "This period is defined as the pre-hospitalization medical expenses incurred for the same condition.",
+  "verdict": "ok",
+  "contradiction": 0.010862298423568163,
+  "entailment": 0.9731578030938485,
+  "neutral": 0.015979898482583386
+ },
+ {
+  "id": "S4",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "Medical expenses are covered for a period of 90 days after the insured person is discharged from the hospital.",
+  "verdict": "ok",
+  "contradiction": 0.1840902562037316,
+  "entailment": 0.7280004135670203,
+  "neutral": 0.08790933022924802
+ },
+ {
+  "id": "S6",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The cost of a health check-up is subject to a maximum of Rs.3,500/- for every claim free year.",
+  "verdict": "ok",
+  "contradiction": 0.01597439790966686,
+  "entailment": 0.22971976478865327,
+  "neutral": 0.7543058373016799
+ },
+ {
+  "id": "S6",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "However, if the health check-up is done at network hospitals and the policy is in force, the benefits are available up to the limits mentioned in the table given below.",
+  "verdict": "ok",
+  "contradiction": 0.015015205778790999,
+  "entailment": 0.02683803586698657,
+  "neutral": 0.9581467583542225
+ },
+ {
+  "id": "S7",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "Yes, there is a co-payment of 20% for insured persons aged 61 years and above.",
+  "verdict": "ok",
+  "contradiction": 0.0005661056557052041,
+  "entailment": 0.9903060296260796,
+  "neutral": 0.009127864718215186
+ },
+ {
+  "id": "S8",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The grace period for renewing the policy is 120 days.",
+  "verdict": "ok",
+  "contradiction": 0.0012607063953503374,
+  "entailment": 0.9875370241890211,
+  "neutral": 0.011202269415628466
+ },
+ {
+  "id": "S9",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "If you make no claim, you will receive a cumulative bonus of 25% of the expiring Sum Insured in the second year.",
+  "verdict": "ok",
+  "contradiction": 0.001860876673370087,
+  "entailment": 0.9857855019835052,
+  "neutral": 0.012353621343124692
+ },
+ {
+  "id": "S10",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The sum insured can be automatically restored three times at 100% each time during the policy period.",
+  "verdict": "ok",
+  "contradiction": 0.0017031429894284965,
+  "entailment": 0.9023851653549136,
+  "neutral": 0.09591169165565792
+ },
+ {
+  "id": "S12",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "You must file a reimbursement claim within 15 days from the date of discharge from the hospital.",
+  "verdict": "ok",
+  "contradiction": 0.0009821492997970265,
+  "entailment": 0.9922271231802915,
+  "neutral": 0.006790727519911501
+ },
+ {
+  "id": "S12",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "If the claim is for hospitalization, it must be filed within 15 days after completion of the expenses.",
+  "verdict": "partial",
+  "contradiction": 0.0029404805052188573,
+  "entailment": 0.9838048296939812,
+  "neutral": 0.013254689800799798
+ },
+ {
+  "id": "S12",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "Additionally, for claims involving 1 day care and pre-hospitalization, the claim must be filed within 15 days from the date of discharge.",
+  "verdict": "ok",
+  "contradiction": 0.0010095903973333861,
+  "entailment": 0.9838231979331791,
+  "neutral": 0.01516721166948753
+ },
+ {
+  "id": "S12",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The claim must be supported with specific documents and submitted within the prescribed time limit.",
+  "verdict": "ok",
+  "contradiction": 0.00046470826928868525,
+  "entailment": 0.9897358626344853,
+  "neutral": 0.009799429096226053
+ },
+ {
+  "id": "S12",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The prescribed time limit for reimbursement claims is 30 days from the date of receipt of last necessary document.",
+  "verdict": "wrong",
+  "contradiction": 0.0038665554206261123,
+  "entailment": 0.9729485986443758,
+  "neutral": 0.023184845934998116
+ },
+ {
+  "id": "S12",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The prescribed time limit for reimbursement claims is 45 days from the date of receipt of last necessary document.",
+  "verdict": "wrong",
+  "contradiction": 0.013575958570717181,
+  "entailment": 0.879608489195869,
+  "neutral": 0.10681555223341381
+ },
+ {
+  "id": "S13",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The Company reimburses transportation expenses by air incurred up to Rs. 5,000/- for one immediate family member for travel towards the place where the hospital is located.",
+  "verdict": "ok",
+  "contradiction": 0.0019765703650191815,
+  "entailment": 0.9904598965822836,
+  "neutral": 0.0075635330526971365
+ },
+ {
+  "id": "S13",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "This reimbursement is subject to the claim for hospitalization being admissible under the policy.",
+  "verdict": "ok",
+  "contradiction": 0.0009164929573325452,
+  "entailment": 0.9867776032613685,
+  "neutral": 0.012305903781298934
+ },
+ {
+  "id": "D3",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The maternity benefit is limited to cover up to two living children.",
+  "verdict": "ok",
+  "contradiction": 0.0009007396072570588,
+  "entailment": 0.991552655728781,
+  "neutral": 0.007546604663961988
+ },
+ {
+  "id": "D4",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The waiting period for infertility treatment is 48 months from the date of inception of the first policy, provided the policy has been renewed continuously without a break.",
+  "verdict": "ok",
+  "contradiction": 0.0005866703761092237,
+  "entailment": 0.9929515495978909,
+  "neutral": 0.00646178002599982
+ },
+ {
+  "id": "D5",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The co-payment on the OPD benefit in the first year is 25%.",
+  "verdict": "ok",
+  "contradiction": 0.0007945095721839115,
+  "entailment": 0.9951138158603938,
+  "neutral": 0.004091674567422305
+ },
+ {
+  "id": "D6",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The Sum Insured Refill Benefit covers 100% of the Sum Insured specified and utilized under Section 26.A.",
+  "verdict": "ok",
+  "contradiction": 0.005157328124636576,
+  "entailment": 0.9854171817824394,
+  "neutral": 0.009425490092924052
+ },
+ {
+  "id": "D7",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "For home hospitalisation, the illness must continue for at least 3 days.",
+  "verdict": "ok",
+  "contradiction": 0.0010356998104468515,
+  "entailment": 0.9910364047197998,
+  "neutral": 0.00792789546975332
+ },
+ {
+  "id": "D8",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The Insured Person undergoing the surgery must be a minimum of 18 years old.",
+  "verdict": "ok",
+  "contradiction": 0.0006086736987891298,
+  "entailment": 0.9945766486162692,
+  "neutral": 0.004814677684941636
+ },
+ {
+  "id": "D9",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The moratorium period is a period of sixty continuous months of coverage required to be maintained without a break for a policy to be contestable.",
+  "verdict": "ok",
+  "contradiction": 0.007938108986197777,
+  "entailment": 0.37270258416471735,
+  "neutral": 0.6193593068490848
+ },
+ {
+  "id": "D10",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The waiting period for pre-existing diseases is 30 days from the first policy commencement date, unless the Insured Person has continuous coverage for more than twelve months, in which case the waiting period is reduced.",
+  "verdict": "wrong",
+  "contradiction": 0.027031742793355597,
+  "entailment": 0.19085760650894232,
+  "neutral": 0.782110650697702
+ },
+ {
+  "id": "D11",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The grace period for monthly premium payment is fifteen days",
+  "verdict": "ok",
+  "contradiction": 0.01248757650940229,
+  "entailment": 0.17700377792588118,
+  "neutral": 0.8105086455647165
+ },
+ {
+  "id": "D11",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The grace period for monthly premium payment is fifteen days.",
+  "verdict": "ok",
+  "contradiction": 0.007229821591440214,
+  "entailment": 0.9590009152303075,
+  "neutral": 0.03376926317825212
+ },
+ {
+  "id": "D12",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The miscarriage must occur within 15 days of the accident to be covered under this option.",
+  "verdict": "ok",
+  "contradiction": 0.003536883758066241,
+  "entailment": 0.956036919221714,
+  "neutral": 0.040426197020219906
+ },
+ {
+  "id": "C1",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The policy pays 100% of the Sum Insured if death occurs within 12 months of the accident.",
+  "verdict": "ok",
+  "contradiction": 0.0014722618242712137,
+  "entailment": 0.9876327722769453,
+  "neutral": 0.010894965898783476
+ },
+ {
+  "id": "C2",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "You must notify the insurer at least 72 hours before planned hospitalization or within 24 hours in emergencies.",
+  "verdict": "ok",
+  "contradiction": 0.00920827972062754,
+  "entailment": 0.2555986067927559,
+  "neutral": 0.7351931134866164
+ },
+ {
+  "id": "C2",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "For cashless treatment, you must also ensure the hospital sends the form to the Service Provider/TPA for processing.",
+  "verdict": "offtopic",
+  "contradiction": 0.012715915991615626,
+  "entailment": 0.03246423511315159,
+  "neutral": 0.9548198488952327
+ },
+ {
+  "id": "C2",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The Service Provider/TPA will inform the decision and may issue an authorization letter to the hospital.",
+  "verdict": "offtopic",
+  "contradiction": 0.0009547432031084343,
+  "entailment": 0.9915404488499452,
+  "neutral": 0.0075048079469462355
+ },
+ {
+  "id": "C3",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "You must be intimated within 48 hours of the date of admission.",
+  "verdict": "ok",
+  "contradiction": 0.0017442518188463387,
+  "entailment": 0.9827937194418026,
+  "neutral": 0.015462028739351024
+ },
+ {
+  "id": "C4",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "Treatment must occur within 15 days of approval or before the policy expiry date.",
+  "verdict": "ok",
+  "contradiction": 0.0009694549193932339,
+  "entailment": 0.9869360175360786,
+  "neutral": 0.012094527544528071
+ },
+ {
+  "id": "C5",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "KYC documents are required for claims exceeding a threshold limit of Rs. 1 Lakhs per claim.",
+  "verdict": "ok",
+  "contradiction": 0.0009120505581959891,
+  "entailment": 0.9911880958880898,
+  "neutral": 0.007899853553714095
+ },
+ {
+  "id": "C6",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "If your claim is not settled within the specified timelines, you are entitled to interest at bank rate plus 2 percent from the date of receipt of intimation to the date of payment.",
+  "verdict": "ok",
+  "contradiction": 0.0031593790445642897,
+  "entailment": 0.9704922944911435,
+  "neutral": 0.0263483264642921
+ },
+ {
+  "id": "C7",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "Under loss of employment cover, the policy allows for a percentage of take-home salary of 70% to be paid.",
+  "verdict": "ok",
+  "contradiction": 0.34946319461071584,
+  "entailment": 0.09205009129923103,
+  "neutral": 0.5584867140900531
+ },
+ {
+  "id": "C8",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "Trauma counselling is covered if a claim is approved under \"Accidental Death,\" \"Permanent Total Disablement,\" or \"Permanent Partial Disablement,\".",
+  "verdict": "offtopic",
+  "contradiction": 0.0011941037567842945,
+  "entailment": 0.9930504636183466,
+  "neutral": 0.005755432624869175
+ },
+ {
+  "id": "C9",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The person must not respond to stimuli for 96+ hours to confirm the coma.",
+  "verdict": "ok",
+  "contradiction": 0.0013427699938160557,
+  "entailment": 0.9905896112757109,
+  "neutral": 0.00806761873047298
+ },
+ {
+  "id": "C12",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The policy covers damage to your car if it is caused by covered perils such as fire, earthquake, or burglary, provided the loss occurs within the time limit specified in the policy.",
+  "verdict": "wrong",
+  "contradiction": 0.004796471861481211,
+  "entailment": 0.004713749633832599,
+  "neutral": 0.9904897785046861
+ },
+ {
+  "id": "R1",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The maximum rental bond the landlord can ask for is not more than 4 weeks rent.",
+  "verdict": "ok",
+  "contradiction": 0.0006072654322715998,
+  "entailment": 0.3981297802913999,
+  "neutral": 0.6012629542763285
+ },
+ {
+  "id": "R2",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The landlord may not require the tenant to pay more than 2 weeks rent in advance.",
+  "verdict": "ok",
+  "contradiction": 0.005975144607686471,
+  "entailment": 0.9738013992920036,
+  "neutral": 0.020223456100309907
+ },
+ {
+  "id": "R3",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "If the bond is paid to the landlord, it must be deposited within 10 working days after it is paid.",
+  "verdict": "ok",
+  "contradiction": 0.0015131387256393835,
+  "entailment": 0.9768214940517467,
+  "neutral": 0.021665367222614057
+ },
+ {
+  "id": "R4",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The landlord must give not less than 60 days written notice of the increase to the tenant.",
+  "verdict": "ok",
+  "contradiction": 0.0032570508536830505,
+  "entailment": 0.9806658307679793,
+  "neutral": 0.01607711837833763
+ },
+ {
+  "id": "R5",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The rent may not be increased more than once in any 12-month period.",
+  "verdict": "ok",
+  "contradiction": 0.0007610622562611996,
+  "entailment": 0.9909200917879974,
+  "neutral": 0.008318845955741306
+ },
+ {
+  "id": "R6",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The landlord agrees to pay the tenant up to $1,000 for reasonable costs incurred for urgent repairs.",
+  "verdict": "ok",
+  "contradiction": 0.001201476449665979,
+  "entailment": 0.9924634812018343,
+  "neutral": 0.006335042348499652
+ },
+ {
+  "id": "R7",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The landlord must give at least 14 days notice before the premises are made available for inspection by potential purchasers.",
+  "verdict": "offtopic",
+  "contradiction": 0.0016870552716354277,
+  "entailment": 0.9897337476067967,
+  "neutral": 0.008579197121567829
+ },
+ {
+  "id": "R8",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The tenant is allowed a maximum of 4 inspections in any period of 12 months.",
+  "verdict": "ok",
+  "contradiction": 0.0020864351093592783,
+  "entailment": 0.9869573558446382,
+  "neutral": 0.010956209046002587
+ },
+ {
+  "id": "R9",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The landlord must repair or replace a smoke alarm within 2 business days of becoming aware that it is not working.",
+  "verdict": "ok",
+  "contradiction": 0.024382964212099116,
+  "entailment": 0.9526964114152451,
+  "neutral": 0.022920624372655934
+ },
+ {
+  "id": "R10",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "Yes, a gas leak is defined as an urgent repair under the Residential Tenancies Act 2010.",
+  "verdict": "ok",
+  "contradiction": 0.0897274037089634,
+  "entailment": 0.0010550381732888291,
+  "neutral": 0.9092175581177478
+ },
+ {
+  "id": "R11",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The landlord must respond to an application for consent to keep an animal within 21 days.",
+  "verdict": "ok",
+  "contradiction": 0.0008637269618500251,
+  "entailment": 0.9932789793863697,
+  "neutral": 0.005857293651780284
+ },
+ {
+  "id": "V1",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The landlord must supply the tenant with a copy of the completed Agreement within 14 days of the tenant signing.",
+  "verdict": "ok",
+  "contradiction": 0.0017065594680425672,
+  "entailment": 0.987044875163633,
+  "neutral": 0.011248565368324342
+ },
+ {
+  "id": "V2",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The landlord must lodge the bond within 10 business days after receiving the bond money.",
+  "verdict": "ok",
+  "contradiction": 0.0015764367756776916,
+  "entailment": 0.015408851521549824,
+  "neutral": 0.9830147117027724
+ },
+ {
+  "id": "V3",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "If you do not receive a bond receipt from the RTBA within 15 business days, you should telephone the RTBA on 1300 13 71 64.",
+  "verdict": "ok",
+  "contradiction": 0.005110135426687037,
+  "entailment": 0.9854394731447484,
+  "neutral": 0.009450391428564561
+ },
+ {
+  "id": "V5",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The document states that the LANDLORD must not demand or receive any fee for the consent to a written assignment of the agreement.",
+  "verdict": "partial",
+  "contradiction": 0.00241721350625866,
+  "entailment": 0.9639696024270267,
+  "neutral": 0.033613184066714624
+ },
+ {
+  "id": "V6",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The TENANT must keep the premises in a reasonably clean condition during the period of agreement.",
+  "verdict": "ok",
+  "contradiction": 0.0004440788637363088,
+  "entailment": 0.9907750257969363,
+  "neutral": 0.008780895339327301
+ },
+ {
+  "id": "T1",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "Employees may avail proportionately or the full period at the discretion of the competent authority.",
+  "verdict": "offtopic",
+  "contradiction": 0.0007357019573106059,
+  "entailment": 0.9901357375727025,
+  "neutral": 0.009128560469987121
+ },
+ {
+  "id": "T2",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The maximum amount of casual leave you can take at one time is 5 days.",
+  "verdict": "ok",
+  "contradiction": 0.0013461136368170532,
+  "entailment": 0.9894550369338279,
+  "neutral": 0.009198849429355149
+ },
+ {
+  "id": "T3",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The earned leave is credited at a rate of 15 days on the 1st January and 1st July every year.",
+  "verdict": "ok",
+  "contradiction": 0.0013716581489394085,
+  "entailment": 0.981858123411152,
+  "neutral": 0.01677021843990856
+ },
+ {
+  "id": "T4",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "Employees can accumulate earned leave up to a maximum of 300 days, including encashment days.",
+  "verdict": "ok",
+  "contradiction": 0.0844020319649249,
+  "entailment": 0.30066667984231293,
+  "neutral": 0.6149312881927622
+ },
+ {
+  "id": "T5",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The maximum amount of earned leave that can be granted to an employee at a time shall be 180 days.",
+  "verdict": "ok",
+  "contradiction": 0.0008558400184513775,
+  "entailment": 0.9929857615145437,
+  "neutral": 0.006158398467004946
+ },
+ {
+  "id": "T5",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "However, earned leave may be taken at a time up to 300 days as leave preparatory to retirement.",
+  "verdict": "ok",
+  "contradiction": 0.0005465038141458597,
+  "entailment": 0.9949215670875807,
+  "neutral": 0.0045319290982733405
+ },
+ {
+  "id": "T6",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "Employees can encash up to 10 days of earned leave with LTC on each occasion, with a maximum of 60 days in the entire service.",
+  "verdict": "ok",
+  "contradiction": 0.0003176659933245676,
+  "entailment": 0.9932925702002351,
+  "neutral": 0.006389763806440176
+ },
+ {
+  "id": "T7",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "Teaching staff can avail vacation for 60 days during the semester closed period.",
+  "verdict": "ok",
+  "contradiction": 0.00061260868777861,
+  "entailment": 0.9940613438235034,
+  "neutral": 0.005326047488718007
+ },
+ {
+  "id": "T8",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The Institute grants 20 days of half pay leave for each completed year of service.",
+  "verdict": "ok",
+  "contradiction": 0.0006098387200202461,
+  "entailment": 0.9897822665187788,
+  "neutral": 0.00960789476120114
+ },
+ {
+  "id": "T9",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "Maternity leave can be granted for a period of 180 days if the employee has less than 2 surviving children.",
+  "verdict": "ok",
+  "contradiction": 0.0004447538912980681,
+  "entailment": 0.9942662842432778,
+  "neutral": 0.005288961865424257
+ },
+ {
+  "id": "T10",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "Paternity Leave is granted for a period of 15 days to a married male employee with less than two surviving children.",
+  "verdict": "ok",
+  "contradiction": 0.0004826471355971843,
+  "entailment": 0.9957300130469166,
+  "neutral": 0.0037873398174862825
+ },
+ {
+  "id": "T11",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "Adoption Leave is granted for a period of 180 days immediately after the date of valid adoption.",
+  "verdict": "ok",
+  "contradiction": 0.0014796291037685008,
+  "entailment": 0.9830464181643427,
+  "neutral": 0.01547395273188884
+ },
+ {
+  "id": "T12",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "You must apply for the conversion within 30 days of the completion of the relevant spell of leave.",
+  "verdict": "ok",
+  "contradiction": 0.0005969204352505767,
+  "entailment": 0.9921444386537307,
+  "neutral": 0.007258640911018755
+ },
+ {
+  "id": "T13",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "An employee is deemed to have resigned after a continuous absence of five years other than on foreign service or other service approved by MHRD.",
+  "verdict": "ok",
+  "contradiction": 0.0014999630799755737,
+  "entailment": 0.989994631146279,
+  "neutral": 0.008505405773745572
+ },
+ {
+  "id": "I1",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "Staff are entitled to a maximum of 30 days of Earned Leave in a calendar year.",
+  "verdict": "ok",
+  "contradiction": 0.0016018011595896582,
+  "entailment": 0.9820233416485608,
+  "neutral": 0.016374857191849734
+ },
+ {
+  "id": "I3",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The maximum period of study leave is 24 months in the entire service.",
+  "verdict": "ok",
+  "contradiction": 0.0016927599410986754,
+  "entailment": 0.9910179894164005,
+  "neutral": 0.007289250642500826
+ },
+ {
+  "id": "I4",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "According to the document, women employees may be granted CCL for a maximum period of 730 days during their entire service.",
+  "verdict": "ok",
+  "contradiction": 0.00046180639976554086,
+  "entailment": 0.9775477558586999,
+  "neutral": 0.021990437741534474
+ },
+ {
+  "id": "I5",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "During the period of Child Care Leave, the leave salary will be equal to the pay drawn immediately before proceeding on leave.",
+  "verdict": "partial",
+  "contradiction": 0.0034247014927942195,
+  "entailment": 0.9752146384225329,
+  "neutral": 0.021360660084672845
+ },
+ {
+  "id": "I6",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "Child care leave can be taken for children up to the age of 18 years.",
+  "verdict": "ok",
+  "contradiction": 0.9761377868331941,
+  "entailment": 0.011380581749129292,
+  "neutral": 0.012481631417676645
+ },
+ {
+  "id": "I7",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The shortest period for Child Care Leave is 365 days, which is the first 365 days of the leave.",
+  "verdict": "wrong",
+  "contradiction": 0.04457590531096941,
+  "entailment": 0.22752567277475344,
+  "neutral": 0.7278984219142771
+ },
+ {
+  "id": "I8",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The Paternity Leave can be availed up to 15 days before or up to six months from the date of delivery of the child.",
+  "verdict": "offtopic",
+  "contradiction": 0.0009532991485918112,
+  "entailment": 0.9933091953049894,
+  "neutral": 0.0057375055464186815
+ },
+ {
+  "id": "I9",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The document states that a male employee may be granted a maximum of 5 working days for a vasectomy operation.",
+  "verdict": "ok",
+  "contradiction": 0.0006115719450817147,
+  "entailment": 0.9937210176432681,
+  "neutral": 0.005667410411650282
+ },
+ {
+  "id": "I10",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "The maximum period of absence from duty is five years, which is the same as the maximum period of study leave in the entire service.",
+  "verdict": "wrong",
+  "contradiction": 0.9314287674961874,
+  "entailment": 0.002655335595643453,
+  "neutral": 0.06591589690816894
+ },
+ {
+  "id": "I11",
+  "model": "hf.co/unsloth/Qwen3.5-2B-GGUF:Q4_K_M",
+  "text": "An aggrieved female staff member can get leave up to a maximum of 90 days during an inquiry.",
+  "verdict": "ok",
+  "contradiction": 0.00046182936932949827,
+  "entailment": 0.9941207347647845,
+  "neutral": 0.00541743586588599
+ },
+ {
+  "id": "N3",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The maximum amount paid for cataract surgery per eye is Rs. 50,000.",
+  "verdict": "partial",
+  "contradiction": 0.0010727322968513532,
+  "entailment": 0.9820206652007543,
+  "neutral": 0.016906602502394483
+ },
+ {
+  "id": "N4",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "Pre-hospitalisation medical expenses cover expenses incurred during thirty days preceding the hospitalization.",
+  "verdict": "ok",
+  "contradiction": 0.008676895840097273,
+  "entailment": 0.9591695766593196,
+  "neutral": 0.03215352750058317
+ },
+ {
+  "id": "N5",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "Hospital cash is paid at the rate of 0.1% of the Sum Insured for each day of hospitalisation.",
+  "verdict": "partial",
+  "contradiction": 0.0007046665996359714,
+  "entailment": 0.991742345324275,
+  "neutral": 0.007552988076089131
+ },
+ {
+  "id": "N7",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The waiting period for pre-existing diseases is 48 months of continuous coverage.",
+  "verdict": "ok",
+  "contradiction": 0.0038603711923792814,
+  "entailment": 0.9815956775510735,
+  "neutral": 0.014543951256547314
+ },
+ {
+  "id": "N7",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "This applies unless the insured person is continuously covered without a break, in which case the waiting period is reduced.",
+  "verdict": "ok",
+  "contradiction": 0.10391148053543378,
+  "entailment": 0.8729288326842924,
+  "neutral": 0.023159686780273785
+ },
+ {
+  "id": "N7",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "Coverage after this period is subject to the disease being declared at the time of application.",
+  "verdict": "ok",
+  "contradiction": 0.01451002197132902,
+  "entailment": 0.9600380206983093,
+  "neutral": 0.02545195733036165
+ },
+ {
+  "id": "N8",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "Treatment for diabetes is excluded until the expiry of Ninety Days of continuous coverage.",
+  "verdict": "ok",
+  "contradiction": 0.0033473451544710287,
+  "entailment": 0.961404806030989,
+  "neutral": 0.035247848814540024
+ },
+ {
+  "id": "N10",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The free look period is fifteen days from the date of receipt of the policy document.",
+  "verdict": "ok",
+  "contradiction": 0.034336259055616936,
+  "entailment": 0.5464671547489962,
+  "neutral": 0.41919658619538674
+ },
+ {
+  "id": "N11",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The Sum Insured increases by 25% at each renewal for every claim-free year.",
+  "verdict": "ok",
+  "contradiction": 0.00043747972105221496,
+  "entailment": 0.9929458114410232,
+  "neutral": 0.006616708837924543
+ },
+ {
+  "id": "N11",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "This increase is subject to a maximum limit of 50%.",
+  "verdict": "ok",
+  "contradiction": 0.0006205664062701679,
+  "entailment": 0.9929290471763128,
+  "neutral": 0.006450386417416869
+ },
+ {
+  "id": "N12",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "If you opt for a voluntary co-pay of 20%, you receive a discount of 15% on the premium.",
+  "verdict": "ok",
+  "contradiction": 0.0008281747036478072,
+  "entailment": 0.9958217503611123,
+  "neutral": 0.0033500749352399816
+ },
+ {
+  "id": "N13",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The waiting period for maternity cover is thirty-six months.",
+  "verdict": "ok",
+  "contradiction": 0.0010073252546940552,
+  "entailment": 0.9922058173402203,
+  "neutral": 0.006786857405085781
+ },
+ {
+  "id": "N13",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "This period applies from the date of opting the cover for claims related to normal delivery, caesarian section, or abdominal operation for extra uterine pregnancy.",
+  "verdict": "ok",
+  "contradiction": 0.001410518030625713,
+  "entailment": 0.9884061478974918,
+  "neutral": 0.010183334071882445
+ },
+ {
+  "id": "N14",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "You must submit the documents within 15 days after the completion of the post-hospitalisation treatment.",
+  "verdict": "ok",
+  "contradiction": 0.000763300375215991,
+  "entailment": 0.9891496390341329,
+  "neutral": 0.010087060590651101
+ },
+ {
+  "id": "S1",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The policy pays up to Rs. 750/- per hospitalization and Rs. 1,500/- per policy period for utilizing the ambulance service.",
+  "verdict": "ok",
+  "contradiction": 0.03217252191097795,
+  "entailment": 0.9364569987158617,
+  "neutral": 0.031370479373160315
+ },
+ {
+  "id": "S2",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The limit for air ambulance is up to 10% of the Sum Insured.",
+  "verdict": "ok",
+  "contradiction": 0.0038929923110757234,
+  "entailment": 0.9904255861090593,
+  "neutral": 0.005681421579864812
+ },
+ {
+  "id": "S3",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "Medical expenses are covered for a period not exceeding 60 days prior to the date of hospitalization.",
+  "verdict": "ok",
+  "contradiction": 0.0014206352588515252,
+  "entailment": 0.9907641143735519,
+  "neutral": 0.007815250367596381
+ },
+ {
+  "id": "S3",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "This applies to relevant pre-hospitalization expenses incurred for the same condition requiring hospitalization.",
+  "verdict": "ok",
+  "contradiction": 0.010865807536324672,
+  "entailment": 0.02170788254744847,
+  "neutral": 0.9674263099162268
+ },
+ {
+  "id": "S4",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "Medical expenses are covered for 90 days after discharge from the hospital.",
+  "verdict": "ok",
+  "contradiction": 0.006395273543585939,
+  "entailment": 0.9717877104119477,
+  "neutral": 0.021817016044466394
+ },
+ {
+  "id": "S6",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "Expenses incurred towards the cost of a health check-up are subject to a maximum of Rs.3,500/- for every claim free year.",
+  "verdict": "ok",
+  "contradiction": 0.0015910918626818892,
+  "entailment": 0.9900149342541192,
+  "neutral": 0.008393973883198928
+ },
+ {
+  "id": "S6",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "However, if a claim is made by any insured person, health check-up benefits will not be available under the policy.",
+  "verdict": "ok",
+  "contradiction": 0.03035943011402341,
+  "entailment": 0.7171505688869317,
+  "neutral": 0.25249000099904495
+ },
+ {
+  "id": "S7",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "Yes, there is a co-payment of 20% for insured persons whose age at the time of entry is 61 years and above.",
+  "verdict": "ok",
+  "contradiction": 0.0005008963110313786,
+  "entailment": 0.9857864889597857,
+  "neutral": 0.013712614729182863
+ },
+ {
+  "id": "S8",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The grace period for renewing the policy is 120 days.",
+  "verdict": "ok",
+  "contradiction": 0.0025416733357221813,
+  "entailment": 0.9829454903228982,
+  "neutral": 0.01451283634137954
+ },
+ {
+  "id": "S9",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "If you have a claim-free year, you are entitled to a cumulative bonus of 25% of the expiring Sum Insured in the second year.",
+  "verdict": "ok",
+  "contradiction": 0.0009102366118841552,
+  "entailment": 0.9922411629467475,
+  "neutral": 0.006848600441368202
+ },
+ {
+  "id": "S10",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The sum insured can be automatically restored 3 times during the policy period.",
+  "verdict": "ok",
+  "contradiction": 0.0030338709938400477,
+  "entailment": 0.9473003080913233,
+  "neutral": 0.04966582091483672
+ },
+ {
+  "id": "S10",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "Each restoration operates only after the exhaustion of the earlier one.",
+  "verdict": "ok",
+  "contradiction": 0.0008446178495362755,
+  "entailment": 0.9913210783474866,
+  "neutral": 0.00783430380297713
+ },
+ {
+  "id": "S11",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The waiting period for pre-existing diseases is 48 months of continuous coverage after the date of inception of the first policy.",
+  "verdict": "ok",
+  "contradiction": 0.0022435499748995474,
+  "entailment": 0.9822534708482513,
+  "neutral": 0.015502979176849233
+ },
+ {
+  "id": "S12",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "For hospitalization, day care, and pre-hospitalization expenses, the claim must be filed within 15 days from the date of discharge.",
+  "verdict": "ok",
+  "contradiction": 0.0007249330417720116,
+  "entailment": 0.9941844313610251,
+  "neutral": 0.0050906355972028285
+ },
+ {
+  "id": "S13",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The Company will reimburse transportation expenses by air up to Rs. 5,000/- for one immediate family member.",
+  "verdict": "ok",
+  "contradiction": 0.0014086018772666202,
+  "entailment": 0.9917919883032671,
+  "neutral": 0.0067994098194662156
+ },
+ {
+  "id": "S13",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "This reimbursement applies when the insured is hospitalized for a life-threatening emergency away from their usual residence.",
+  "verdict": "ok",
+  "contradiction": 0.001259330530607143,
+  "entailment": 0.9876024973026503,
+  "neutral": 0.011138172166742497
+ },
+ {
+  "id": "D1",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "Yes, there is an initial waiting period under the loss of employment cover, which is one month.",
+  "verdict": "wrong",
+  "contradiction": 0.6261369000123583,
+  "entailment": 0.3416320820088428,
+  "neutral": 0.032231017978798904
+ },
+ {
+  "id": "D1",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "If the insured starts working again during this waiting period, the claim is payable only as per a reduced formulae.",
+  "verdict": "ok",
+  "contradiction": 0.000708022704836021,
+  "entailment": 0.9943165352401098,
+  "neutral": 0.004975442055054272
+ },
+ {
+  "id": "D2",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The policy states that it will pay the donor's Pre and Post Hospitalization expenses.",
+  "verdict": "partial",
+  "contradiction": 0.0023293996984715486,
+  "entailment": 0.8542587233889989,
+  "neutral": 0.14341187691252946
+ },
+ {
+  "id": "D3",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The maternity benefit is limited to cover up to two living children.",
+  "verdict": "ok",
+  "contradiction": 0.0009007396072570588,
+  "entailment": 0.991552655728781,
+  "neutral": 0.007546604663961988
+ },
+ {
+  "id": "D4",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The waiting period for infertility treatment is 48 months.",
+  "verdict": "ok",
+  "contradiction": 0.0010767525470171979,
+  "entailment": 0.9873346856507011,
+  "neutral": 0.011588561802281615
+ },
+ {
+  "id": "D4",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "This period applies from the date of inception of the first policy with continuous renewal.",
+  "verdict": "ok",
+  "contradiction": 0.0008061818196058539,
+  "entailment": 0.9913450422539294,
+  "neutral": 0.007848775926464808
+ },
+ {
+  "id": "D5",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The co-payment for the OPD benefit in the first year is 25%.",
+  "verdict": "ok",
+  "contradiction": 0.0006466745370509811,
+  "entailment": 0.9954658969060086,
+  "neutral": 0.003887428556940367
+ },
+ {
+  "id": "D6",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "This amount is specified and utilized under Section 26.A.",
+  "verdict": "offtopic",
+  "contradiction": 0.003282111650956784,
+  "entailment": 0.9618438283297828,
+  "neutral": 0.0348740600192603
+ },
+ {
+  "id": "D7",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "For home hospitalization, the condition requiring medical treatment must continue for at least 3 days.",
+  "verdict": "ok",
+  "contradiction": 0.0008312416873539242,
+  "entailment": 0.9932178110355103,
+  "neutral": 0.005950947277135793
+ },
+ {
+  "id": "D8",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The Insured Person undergoing the surgery must be minimum 18 Years old.",
+  "verdict": "ok",
+  "contradiction": 0.0008484425770653228,
+  "entailment": 0.9916447911089983,
+  "neutral": 0.00750676631393651
+ },
+ {
+  "id": "D9",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The moratorium period is the sixty continuous months of coverage after which no policy or claim can be contested by the insurer on grounds of non-disclosure or misrepresentation, except for established fraud.",
+  "verdict": "ok",
+  "contradiction": 0.0008486406410955687,
+  "entailment": 0.9946550466679639,
+  "neutral": 0.004496312690940438
+ },
+ {
+  "id": "D10",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The waiting period for pre-existing diseases is up to 36 months.",
+  "verdict": "wrong",
+  "contradiction": 0.006453770649736415,
+  "entailment": 0.9538555633470207,
+  "neutral": 0.03969066600324296
+ },
+ {
+  "id": "D11",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The grace period for monthly premium payments is fifteen days.",
+  "verdict": "ok",
+  "contradiction": 0.0038741431373001027,
+  "entailment": 0.9710084501333714,
+  "neutral": 0.025117406729328447
+ },
+ {
+  "id": "D12",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The miscarriage must happen within 15 days of the accident.",
+  "verdict": "ok",
+  "contradiction": 0.015056426763470998,
+  "entailment": 0.5499983976787702,
+  "neutral": 0.43494517555775875
+ },
+ {
+  "id": "D14",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "It explicitly excludes claims for professional sports where the insured is paid or funded by sponsorship.",
+  "verdict": "offtopic",
+  "contradiction": 0.0028253335859715085,
+  "entailment": 0.8893680372709225,
+  "neutral": 0.10780662914310611
+ },
+ {
+  "id": "C1",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "If the insured dies in an accident, 100% of the insured sum is paid to the nominee.",
+  "verdict": "ok",
+  "contradiction": 0.0009214632524506322,
+  "entailment": 0.9910401493585053,
+  "neutral": 0.00803838738904392
+ },
+ {
+  "id": "C1",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "This applies if the death occurs within 12 months of the accidental injury.",
+  "verdict": "ok",
+  "contradiction": 0.0013883563232031735,
+  "entailment": 0.9848743469620866,
+  "neutral": 0.013737296714710115
+ },
+ {
+  "id": "C2",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "You must notify the insurer at least 72 hours before planned hospitalization.",
+  "verdict": "ok",
+  "contradiction": 0.004482437377932204,
+  "entailment": 0.6143125259642015,
+  "neutral": 0.3812050366578663
+ },
+ {
+  "id": "C3",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "For a reimbursement claim, you must inform the insurer within 48 hours of the date of admission.",
+  "verdict": "ok",
+  "contradiction": 0.005251076848542145,
+  "entailment": 0.9669339795744362,
+  "neutral": 0.027814943577021637
+ },
+ {
+  "id": "C4",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "Treatment must occur within 15 days of approval.",
+  "verdict": "ok",
+  "contradiction": 0.0011165707028987228,
+  "entailment": 0.9808128629309306,
+  "neutral": 0.018070566366170604
+ },
+ {
+  "id": "C5",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "KYC documents are required when the claim payout exceeds a threshold limit of Rs. 1 Lakhs per claim.",
+  "verdict": "ok",
+  "contradiction": 0.001302336379657725,
+  "entailment": 0.9869879187307499,
+  "neutral": 0.011709744889592437
+ },
+ {
+  "id": "C6",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "If a claim is not settled within the specified timelines, the claimant is entitled to interest at the bank rate plus 2 percent from the date of receipt of intimation to the date of payment.",
+  "verdict": "ok",
+  "contradiction": 0.003637513538918942,
+  "entailment": 0.9748770903710138,
+  "neutral": 0.021485396090067232
+ },
+ {
+  "id": "C7",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "Under the Loss of Employment cover, the policy may pay 70% of take-home salary.",
+  "verdict": "ok",
+  "contradiction": 0.35975059458889236,
+  "entailment": 0.0790122209010563,
+  "neutral": 0.5612371845100512
+ },
+ {
+  "id": "C8",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "Trauma counselling coverage applies within six months of the incident.",
+  "verdict": "ok",
+  "contradiction": 0.04916124534260449,
+  "entailment": 0.01598104589976287,
+  "neutral": 0.9348577087576326
+ },
+ {
+  "id": "C9",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The person must have no response to stimuli for 96+ hours.",
+  "verdict": "ok",
+  "contradiction": 0.029626072434039193,
+  "entailment": 0.9260645244995418,
+  "neutral": 0.044309403066418965
+ },
+ {
+  "id": "R1",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The maximum rental bond the landlord can ask for is 4 weeks rent.",
+  "verdict": "ok",
+  "contradiction": 0.0011004612722464251,
+  "entailment": 0.24823695480807376,
+  "neutral": 0.7506625839196798
+ },
+ {
+  "id": "R2",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The landlord must not require you to pay more than 2 weeks rent in advance.",
+  "verdict": "ok",
+  "contradiction": 0.0009856758858292614,
+  "entailment": 0.9914532504330608,
+  "neutral": 0.007561073681110053
+ },
+ {
+  "id": "R3",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "If the bond is paid to the landlord, it must be deposited within 10 working days after it is paid.",
+  "verdict": "ok",
+  "contradiction": 0.0015131387256393835,
+  "entailment": 0.9768214940517467,
+  "neutral": 0.021665367222614057
+ },
+ {
+  "id": "R4",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The landlord must give not less than 60 days written notice before increasing the rent.",
+  "verdict": "ok",
+  "contradiction": 0.0032918497310778214,
+  "entailment": 0.9815114018040972,
+  "neutral": 0.01519674846482495
+ },
+ {
+  "id": "R4",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The notice must specify the increased rent and the day from which it is payable.",
+  "verdict": "ok",
+  "contradiction": 0.001513056631167125,
+  "entailment": 0.9920507814899517,
+  "neutral": 0.006436161878881078
+ },
+ {
+  "id": "R5",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The rent may not be increased more than once in any 12-month period.",
+  "verdict": "ok",
+  "contradiction": 0.0007610622562611996,
+  "entailment": 0.9909200917879974,
+  "neutral": 0.008318845955741306
+ },
+ {
+  "id": "R6",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "You can get back any reasonable costs not exceeding $1,000 that you incurred for urgent repairs.",
+  "verdict": "ok",
+  "contradiction": 0.001073154671423558,
+  "entailment": 0.9756812846189367,
+  "neutral": 0.02324556070963978
+ },
+ {
+  "id": "R7",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The landlord must give at least 48 hours notice for inspections if they fail to agree on days and times.",
+  "verdict": "wrong",
+  "contradiction": 0.003520124354949554,
+  "entailment": 0.5778723398075826,
+  "neutral": 0.4186075358374679
+ },
+ {
+  "id": "R7",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "If there is a health concern, the tenant must be given at least 7 days written notice.",
+  "verdict": "wrong",
+  "contradiction": 0.00038212534989823916,
+  "entailment": 0.0012317750555363503,
+  "neutral": 0.9983860995945654
+ },
+ {
+  "id": "R8",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "No more than 4 inspections are allowed in any period of 12 months.",
+  "verdict": "ok",
+  "contradiction": 0.0007825744567797363,
+  "entailment": 0.9901420926491955,
+  "neutral": 0.00907533289402478
+ },
+ {
+  "id": "R9",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The landlord must repair or replace a non-working smoke alarm within 2 business days.",
+  "verdict": "ok",
+  "contradiction": 0.002995047507097174,
+  "entailment": 0.9842604545843803,
+  "neutral": 0.012744497908522535
+ },
+ {
+  "id": "R10",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "Yes, a gas leak is defined as an urgent repair.",
+  "verdict": "ok",
+  "contradiction": 0.006471830990416263,
+  "entailment": 0.9797487943273607,
+  "neutral": 0.01377937468222304
+ },
+ {
+  "id": "R11",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The landlord must respond to an application for consent to keep an animal within 21 days.",
+  "verdict": "ok",
+  "contradiction": 0.0008637269618500251,
+  "entailment": 0.9932789793863697,
+  "neutral": 0.005857293651780284
+ },
+ {
+  "id": "R11",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "If the landlord does not respond within that time, they consent to the tenant keeping the animal without conditions.",
+  "verdict": "ok",
+  "contradiction": 0.001793101685607136,
+  "entailment": 0.019874315392094208,
+  "neutral": 0.9783325829222986
+ },
+ {
+  "id": "V1",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The landlord must supply the tenant with a copy of the completed Agreement within 14 days of the tenant signing.",
+  "verdict": "ok",
+  "contradiction": 0.0017065594680425672,
+  "entailment": 0.987044875163633,
+  "neutral": 0.011248565368324342
+ },
+ {
+  "id": "V2",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The landlord must lodge the bond within 10 business days after receiving it.",
+  "verdict": "ok",
+  "contradiction": 0.0013666232620043886,
+  "entailment": 0.01485103848027263,
+  "neutral": 0.983782338257723
+ },
+ {
+  "id": "V3",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "If the tenant does not receive a bond receipt from the RTBA within 15 business days of handing over the bond money, they should telephone the RTBA on 1300 13 71 64.",
+  "verdict": "ok",
+  "contradiction": 0.033860311622607074,
+  "entailment": 0.02839715939413794,
+  "neutral": 0.937742528983255
+ },
+ {
+  "id": "V4",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The tenant must not assign or sub-let the whole or any part of the rented premises without the written consent of the landlord.",
+  "verdict": "ok",
+  "contradiction": 0.0016437589287750553,
+  "entailment": 0.0015211646303554508,
+  "neutral": 0.9968350764408694
+ },
+ {
+  "id": "V6",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The landlord must ensure the premises are in a reasonably clean condition on the day the tenant enters occupation.",
+  "verdict": "offtopic",
+  "contradiction": 0.0016032280886563283,
+  "entailment": 0.9875839271427735,
+  "neutral": 0.010812844768570076
+ },
+ {
+  "id": "V6",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The tenant must keep the premises in a reasonably clean condition during the period of the agreement.",
+  "verdict": "ok",
+  "contradiction": 0.0028366914452714253,
+  "entailment": 0.013510390927750823,
+  "neutral": 0.9836529176269777
+ },
+ {
+  "id": "T2",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "Casual leave should not normally be granted for more than 5 days at any one time.",
+  "verdict": "ok",
+  "contradiction": 0.0008510696651361336,
+  "entailment": 0.9934053731735075,
+  "neutral": 0.0057435571613565556
+ },
+ {
+  "id": "T2",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "Special Casual Leave can be granted up to a maximum of 15 days in a calendar year.",
+  "verdict": "offtopic",
+  "contradiction": 0.0008046976358918685,
+  "entailment": 0.9917970926435129,
+  "neutral": 0.00739820972059542
+ },
+ {
+  "id": "T3",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "Earned leave is credited at a uniform rate of 15 days on the 1st January and 1st July every year.",
+  "verdict": "ok",
+  "contradiction": 0.0016222438847638067,
+  "entailment": 0.9757421683931988,
+  "neutral": 0.022635587722037394
+ },
+ {
+  "id": "T4",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "Earned leave can be accumulated up to 300 days.",
+  "verdict": "ok",
+  "contradiction": 0.834284012503324,
+  "entailment": 0.016351352764946644,
+  "neutral": 0.1493646347317295
+ },
+ {
+  "id": "T5",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The maximum amount of earned leave that can be granted to an employee at a time is 180 days.",
+  "verdict": "ok",
+  "contradiction": 0.0009163493093295261,
+  "entailment": 0.9946382970217418,
+  "neutral": 0.0044453536689287275
+ },
+ {
+  "id": "T5",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "However, earned leave may be taken at a time up to 300 days as leave preparatory to retirement.",
+  "verdict": "ok",
+  "contradiction": 0.0005465038141458597,
+  "entailment": 0.9949215670875807,
+  "neutral": 0.0045319290982733405
+ },
+ {
+  "id": "T6",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "Earned leave up to 10 days can be encashed on each occasion and a maximum of 60 days in the entire service when availing LTC.",
+  "verdict": "ok",
+  "contradiction": 0.0006706147663753173,
+  "entailment": 0.9959946265202357,
+  "neutral": 0.0033347587133889522
+ },
+ {
+  "id": "T7",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "Teaching staff can avail vacation for 60 days.",
+  "verdict": "ok",
+  "contradiction": 0.0006043117148678346,
+  "entailment": 0.9923752021086107,
+  "neutral": 0.00702048617652149
+ },
+ {
+  "id": "T8",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "All permanent employees are eligible for 20 days of Half Pay Leave for each completed year of service.",
+  "verdict": "ok",
+  "contradiction": 0.000774752953050598,
+  "entailment": 0.9890194683087462,
+  "neutral": 0.010205778738203287
+ },
+ {
+  "id": "T8",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "This leave is credited in two installments of 10 days each on January 1st and July 1st.",
+  "verdict": "ok",
+  "contradiction": 0.0006988314833722768,
+  "entailment": 0.9881507429509522,
+  "neutral": 0.011150425565675538
+ },
+ {
+  "id": "T9",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "Maternity leave is granted for a period of 180 days.",
+  "verdict": "ok",
+  "contradiction": 0.0006286360409702149,
+  "entailment": 0.9929718328977688,
+  "neutral": 0.006399531061260962
+ },
+ {
+  "id": "T10",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "Paternity leave is granted for a period of 15 days.",
+  "verdict": "ok",
+  "contradiction": 0.0005930967044219409,
+  "entailment": 0.9936888300763776,
+  "neutral": 0.005718073219200418
+ },
+ {
+  "id": "T11",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "Adoption leave duration depends on the age of the adopted child: up to one year if the child is less than one month old, up to six months if the child is 2-6 months old, and up to three months if the child is 7-10 months old.",
+  "verdict": "ok",
+  "contradiction": 0.0028629052991632617,
+  "entailment": 0.955484554781927,
+  "neutral": 0.04165253991890961
+ },
+ {
+  "id": "T12",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "You must apply for the conversion within 30 days of the completion of the relevant spell of leave.",
+  "verdict": "ok",
+  "contradiction": 0.0005969204352505767,
+  "entailment": 0.9921444386537307,
+  "neutral": 0.007258640911018755
+ },
+ {
+  "id": "T12",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "This request must be made by the official while in service.",
+  "verdict": "ok",
+  "contradiction": 0.00109688468331999,
+  "entailment": 0.9651154851307939,
+  "neutral": 0.033787630185886215
+ },
+ {
+  "id": "T13",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "An employee is deemed to have resigned after a continuous absence exceeding 5 years.",
+  "verdict": "ok",
+  "contradiction": 0.0018108419901016518,
+  "entailment": 0.9784499170833891,
+  "neutral": 0.01973924092650911
+ },
+ {
+  "id": "I1",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "Staff members are entitled to 30 days of Earned Leave in a calendar year.",
+  "verdict": "ok",
+  "contradiction": 0.0017096243596436377,
+  "entailment": 0.9916106811919453,
+  "neutral": 0.006679694448411126
+ },
+ {
+  "id": "I3",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The maximum period of study leave in the entire service is 24 months.",
+  "verdict": "ok",
+  "contradiction": 0.0011901939633839171,
+  "entailment": 0.9939394920519119,
+  "neutral": 0.004870313984704243
+ },
+ {
+  "id": "I3",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "This period may be granted at a stretch or in different spells.",
+  "verdict": "ok",
+  "contradiction": 0.0024716524909770238,
+  "entailment": 0.9744854610944347,
+  "neutral": 0.023042886414588366
+ },
+ {
+  "id": "I4",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "A maximum of 730 days of Child Care Leave can be taken during the entire service.",
+  "verdict": "ok",
+  "contradiction": 0.0009478548583066785,
+  "entailment": 0.9907133793246731,
+  "neutral": 0.008338765817020338
+ },
+ {
+  "id": "I5",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "During Child Care Leave, the leave salary is equal to the pay drawn immediately before proceeding on leave.",
+  "verdict": "partial",
+  "contradiction": 0.001683132754672014,
+  "entailment": 0.9863271554656262,
+  "neutral": 0.011989711779701713
+ },
+ {
+  "id": "I6",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "Child care leave is not admissible if the child is 18 years of age or older.",
+  "verdict": "ok",
+  "contradiction": 0.0026248188775216045,
+  "entailment": 0.9901415873018924,
+  "neutral": 0.007233593820586088
+ },
+ {
+  "id": "I8",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "Paternity Leave is granted for a period of 15 days.",
+  "verdict": "ok",
+  "contradiction": 0.0010465585367329044,
+  "entailment": 0.9906855831718672,
+  "neutral": 0.008267858291400042
+ },
+ {
+  "id": "I8",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "This leave can be availed up to 15 days before or up to six months from the date of delivery of the child.",
+  "verdict": "offtopic",
+  "contradiction": 0.0005463256998082337,
+  "entailment": 0.9925745088510621,
+  "neutral": 0.00687916544912964
+ },
+ {
+  "id": "I9",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "A maximum of 5 working days of LTC (Long Term Casual Leave) is admissible for a vasectomy operation for a male employee.",
+  "verdict": "partial",
+  "contradiction": 0.016268668459731846,
+  "entailment": 0.01717336626857191,
+  "neutral": 0.9665579652716964
+ },
+ {
+  "id": "I10",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The maximum Leave Not Due (LND) in the entire service is limited to a maximum of 360 days.",
+  "verdict": "ok",
+  "contradiction": 0.0012483156696089556,
+  "entailment": 0.993095693285359,
+  "neutral": 0.005655991045032123
+ },
+ {
+  "id": "I11",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "An aggrieved female staff member can be granted leave up to a maximum of 90 days during the pendency of an inquiry.",
+  "verdict": "ok",
+  "contradiction": 0.000546971684454777,
+  "entailment": 0.9938628253330696,
+  "neutral": 0.005590202982475627
+ },
+ {
+  "id": "S16",
+  "model": "hf.co/unsloth/Qwen3.5-4B-GGUF:Q4_K_M",
+  "text": "The document states that a cumulative bonus is provided for claim-free years, with 25% in the second year and additional 10% thereafter.",
+  "verdict": "offtopic",
+  "contradiction": 0.0007310473933232328,
+  "entailment": 0.994744920188907,
+  "neutral": 0.004524032417769611
+ },
+ {
+  "id": "N1",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "However, expenses like Room rent, Boarding, DMO / RMO / CMO / RMP Charges, and Nursing expenses are covered up to 1% of the Sum Insured per day.",
+  "verdict": "ok",
+  "contradiction": 0.0050979175031159365,
+  "entailment": 0.944667450136627,
+  "neutral": 0.050234632360257034
+ },
+ {
+  "id": "N2",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "The policy covers Intensive Care Unit (ICU) expenses.",
+  "verdict": "ok",
+  "contradiction": 0.836500664829696,
+  "entailment": 0.12681159977775822,
+  "neutral": 0.03668773539254587
+ },
+ {
+  "id": "N2",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "These expenses include ICU bed, general medical support services, monitoring devices, critical care nursing, and intensivist charges.",
+  "verdict": "ok",
+  "contradiction": 0.0006170536892267783,
+  "entailment": 0.9941877677487341,
+  "neutral": 0.005195178562039169
+ },
+ {
+  "id": "N3",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "Our liability for payment of any claim relating to Cataract, for each eye, shall not exceed 20% of the Sum Insured subject to a maximum of Rs. 50,000.",
+  "verdict": "ok",
+  "contradiction": 0.003289419420406248,
+  "entailment": 0.9879438750617673,
+  "neutral": 0.008766705517826502
+ },
+ {
+  "id": "N4",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "Medical Expenses incurred during thirty days preceding the Hospitalisation of the Insured Person are covered.",
+  "verdict": "ok",
+  "contradiction": 0.055151734049326016,
+  "entailment": 0.22862146078098394,
+  "neutral": 0.7162268051696902
+ },
+ {
+  "id": "N5",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "For Insured Persons whose Sum Insured is more than or equal to Rs. three lakhs, Hospital Cash is paid at the rate of 0.1% of the Sum Insured for each day of Hospitalisation admissible under the Policy.",
+  "verdict": "ok",
+  "contradiction": 0.0009467059474376661,
+  "entailment": 0.9942255565835662,
+  "neutral": 0.00482773746899611
+ },
+ {
+  "id": "N5",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "Hospital Cash will be payable for completion of every twenty-four hours and not part thereof.",
+  "verdict": "ok",
+  "contradiction": 0.0058744931063946315,
+  "entailment": 0.9819064070812279,
+  "neutral": 0.012219099812377527
+ },
+ {
+  "id": "N6",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "The Insured Person shall be entitled for reimbursement of the cost of Medical check-up at the end of a block of every three Claim Free Years.",
+  "verdict": "partial",
+  "contradiction": 0.006536405207725579,
+  "entailment": 0.9749968072766912,
+  "neutral": 0.018466787515583345
+ },
+ {
+  "id": "N7",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "The waiting period for pre-existing diseases is 48 months.",
+  "verdict": "ok",
+  "contradiction": 0.004274668098934234,
+  "entailment": 0.9718797224832206,
+  "neutral": 0.023845609417845158
+ },
+ {
+  "id": "N7",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "If any of the specified disease/procedure falls under the waiting period specified for preexisting diseases, then the longer of the two waiting periods shall apply.",
+  "verdict": "ok",
+  "contradiction": 0.001273656872557816,
+  "entailment": 0.9933997501332626,
+  "neutral": 0.00532659299417956
+ },
+ {
+  "id": "N8",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "Treatment for Diabetes Mellitus has a 90 Days Waiting Period.",
+  "verdict": "ok",
+  "contradiction": 0.00807196138836091,
+  "entailment": 0.9182401271931121,
+  "neutral": 0.07368791141852687
+ },
+ {
+  "id": "N10",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "The free look period is fifteen days from the date of receipt of the policy document.",
+  "verdict": "ok",
+  "contradiction": 0.034336259055616936,
+  "entailment": 0.5464671547489962,
+  "neutral": 0.41919658619538674
+ },
+ {
+  "id": "N11",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "The Sum Insured under Policy shall be increased by 25% at each renewal in respect of each claim free year of insurance, subject to a maximum of 50%.",
+  "verdict": "ok",
+  "contradiction": 0.0010606528450674301,
+  "entailment": 0.9900468591178903,
+  "neutral": 0.008892488037042245
+ },
+ {
+  "id": "N12",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "If the insured person opts for a voluntary co-pay of 20%, a discount of 15% shall be given on the premium payable for the insured person.",
+  "verdict": "ok",
+  "contradiction": 0.0008513891516917398,
+  "entailment": 0.9940809040436044,
+  "neutral": 0.0050677068047040395
+ },
+ {
+  "id": "N13",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "A waiting period of thirty-six months is applicable for payment of any claim relating to normal delivery or caesarian section or abdominal operation for extra uterine pregnancy.",
+  "verdict": "ok",
+  "contradiction": 0.001054459016964018,
+  "entailment": 0.988022006886566,
+  "neutral": 0.010923534096469938
+ },
+ {
+  "id": "N14",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "You must submit all claim documents for post-hospitalisation treatment within 15 days after completion of such treatment.",
+  "verdict": "ok",
+  "contradiction": 0.0004862381382227231,
+  "entailment": 0.9938627213078144,
+  "neutral": 0.005651040553962851
+ },
+ {
+  "id": "S1",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "Emergency Road Ambulance charges up to a sum of Rs. 750/- per hospitalization and an overall limit of Rs.1,500/- per policy period.",
+  "verdict": "ok",
+  "contradiction": 0.030230624125502172,
+  "entailment": 0.005949982824265619,
+  "neutral": 0.9638193930502321
+ },
+ {
+  "id": "S2",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "Air Ambulance charges up to 10% of the Sum Insured during the entire policy period.",
+  "verdict": "ok",
+  "contradiction": 0.0006275922858571469,
+  "entailment": 0.993592578491957,
+  "neutral": 0.005779829222185915
+ },
+ {
+  "id": "S3",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "Pre-hospitalization medical expenses are covered for a period not exceeding 60 days prior to the date of hospitalization.",
+  "verdict": "ok",
+  "contradiction": 0.0014324506949369342,
+  "entailment": 0.9921823801210585,
+  "neutral": 0.006385169184004334
+ },
+ {
+  "id": "S3",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "This is for the disease/illness or injury sustained following an admissible claim for hospitalization under the policy.",
+  "verdict": "ok",
+  "contradiction": 0.0011400268564855335,
+  "entailment": 0.979011194569623,
+  "neutral": 0.019848778573891394
+ },
+ {
+  "id": "S6",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "Expenses incurred towards cost of health check-up are subject to a maximum of Rs.3,500/- for every claim.",
+  "verdict": "partial",
+  "contradiction": 0.009568999883427382,
+  "entailment": 0.01683579533028224,
+  "neutral": 0.9735952047862902
+ },
+ {
+  "id": "S6",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "This is subject to the limits mentioned in the table given below for every claim free year provided the health checkup is done at network hospitals and the policy is in force.",
+  "verdict": "ok",
+  "contradiction": 0.00200155997659696,
+  "entailment": 0.9709379600850908,
+  "neutral": 0.027060479938312385
+ },
+ {
+  "id": "S7",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "AA Co-payment is 20% of each and every claim amount for insured persons whose age at the time of entry is 61 years and above.",
+  "verdict": "ok",
+  "contradiction": 0.0008326847154800408,
+  "entailment": 0.9868613992967298,
+  "neutral": 0.012305915987790057
+ },
+ {
+  "id": "S8",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "The grace period for renewing the policy is 120 days.",
+  "verdict": "ok",
+  "contradiction": 0.0006015476065428643,
+  "entailment": 0.9930188078595812,
+  "neutral": 0.006379644533875951
+ },
+ {
+  "id": "S8",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "This grace period allows renewal to maintain continuity of benefits without a break in policy.",
+  "verdict": "ok",
+  "contradiction": 0.0004512758595059404,
+  "entailment": 0.9859183361329025,
+  "neutral": 0.01363038800759143
+ },
+ {
+  "id": "S9",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "If you have a claim-free year, you are entitled to a cumulative bonus of 25% of the expiring Sum Insured in the second year.",
+  "verdict": "ok",
+  "contradiction": 0.0009102366118841552,
+  "entailment": 0.9922411629467475,
+  "neutral": 0.006848600441368202
+ },
+ {
+  "id": "S9",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "Additionally, you would receive an additional 10% of the expiring sum insured for the subsequent years.",
+  "verdict": "partial",
+  "contradiction": 0.0009208154008004818,
+  "entailment": 0.9935069497696042,
+  "neutral": 0.005572234829595347
+ },
+ {
+  "id": "S10",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "The Automatic Restoration of Sum Insured is available 3 times at 100% each time during the policy period.",
+  "verdict": "ok",
+  "contradiction": 0.005017466423515285,
+  "entailment": 0.0167501513604918,
+  "neutral": 0.9782323822159928
+ },
+ {
+  "id": "S10",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "Each restoration will operate only after the exhaustion of the earlier one.",
+  "verdict": "ok",
+  "contradiction": 0.0012572538135087242,
+  "entailment": 0.9902017980780906,
+  "neutral": 0.008540948108400809
+ },
+ {
+  "id": "S11",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "The waiting period for pre-existing diseases is 48 months of continuous coverage after the date of inception of the first policy with the insurer.",
+  "verdict": "ok",
+  "contradiction": 0.0021963983338584153,
+  "entailment": 0.9800657394475083,
+  "neutral": 0.01773786221863329
+ },
+ {
+  "id": "S11",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "If the Insured Person is continuously covered without any break, this waiting period would be reduced to the extent of prior coverage.",
+  "verdict": "ok",
+  "contradiction": 0.0010465118805623509,
+  "entailment": 0.9941573860974419,
+  "neutral": 0.004796102021995793
+ },
+ {
+  "id": "S12",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "For reimbursement of hospitalization, the claim must be filed within 15 days.",
+  "verdict": "ok",
+  "contradiction": 0.0008225353662180475,
+  "entailment": 0.9944038775370494,
+  "neutral": 0.004773587096732358
+ },
+ {
+  "id": "S13",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "The company will reimburse the transportation expenses by air incurred up to Rs. 5,000/- for one immediate family member (other than the travel companion) for travel towards the place where the hospital is located.",
+  "verdict": "ok",
+  "contradiction": 0.0009918147541549914,
+  "entailment": 0.9898560011368258,
+  "neutral": 0.009152184109019183
+ },
+ {
+  "id": "D1",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "Yes, there is an initial waiting period under the loss of employment cover.",
+  "verdict": "ok",
+  "contradiction": 0.0005322702998470925,
+  "entailment": 0.982418573527685,
+  "neutral": 0.01704915617246783
+ },
+ {
+  "id": "D1",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "Furthermore, if the Insured event triggers within 90 days of the issuance of the first policy, any claim shall not be payable.",
+  "verdict": "ok",
+  "contradiction": 0.0008379841512346099,
+  "entailment": 0.774731791655004,
+  "neutral": 0.22443022419376132
+ },
+ {
+  "id": "D2",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "We will pay the donor’s Pre and Post Hospitalization expenses.",
+  "verdict": "partial",
+  "contradiction": 0.0008612837904039711,
+  "entailment": 0.9929617007375394,
+  "neutral": 0.006177015472056638
+ },
+ {
+  "id": "D3",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "The maternity benefit is limited to cover up to two living children.",
+  "verdict": "ok",
+  "contradiction": 0.0009007396072570588,
+  "entailment": 0.991552655728781,
+  "neutral": 0.007546604663961988
+ },
+ {
+  "id": "D3",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "However, there is no restriction on the number of medically necessary and lawful termination of pregnancies.",
+  "verdict": "offtopic",
+  "contradiction": 0.0011860678985290381,
+  "entailment": 0.9927215487444428,
+  "neutral": 0.006092383357027959
+ },
+ {
+  "id": "D4",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "A waiting period of 48 months will apply from the date of inception of the first policy with Us, provided the Policy has been renewed continuously with this cover without a break, with ‘Infertility Treatment Cover’ as a benefit since inception of the first policy.",
+  "verdict": "ok",
+  "contradiction": 0.0010624830774971748,
+  "entailment": 0.9923311857851338,
+  "neutral": 0.006606331137368891
+ },
+ {
+  "id": "D4",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "If any of the specified disease/procedure falls under the waiting period specified for pre-Existing diseases, then the longer of the two waiting periods shall apply.",
+  "verdict": "offtopic",
+  "contradiction": 0.001339776844618635,
+  "entailment": 0.9932506438121154,
+  "neutral": 0.005409579343265869
+ },
+ {
+  "id": "D5",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "If the Co-payment of 25% in the First Year of this Section is opted, it is 25%.",
+  "verdict": "ok",
+  "contradiction": 0.9482556007050812,
+  "entailment": 0.02105790856133517,
+  "neutral": 0.03068649073358353
+ },
+ {
+  "id": "D6",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "If you have opted for this Cover, the company will refill 100% of the Sum Insured specified and utilized under Section 26.A.",
+  "verdict": "ok",
+  "contradiction": 0.0005354989879619983,
+  "entailment": 0.9143576816638446,
+  "neutral": 0.08510681934819349
+ },
+ {
+  "id": "D7",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "The condition for which medical treatment is required must continue for at least 3 days.",
+  "verdict": "ok",
+  "contradiction": 0.0007641018168118409,
+  "entailment": 0.9868530868973717,
+  "neutral": 0.012382811285816666
+ },
+ {
+  "id": "D7",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "In this case, the insurer will pay the reasonable charge for the entire period.",
+  "verdict": "ok",
+  "contradiction": 0.030240098619762845,
+  "entailment": 0.9272160043200337,
+  "neutral": 0.04254389706020359
+ },
+ {
+  "id": "D8",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "The insured person undergoing the surgery must be a minimum of 18 Years old.",
+  "verdict": "ok",
+  "contradiction": 0.0006191002947662501,
+  "entailment": 0.9938375870903478,
+  "neutral": 0.005543312614886041
+ },
+ {
+  "id": "D9",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "The moratorium period is the period after completion of sixty continuous months of coverage in a health insurance policy.",
+  "verdict": "partial",
+  "contradiction": 0.011491397085305409,
+  "entailment": 0.005609445771047494,
+  "neutral": 0.9828991571436471
+ },
+ {
+  "id": "D9",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "This period is called the moratorium period.",
+  "verdict": "ok",
+  "contradiction": 0.001247592296729273,
+  "entailment": 0.9880378467527554,
+  "neutral": 0.010714560950515218
+ },
+ {
+  "id": "D10",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "If any of the specified disease/procedure falls under the waiting period specified for pre-existing diseases, then the longer of the two waiting periods shall apply.",
+  "verdict": "offtopic",
+  "contradiction": 0.0015159788760597806,
+  "entailment": 0.9931952359746264,
+  "neutral": 0.005288785149313761
+ },
+ {
+  "id": "D11",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "The grace period is fifteen days when the premium payment mode is monthly.",
+  "verdict": "ok",
+  "contradiction": 0.003562500111491754,
+  "entailment": 0.9793861517714617,
+  "neutral": 0.01705134811704656
+ },
+ {
+  "id": "D11",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "This is also true for all types of insurance policies.",
+  "verdict": "ok",
+  "contradiction": 0.3181440344309259,
+  "entailment": 0.02425086247882106,
+  "neutral": 0.657605103090253
+ },
+ {
+  "id": "D12",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "If you sustain accidental bodily injury which solely and directly results in Miscarriage of a Pregnant Insured Member within 15 days of such accident, then a lumpsum amount will be paid.",
+  "verdict": "ok",
+  "contradiction": 0.0006447714934897115,
+  "entailment": 0.994449600603163,
+  "neutral": 0.004905627903347281
+ },
+ {
+  "id": "C1",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "If you suffer an accidental injury that causes death within 12 months, 100% of the insured sum will be paid to your nominee.",
+  "verdict": "ok",
+  "contradiction": 0.0008978007453025837,
+  "entailment": 0.9906263314638302,
+  "neutral": 0.008475867790867148
+ },
+ {
+  "id": "C2",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "You must notify them at least 72 hours before planned hospitalization.",
+  "verdict": "ok",
+  "contradiction": 0.0008457662786330264,
+  "entailment": 0.9886784707070937,
+  "neutral": 0.01047576301427337
+ },
+ {
+  "id": "C3",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "You must intimate the Service Provider/TPA within 48 hours of the date of admission for a reimbursement claim.",
+  "verdict": "ok",
+  "contradiction": 0.0010728803371526756,
+  "entailment": 0.9931918346424708,
+  "neutral": 0.005735285020376629
+ },
+ {
+  "id": "C4",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "Treatment must occur within 15 days of approval or before the policy expiry date.",
+  "verdict": "ok",
+  "contradiction": 0.0009694549193932339,
+  "entailment": 0.9869360175360786,
+  "neutral": 0.012094527544528071
+ },
+ {
+  "id": "C5",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "KYC documents shall be required at the claim settlement stage where claims pay-out to the Insured Member exceeds a threshold limit of Rs. 1 Lakhs per claim.",
+  "verdict": "ok",
+  "contradiction": 0.0003614707545959142,
+  "entailment": 0.9874482872722837,
+  "neutral": 0.012190241973120344
+ },
+ {
+  "id": "C6",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "If a claim is not settled within the specified timelines, the claimant is entitled for interest at bank rate plus 2 percent from the date of receipt of intimation to till the date of payment.",
+  "verdict": "ok",
+  "contradiction": 0.004863650753600123,
+  "entailment": 0.9651702630658976,
+  "neutral": 0.029966086180502234
+ },
+ {
+  "id": "C7",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "If you opt for the Loss Of Employment cover, you are eligible for claims based on one of two methods chosen at policy inception.",
+  "verdict": "ok",
+  "contradiction": 0.0027844887025439387,
+  "entailment": 0.9859472087840184,
+  "neutral": 0.011268302513437654
+ },
+ {
+  "id": "C7",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "The options include either a percentage of take-home salary (70%) or a fixed/EMI-based payout.",
+  "verdict": "ok",
+  "contradiction": 0.001502504070607719,
+  "entailment": 0.9870416172366357,
+  "neutral": 0.011455878692756528
+ },
+ {
+  "id": "C8",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "Trauma counselling is covered if a claim is approved under \"Accidental Death,\" \"Permanent Total Disablement,\" or \"Permanent Partial Disablement\".",
+  "verdict": "offtopic",
+  "contradiction": 0.0012098692754337764,
+  "entailment": 0.9931108869102777,
+  "neutral": 0.005679243814288434
+ },
+ {
+  "id": "C8",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "Coverage applies within six months of the incident.",
+  "verdict": "ok",
+  "contradiction": 0.0038101772541423093,
+  "entailment": 0.9501958635145284,
+  "neutral": 0.04599395923132927
+ },
+ {
+  "id": "C9",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "The coma must be confirmed by a specialist with no response to stimuli for 96+ hours.",
+  "verdict": "ok",
+  "contradiction": 0.020582795807394506,
+  "entailment": 0.8998767421746421,
+  "neutral": 0.07954046201796339
+ },
+ {
+  "id": "C12",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "The policy covers improvements to the Insured Person’s vehicle if certified in writing by a Medical Practitioner.",
+  "verdict": "offtopic",
+  "contradiction": 0.012378572244843422,
+  "entailment": 0.9331394572560829,
+  "neutral": 0.0544819704990738
+ },
+ {
+  "id": "C12",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "It also indemnifies financial losses caused by covered perils such as burglary or portable electronic items.",
+  "verdict": "offtopic",
+  "contradiction": 0.01002545779352598,
+  "entailment": 0.020388617032752424,
+  "neutral": 0.9695859251737217
+ },
+ {
+  "id": "C13",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "Details of No Claim Bonus are available in the Policy Schedule.",
+  "verdict": "offtopic",
+  "contradiction": 0.0019195042826547187,
+  "entailment": 0.9711138760627005,
+  "neutral": 0.026966619654644825
+ },
+ {
+  "id": "R1",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "The amount of the rental bond must not be more than 4 weeks rent.",
+  "verdict": "ok",
+  "contradiction": 0.0015423909609640141,
+  "entailment": 0.9908111555457505,
+  "neutral": 0.0076464534932853675
+ },
+ {
+  "id": "R2",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "The landlord must not require a tenant to pay more than 2 weeks rent in advance.",
+  "verdict": "ok",
+  "contradiction": 0.0017011721210276147,
+  "entailment": 0.98528812187386,
+  "neutral": 0.013010706005112414
+ },
+ {
+  "id": "R3",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "If the bond is paid to the landlord or another person, it must be deposited within 10 working days after it is paid using the Fair Trading approved form.",
+  "verdict": "ok",
+  "contradiction": 0.002171064840041264,
+  "entailment": 0.9858459203571985,
+  "neutral": 0.011983014802759978
+ },
+ {
+  "id": "R4",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "The landlord must give not less than 60 days written notice of the increase to the tenant.",
+  "verdict": "ok",
+  "contradiction": 0.0032570508536830505,
+  "entailment": 0.9806658307679793,
+  "neutral": 0.01607711837833763
+ },
+ {
+  "id": "R4",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "The notice must specify the increased rent and the day from which it is payable.",
+  "verdict": "ok",
+  "contradiction": 0.001513056631167125,
+  "entailment": 0.9920507814899517,
+  "neutral": 0.006436161878881078
+ },
+ {
+  "id": "R5",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "The rent cannot be increased more than once in any 12-month period.",
+  "verdict": "ok",
+  "contradiction": 0.0007180236278895316,
+  "entailment": 0.9918724854728164,
+  "neutral": 0.007409490899294121
+ },
+ {
+  "id": "R5",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "The landlord must give not less than 60 days written notice of the increase to the tenant.",
+  "verdict": "ok",
+  "contradiction": 0.0032570508536830505,
+  "entailment": 0.9806658307679793,
+  "neutral": 0.01607711837833763
+ },
+ {
+  "id": "R6",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "The landlord agrees to pay the tenant any reasonable costs for urgent repairs not exceeding $1,000.",
+  "verdict": "ok",
+  "contradiction": 0.00047235257923640027,
+  "entailment": 0.9945769844588596,
+  "neutral": 0.004950662961904138
+ },
+ {
+  "id": "R6",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "This applies if the damage was not caused by a breach of the agreement and the tenant follows certain procedures.",
+  "verdict": "ok",
+  "contradiction": 0.0016044532668074072,
+  "entailment": 0.43352850707672175,
+  "neutral": 0.5648670396564709
+ },
+ {
+  "id": "R7",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "The landlord must give at least 14 days written notice before the premises are made available for inspection by potential purchasers.",
+  "verdict": "offtopic",
+  "contradiction": 0.0024336293642820165,
+  "entailment": 0.988995997320738,
+  "neutral": 0.008570373314979942
+ },
+ {
+  "id": "R7",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "If the landlord fails to agree on days and times for inspection, they must show the premises to potential purchasers not more than twice in any period of a week and must give the tenant at least 48 hours notice each time.",
+  "verdict": "offtopic",
+  "contradiction": 0.0004923760219262354,
+  "entailment": 0.021394973439133044,
+  "neutral": 0.9781126505389406
+ },
+ {
+  "id": "R8",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "If there is good reason for serious concern about the health of the tenant or any other person on the residential premises and a reasonable attempt has been made to obtain consent to the entry, no more than 4 inspections are allowed in any period of 12 months.",
+  "verdict": "offtopic",
+  "contradiction": 0.0005549844072202083,
+  "entailment": 0.9921368474772857,
+  "neutral": 0.007308168115494036
+ },
+ {
+  "id": "R9",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "The landlord must repair or replace a smoke alarm within 2 business days of becoming aware that it is not working.",
+  "verdict": "ok",
+  "contradiction": 0.024382964212099116,
+  "entailment": 0.9526964114152451,
+  "neutral": 0.022920624372655934
+ },
+ {
+  "id": "R10",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "Yes, a gas leak is defined as an urgent repair.",
+  "verdict": "ok",
+  "contradiction": 0.006471830990416263,
+  "entailment": 0.9797487943273607,
+  "neutral": 0.01377937468222304
+ },
+ {
+  "id": "R11",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "The landlord must respond to an application for consent to keep an animal at the residential premises within 21 days.",
+  "verdict": "ok",
+  "contradiction": 0.001211713457955453,
+  "entailment": 0.992152509812293,
+  "neutral": 0.00663577672975153
+ },
+ {
+  "id": "R11",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "If the landlord does not respond under clause 54.1, the landlord consents to the tenant keeping the animal at the premises without conditions.",
+  "verdict": "ok",
+  "contradiction": 0.001228582417120456,
+  "entailment": 0.9941006387402502,
+  "neutral": 0.004670778842629274
+ },
+ {
+  "id": "V1",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "The landlord must supply the tenant with a copy of the completed Agreement within 14 days of the tenant signing.",
+  "verdict": "ok",
+  "contradiction": 0.0017065594680425672,
+  "entailment": 0.987044875163633,
+  "neutral": 0.011248565368324342
+ },
+ {
+  "id": "V2",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "The landlord must lodge the bond within 10 business days after receiving the bond.",
+  "verdict": "ok",
+  "contradiction": 0.0009324975290662077,
+  "entailment": 0.9917455451833249,
+  "neutral": 0.007321957287608654
+ },
+ {
+  "id": "V3",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "If the TENANT does not receive a bond receipt from the RTBA within 15 business days of handing over the bond money, they should telephone the RTBA on 1300 13 71 64.",
+  "verdict": "ok",
+  "contradiction": 0.006377744908891898,
+  "entailment": 0.9837514698502084,
+  "neutral": 0.009870785240899734
+ },
+ {
+  "id": "V4",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "The TENANT must not assign or sub-let the whole or any part of the premises.",
+  "verdict": "partial",
+  "contradiction": 0.007296090785145484,
+  "entailment": 0.2593367260128678,
+  "neutral": 0.7333671832019867
+ },
+ {
+  "id": "V5",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "The document states that the LANDLORD must not demand or receive any fee in respect of the preparation of a written assignment of the agreement.",
+  "verdict": "wrong",
+  "contradiction": 0.000864767925674923,
+  "entailment": 0.9547741685692595,
+  "neutral": 0.044361063505065655
+ },
+ {
+  "id": "V5",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "However, it also mentions that the TENANT must take reasonable care to avoid assignment or sub-letting damaging the premises and any common areas.",
+  "verdict": "wrong",
+  "contradiction": 0.0024722669853151297,
+  "entailment": 0.01957253519163811,
+  "neutral": 0.9779551978230469
+ },
+ {
+  "id": "V6",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "The TENANT must keep the premises in a reasonably clean condition during the period of agreement.",
+  "verdict": "ok",
+  "contradiction": 0.0004881473333677119,
+  "entailment": 0.9902527681810225,
+  "neutral": 0.009259084485609763
+ },
+ {
+  "id": "T2",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "Casual Leave should not normally be granted for more than 5 days at any one time.",
+  "verdict": "ok",
+  "contradiction": 0.0008527652115936674,
+  "entailment": 0.9935559723657134,
+  "neutral": 0.0055912624226930685
+ },
+ {
+  "id": "T3",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "The credit for the half-year in which an employee is appointed will be at the rate of 2 ½ days for each completed calendar month of service.",
+  "verdict": "offtopic",
+  "contradiction": 0.0018452251012597903,
+  "entailment": 0.9880024641894833,
+  "neutral": 0.0101523107092568
+ },
+ {
+  "id": "T3",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "The leave shall be credited to the account at the rate 5/3 days for each completed calendar month of service which the employee is likely to render in the half year of the calendar year in which the employee is appointed.",
+  "verdict": "wrong",
+  "contradiction": 0.0015880808316823957,
+  "entailment": 0.9907710282942992,
+  "neutral": 0.007640890874018356
+ },
+ {
+  "id": "T4",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "Earned Leave can be accumulated up to 300 days, including the number of days for which encashment has been allowed along with LTC.",
+  "verdict": "ok",
+  "contradiction": 0.0009863964489333099,
+  "entailment": 0.9922442742307686,
+  "neutral": 0.0067693293202982195
+ },
+ {
+  "id": "T4",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "Earned Leave does not exceed 300 days.",
+  "verdict": "ok",
+  "contradiction": 0.0035352138199163936,
+  "entailment": 0.9867425964332581,
+  "neutral": 0.009722189746825476
+ },
+ {
+  "id": "T5",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "The maximum amount of earned leave that can be granted to an employee at a time shall be 180 days.",
+  "verdict": "ok",
+  "contradiction": 0.0008558400184513775,
+  "entailment": 0.9929857615145437,
+  "neutral": 0.006158398467004946
+ },
+ {
+  "id": "T5",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "However, earned Leave may be taken at a time up to 300 days as leave preparatory to retirement.",
+  "verdict": "ok",
+  "contradiction": 0.00048770216795981003,
+  "entailment": 0.9948937242406722,
+  "neutral": 0.004618573591367965
+ },
+ {
+  "id": "T6",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "While availing LTC, encashment of earned leave up to 10 days on each occasion and a maximum of 60 days in the entire service are permissible.",
+  "verdict": "ok",
+  "contradiction": 0.0012990213467140206,
+  "entailment": 0.9919951638578667,
+  "neutral": 0.006705814795419312
+ },
+ {
+  "id": "T7",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "Teaching staff can avail vacation for 60 days during the period when the semester is closed.",
+  "verdict": "ok",
+  "contradiction": 0.0006000420592136861,
+  "entailment": 0.9943394426360497,
+  "neutral": 0.005060515304736538
+ },
+ {
+  "id": "T7",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "The maximum vacation that can be taken is 60 days.",
+  "verdict": "ok",
+  "contradiction": 0.0007492455659845464,
+  "entailment": 0.9948797892042444,
+  "neutral": 0.004370965229771145
+ },
+ {
+  "id": "T8",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "Every employee shall be credited with half pay leave in advance in two installments of 10 days each on the 1st January and 1st July of every calendar year.",
+  "verdict": "ok",
+  "contradiction": 0.0010906785574553409,
+  "entailment": 0.9916449407630689,
+  "neutral": 0.007264380679475805
+ },
+ {
+  "id": "T9",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "Maternity Leave is granted for a period of 180 days for a female employee with less than 2 surviving children.",
+  "verdict": "ok",
+  "contradiction": 0.0005024816063433806,
+  "entailment": 0.9953289137260876,
+  "neutral": 0.004168604667569067
+ },
+ {
+  "id": "T9",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "Maternity Leave not exceeding 45 days may also be granted in case of miscarriage including abortion on production of a medical certificate issued by a Registered Medical Practitioner.",
+  "verdict": "ok",
+  "contradiction": 0.0011384568256965265,
+  "entailment": 0.9882500355529269,
+  "neutral": 0.010611507621376616
+ },
+ {
+  "id": "T10",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "Paternity Leave is granted to a married male employee with less than two surviving children for a period of 15 days.",
+  "verdict": "ok",
+  "contradiction": 0.0006413263787930342,
+  "entailment": 0.9952261755688011,
+  "neutral": 0.004132498052405896
+ },
+ {
+  "id": "T10",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "During Paternity Leave, the employee shall be paid salary equal to the pay drawn immediately before proceedings on leave.",
+  "verdict": "ok",
+  "contradiction": 0.005956930742619161,
+  "entailment": 0.9628540403942104,
+  "neutral": 0.03118902886317062
+ },
+ {
+  "id": "T12",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "You should apply for such conversion within 30 days of completion of the relevant spell of leave.",
+  "verdict": "ok",
+  "contradiction": 0.0015761494609001644,
+  "entailment": 0.9823609211972151,
+  "neutral": 0.016062929341884743
+ },
+ {
+  "id": "T13",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "An employee who remains absent for a continuous period exceeding five years other than on foreign service or other service approved by MHRD shall be deemed to have resigned from the service of the Institute.",
+  "verdict": "ok",
+  "contradiction": 0.001732133258292506,
+  "entailment": 0.9860254342165905,
+  "neutral": 0.012242432525116885
+ },
+ {
+  "id": "T13",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "This applies whether the absence is with or without leave.",
+  "verdict": "ok",
+  "contradiction": 0.0018763931055326523,
+  "entailment": 0.9827868880536358,
+  "neutral": 0.015336718840831364
+ },
+ {
+  "id": "I1",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "The Earned Leave admissible to a member of the staff shall be 30 days in a calendar year.",
+  "verdict": "ok",
+  "contradiction": 0.0072867604683235585,
+  "entailment": 0.9580216974958227,
+  "neutral": 0.03469154203585374
+ },
+ {
+  "id": "I1",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "However, the maximum amount of Earned Leave that can be granted to a member of the staff at a time shall be 180 days.",
+  "verdict": "offtopic",
+  "contradiction": 0.008148477398357404,
+  "entailment": 0.8183713747165798,
+  "neutral": 0.1734801478850628
+ },
+ {
+  "id": "I3",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "The maximum period of study leave in the entire service is 24 months.",
+  "verdict": "ok",
+  "contradiction": 0.0011901939633839171,
+  "entailment": 0.9939394920519119,
+  "neutral": 0.004870313984704243
+ },
+ {
+  "id": "I3",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "This may be granted at a stretch or in different spells.",
+  "verdict": "ok",
+  "contradiction": 0.0011370136631139224,
+  "entailment": 0.9801697089008785,
+  "neutral": 0.01869327743600756
+ },
+ {
+  "id": "I4",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "Women employees having minor children may be granted CCL for a maximum period of 730 days during their entire service (a).",
+  "verdict": "ok",
+  "contradiction": 0.0008054796152943269,
+  "entailment": 0.992954996247541,
+  "neutral": 0.006239524137164756
+ },
+ {
+  "id": "I5",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "During the period of Child Care Leave (CCL), the woman employee's leave salary will be equal to the pay drawn immediately before proceeding on leave.",
+  "verdict": "partial",
+  "contradiction": 0.0009274599729613373,
+  "entailment": 0.9918519597064904,
+  "neutral": 0.007220580320548251
+ },
+ {
+  "id": "I5",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "CCL should be granted at 100% salary for the first 365 days and 80% salary for the next 365 days.",
+  "verdict": "ok",
+  "contradiction": 0.0011952029102835244,
+  "entailment": 0.9928793030505003,
+  "neutral": 0.005925494039216142
+ },
+ {
+  "id": "I6",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "Child care leave shall not be admissible if the child is 18 years of age or older.",
+  "verdict": "ok",
+  "contradiction": 0.0032336318782582073,
+  "entailment": 0.9893522023398094,
+  "neutral": 0.007414165781932409
+ },
+ {
+  "id": "I7",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "Child Care Leave (CCL) may be availed of in more than one spell.",
+  "verdict": "offtopic",
+  "contradiction": 0.001214229652609621,
+  "entailment": 0.9932702798545785,
+  "neutral": 0.005515490492811839
+ },
+ {
+  "id": "I8",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "Male staff with less than or equal to two children may be granted 15 days Paternity Leave during the confinement of his wife for childbirth.",
+  "verdict": "ok",
+  "contradiction": 0.00176251002381043,
+  "entailment": 0.9883816518495198,
+  "neutral": 0.009855838126669809
+ },
+ {
+  "id": "I8",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "Paternity Leave is also admissible on valid adoption of a child below the age of one year.",
+  "verdict": "ok",
+  "contradiction": 0.0017811932299456742,
+  "entailment": 0.9879936268993357,
+  "neutral": 0.01022517987071858
+ },
+ {
+  "id": "I9",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "Male employees are admissible a maximum of 5 working days for a vasectomy operation (i)(aa).",
+  "verdict": "ok",
+  "contradiction": 0.0012042818188704994,
+  "entailment": 0.9919875149847588,
+  "neutral": 0.006808203196370781
+ },
+ {
+  "id": "I10",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "LND during the entire service is limited to a maximum of 360 days.",
+  "verdict": "ok",
+  "contradiction": 0.0013356766856886047,
+  "entailment": 0.9923351737090716,
+  "neutral": 0.006329149605239587
+ },
+ {
+  "id": "I11",
+  "model": "hf.co/unsloth/gemma-4-E2B-it-qat-GGUF:UD-Q4_K_XL",
+  "text": "An aggrieved female staff member can be granted leave up to a maximum of 90 days during an inquiry under the Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013.",
+  "verdict": "ok",
+  "contradiction": 0.0005206357876487424,
+  "entailment": 0.993390355191571,
+  "neutral": 0.006089009020780205
+ }
+]
