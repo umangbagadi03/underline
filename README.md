@@ -218,3 +218,9 @@ The third-party test PDFs are **not included** (copyright). Their public sources
 - Scanned PDFs (no text layer) need OCR, which isn't built in yet.
 - English only (the embedding model is English).
 - The verifier catches most unsupported sentences, not all: about 2 in 100 still get through. Check the cited page for anything important.
+
+
+
+<div align="center"><sub>Built by <a href="https://github.com/umangbagadi03">Umang Bagadi</a></sub></div>
+
+
