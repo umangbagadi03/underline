@@ -1,0 +1,10 @@
+{
+  "name": "Underline",
+  "short_name": "Underline",
+  "description": "Ask your documents. See the proof. Fully offline: your files never leave your computer.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6f5f1",
+  "theme_color": "#3d3bc9",
+  "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}
