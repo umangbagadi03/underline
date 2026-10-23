@@ -16,6 +16,11 @@
   <img alt="Offline" src="https://img.shields.io/badge/runs-100%25%20offline-18804f">
 </p>
 
+<p align="center">
+  <img src="docs/screenshots/answer-light.png" alt="Underline answering a question about a PDF: a verified answer with page tags, and the source line highlighted in the document" width="860">
+  <br><sub>Every sentence is checked against the document. Click <code>p. 1</code> and the source line is highlighted in the PDF.</sub>
+</p>
+
 ---
 
 ## What it is
@@ -165,10 +170,11 @@ curl -s -X POST localhost:8787/documents/$ID/ask -d '{"question":"What is the no
 npm run dev            # http://localhost:5173
 ```
 
-A chat client for the same engine, running fully in the browser (embeddings on WebGPU). Click a `p. 12` tag to see the proof highlighted in the PDF.
+A chat client for the same engine, running fully in the browser (embeddings on WebGPU). Click a `p. 12` tag to see the proof highlighted in the PDF (screenshot at the top). Light and dark themes:
 
 <p align="center">
-  <img src="docs/screenshots/answer-light.png" alt="Underline web app answering a question, with the source line highlighted in the PDF" width="820">
+  <img src="docs/screenshots/welcome-dark.jpg" alt="Underline start screen in dark mode" width="420">
+  <img src="docs/screenshots/answer-dark.jpg" alt="Underline answer with highlighted proof in dark mode" width="420">
 </p>
 
 ## Privacy and security
