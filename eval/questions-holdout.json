@@ -1,0 +1,1590 @@
+{
+ "about": "HELD-OUT test set: documents never used while building or tuning Underline. Questions were written by reading the documents, before any model was run. Same format as questions.json.",
+ "docs": {
+  "newindia": {
+   "file": "docs-holdout/health-newindia-mediclaim.pdf",
+   "source": "The New India Assurance Co. Ltd., New India Mediclaim Policy wording (UIN NIAHLIP23187V052223), https://www.newindia.co.in/assets/docs/know-more/health/new-india-mediclaim-policy/PolicyClauseNewIndiaMediclaimPolicy(NIAHLIP23187V052223).pdf"
+  },
+  "star": {
+   "file": "docs-holdout/health-star-fho.pdf",
+   "source": "Star Health Family Health Optima policy wording (2023), hosted by IDFC FIRST Bank: https://www.idfcfirstbank.com/content/dam/idfcfirstbank/pdf/insurance/01-FHO-Insurance-policy-wordings.pdf (two-column layout)"
+  },
+  "digit": {
+   "file": "docs-holdout/health-digit-supreme-care.pdf",
+   "source": "Go Digit, Digit Supreme Care Policy wordings (UIN GODHLGP24055V012324), https://www.godigit.com/content/dam/godigit/directportal/en/downloads/health/policy-wordings-digit-supreme-care-policy.pdf (99 pages)"
+  },
+  "digitcis": {
+   "file": "docs-holdout/health-digit-cis.pdf",
+   "source": "Go Digit, Digit Supreme Care Customer Information Sheet, https://godigit.com/content/dam/godigit/directportal/en/downloads/health/cis-digit-supreme-care-policy.pdf (table-heavy)"
+  },
+  "nsw": {
+   "file": "docs-holdout/rent-nsw-standard-agreement.pdf",
+   "source": "NSW standard form residential tenancy agreement (May 2025), https://aho.nsw.gov.au/documents/forms/Residential-Tenancy-Agreement-cl-May-2025.pdf (two-column from page 7)"
+  },
+  "vic": {
+   "file": "docs-holdout/rent-vic-tenancy-agreement.pdf",
+   "source": "Consumer Affairs Victoria RT 1 residential tenancy agreement form (2009), hosted at https://churchesofchrist.org.au/wp-content/uploads/2022/11/3a-residential-tenancy-agreement-template-1.pdf (form layout, pages repeated)"
+  },
+  "nitt": {
+   "file": "docs-holdout/hr-nitt-leave-rules.pdf",
+   "source": "NIT Tiruchirappalli, General Guidelines for Leave (2019), https://www.nitt.edu/home/administration/rules/Leave-Rules.pdf"
+  },
+  "iipe": {
+   "file": "docs-holdout/hr-iipe-leave-rules.pdf",
+   "source": "IIPE Visakhapatnam, leave rules for non-teaching staff, https://iipe.ac.in/uploads/establishment/New_Format_for_NTS_Leave_Rules.pdf"
+  }
+ },
+ "questions": [
+  {
+   "id": "N1",
+   "doc": "newindia",
+   "answerable": true,
+   "question": "What is the daily limit for room rent?",
+   "expected": "1% of the Sum Insured per day.",
+   "must": [
+    [
+     "1%"
+    ]
+   ],
+   "pages": [
+    10
+   ]
+  },
+  {
+   "id": "N2",
+   "doc": "newindia",
+   "answerable": true,
+   "question": "How much is paid per day for ICU?",
+   "expected": "Up to 2% of the Sum Insured per day.",
+   "must": [
+    [
+     "2%"
+    ]
+   ],
+   "pages": [
+    10
+   ]
+  },
+  {
+   "id": "N3",
+   "doc": "newindia",
+   "answerable": true,
+   "question": "What is the maximum amount paid for cataract surgery per eye?",
+   "expected": "20% of the Sum Insured, maximum Rs. 50,000 per eye.",
+   "must": [
+    [
+     "20%"
+    ],
+    [
+     "50000"
+    ]
+   ],
+   "pages": [
+    10
+   ]
+  },
+  {
+   "id": "N4",
+   "doc": "newindia",
+   "answerable": true,
+   "question": "How many days of expenses before hospitalisation are covered?",
+   "expected": "Up to 30 days.",
+   "must": [
+    [
+     "30 days"
+    ]
+   ],
+   "pages": [
+    10
+   ]
+  },
+  {
+   "id": "N5",
+   "doc": "newindia",
+   "answerable": true,
+   "question": "How much hospital cash is paid for each day in hospital?",
+   "expected": "0.1% of the Sum Insured per day (for Sum Insured of Rs. 3 lakh or more), up to 1% per illness.",
+   "must": [
+    [
+     "0.1%"
+    ]
+   ],
+   "pages": [
+    11
+   ]
+  },
+  {
+   "id": "N6",
+   "doc": "newindia",
+   "answerable": true,
+   "question": "What is the maximum reimbursement for a health check-up?",
+   "expected": "Rs. 5,000 or 1% of average Sum Insured of the last three years, whichever is less; once every three claim-free years.",
+   "must": [
+    [
+     "5000"
+    ]
+   ],
+   "pages": [
+    11
+   ]
+  },
+  {
+   "id": "N7",
+   "doc": "newindia",
+   "answerable": true,
+   "question": "What is the waiting period for pre-existing diseases?",
+   "expected": "48 months of continuous coverage.",
+   "must": [
+    [
+     "48 month",
+     "4 year"
+    ]
+   ],
+   "pages": [
+    16
+   ]
+  },
+  {
+   "id": "N8",
+   "doc": "newindia",
+   "answerable": true,
+   "question": "Is treatment for diabetes covered from the first day of the policy?",
+   "expected": "No. Diabetes has a 90-day waiting period.",
+   "must": [
+    [
+     "90 days"
+    ]
+   ],
+   "pages": [
+    17
+   ]
+  },
+  {
+   "id": "N9",
+   "doc": "newindia",
+   "answerable": true,
+   "question": "How long do I have to wait before a hernia operation is covered?",
+   "expected": "24 months.",
+   "must": [
+    [
+     "24 month",
+     "2 year"
+    ]
+   ],
+   "pages": [
+    17
+   ]
+  },
+  {
+   "id": "N10",
+   "doc": "newindia",
+   "answerable": true,
+   "question": "How long is the free look period?",
+   "expected": "Fifteen days from receipt of the policy.",
+   "must": [
+    [
+     "15 days"
+    ]
+   ],
+   "pages": [
+    23
+   ]
+  },
+  {
+   "id": "N11",
+   "doc": "newindia",
+   "answerable": true,
+   "question": "How much does the sum insured go up for each claim-free year?",
+   "expected": "25% per claim-free year, up to a maximum of 50%.",
+   "must": [
+    [
+     "25%"
+    ]
+   ],
+   "pages": [
+    14
+   ]
+  },
+  {
+   "id": "N12",
+   "doc": "newindia",
+   "answerable": true,
+   "question": "What discount do I get if I choose the 20% voluntary co-pay?",
+   "expected": "15% discount on the premium.",
+   "must": [
+    [
+     "15%"
+    ]
+   ],
+   "pages": [
+    13
+   ]
+  },
+  {
+   "id": "N13",
+   "doc": "newindia",
+   "answerable": true,
+   "question": "How long is the waiting period for the maternity cover?",
+   "expected": "36 months from the date of opting the cover.",
+   "must": [
+    [
+     "36 month",
+     "3 year"
+    ]
+   ],
+   "pages": [
+    13
+   ]
+  },
+  {
+   "id": "N14",
+   "doc": "newindia",
+   "answerable": true,
+   "question": "Within how many days must I send the documents for post-hospitalisation expenses?",
+   "expected": "Within 15 days after the treatment is completed.",
+   "must": [
+    [
+     "15 days"
+    ]
+   ],
+   "pages": [
+    27
+   ]
+  },
+  {
+   "id": "N15",
+   "doc": "newindia",
+   "answerable": false,
+   "question": "Is there a premium discount for non-smokers?",
+   "expected": "Not in the document."
+  },
+  {
+   "id": "N16",
+   "doc": "newindia",
+   "answerable": false,
+   "question": "Does the policy include a free second medical opinion?",
+   "expected": "Not in the document."
+  },
+  {
+   "id": "N17",
+   "doc": "newindia",
+   "answerable": false,
+   "question": "Are telemedicine or video consultations covered?",
+   "expected": "Not in the document."
+  },
+  {
+   "id": "S1",
+   "doc": "star",
+   "answerable": true,
+   "question": "How much does the policy pay for a road ambulance?",
+   "expected": "Up to Rs. 750 per hospitalisation and Rs. 1,500 per policy period.",
+   "must": [
+    [
+     "750"
+    ]
+   ],
+   "pages": [
+    1,
+    5
+   ]
+  },
+  {
+   "id": "S2",
+   "doc": "star",
+   "answerable": true,
+   "question": "What is the limit for air ambulance?",
+   "expected": "Up to 10% of the Sum Insured per policy period.",
+   "must": [
+    [
+     "10%"
+    ]
+   ],
+   "pages": [
+    1,
+    5
+   ]
+  },
+  {
+   "id": "S3",
+   "doc": "star",
+   "answerable": true,
+   "question": "For how many days before admission are medical expenses covered?",
+   "expected": "Up to 60 days before hospitalisation.",
+   "must": [
+    [
+     "60 days"
+    ]
+   ],
+   "pages": [
+    1
+   ]
+  },
+  {
+   "id": "S4",
+   "doc": "star",
+   "answerable": true,
+   "question": "For how many days after discharge are medical expenses covered?",
+   "expected": "Up to 90 days after discharge.",
+   "must": [
+    [
+     "90 days"
+    ]
+   ],
+   "pages": [
+    1,
+    5
+   ]
+  },
+  {
+   "id": "S5",
+   "doc": "star",
+   "answerable": true,
+   "question": "What is the limit for organ donor expenses?",
+   "expected": "10% of the Sum Insured or Rs. 1 lakh, whichever is less.",
+   "must": [
+    [
+     "10%"
+    ],
+    [
+     "100000"
+    ]
+   ],
+   "pages": [
+    1,
+    5
+   ]
+  },
+  {
+   "id": "S6",
+   "doc": "star",
+   "answerable": true,
+   "question": "How much is paid for a health check-up?",
+   "expected": "Up to Rs. 3,500 for every claim-free year.",
+   "must": [
+    [
+     "3500"
+    ]
+   ],
+   "pages": [
+    1,
+    2
+   ]
+  },
+  {
+   "id": "S7",
+   "doc": "star",
+   "answerable": true,
+   "question": "Is there a co-payment for people who join at age 61 or above?",
+   "expected": "Yes, 20% of each and every claim.",
+   "must": [
+    [
+     "20%"
+    ]
+   ],
+   "pages": [
+    2,
+    8
+   ]
+  },
+  {
+   "id": "S8",
+   "doc": "star",
+   "answerable": true,
+   "question": "How long is the grace period for renewing the policy?",
+   "expected": "120 days.",
+   "must": [
+    [
+     "120 days"
+    ]
+   ],
+   "pages": [
+    2
+   ]
+  },
+  {
+   "id": "S9",
+   "doc": "star",
+   "answerable": true,
+   "question": "What cumulative bonus do I get in the second year if I make no claim?",
+   "expected": "25% of the expiring Sum Insured (then 10% for later years, up to 100%).",
+   "must": [
+    [
+     "25%"
+    ]
+   ],
+   "pages": [
+    2,
+    8
+   ]
+  },
+  {
+   "id": "S10",
+   "doc": "star",
+   "answerable": true,
+   "question": "How many times can the sum insured be automatically restored in a policy year?",
+   "expected": "3 times, at 100% each time.",
+   "must": [
+    [
+     "3 times"
+    ]
+   ],
+   "pages": [
+    7
+   ]
+  },
+  {
+   "id": "S11",
+   "doc": "star",
+   "answerable": true,
+   "question": "What is the waiting period for pre-existing diseases?",
+   "expected": "48 months of continuous coverage.",
+   "must": [
+    [
+     "48 month",
+     "4 year"
+    ]
+   ],
+   "pages": [
+    10
+   ]
+  },
+  {
+   "id": "S12",
+   "doc": "star",
+   "answerable": true,
+   "question": "Within how many days must I file a reimbursement claim?",
+   "expected": "Within 15 days.",
+   "must": [
+    [
+     "15 days"
+    ]
+   ],
+   "pages": [
+    11
+   ]
+  },
+  {
+   "id": "S13",
+   "doc": "star",
+   "answerable": true,
+   "question": "How much is paid for a family member's travel to visit me in hospital?",
+   "expected": "Compassionate travel: up to Rs. 5,000 for air travel of one immediate family member.",
+   "must": [
+    [
+     "5000"
+    ]
+   ],
+   "pages": [
+    1,
+    6
+   ]
+  },
+  {
+   "id": "S14",
+   "doc": "star",
+   "answerable": false,
+   "question": "Is there a premium discount for non-smokers?",
+   "expected": "Not in the document."
+  },
+  {
+   "id": "S15",
+   "doc": "star",
+   "answerable": false,
+   "question": "Will the policy pay my home loan EMI while I am in hospital?",
+   "expected": "Not in the document."
+  },
+  {
+   "id": "D1",
+   "doc": "digit",
+   "answerable": true,
+   "question": "Is there an initial waiting period under the loss of employment cover?",
+   "expected": "Yes, if the event happens within 90 days of the first policy, no claim is payable.",
+   "must": [
+    [
+     "90 days"
+    ]
+   ],
+   "pages": [
+    43
+   ]
+  },
+  {
+   "id": "D2",
+   "doc": "digit",
+   "answerable": true,
+   "question": "How much of the organ donor's pre and post hospitalisation expenses are paid?",
+   "expected": "Up to 5% of the claim amount.",
+   "must": [
+    [
+     "5%"
+    ]
+   ],
+   "pages": [
+    49
+   ]
+  },
+  {
+   "id": "D3",
+   "doc": "digit",
+   "answerable": true,
+   "question": "How many children does the maternity benefit cover?",
+   "expected": "Up to two living children.",
+   "must": [
+    [
+     "2 living",
+     "2 child"
+    ]
+   ],
+   "pages": [
+    51
+   ]
+  },
+  {
+   "id": "D4",
+   "doc": "digit",
+   "answerable": true,
+   "question": "What is the waiting period for infertility treatment?",
+   "expected": "48 months from the first policy.",
+   "must": [
+    [
+     "48 month",
+     "4 year"
+    ]
+   ],
+   "pages": [
+    53
+   ]
+  },
+  {
+   "id": "D5",
+   "doc": "digit",
+   "answerable": true,
+   "question": "What is the co-payment on the OPD benefit in the first year?",
+   "expected": "25% in the first year (Basis 1), 10% on first renewal, then nil.",
+   "must": [
+    [
+     "25%"
+    ]
+   ],
+   "pages": [
+    53
+   ]
+  },
+  {
+   "id": "D6",
+   "doc": "digit",
+   "answerable": true,
+   "question": "How much of the sum insured is refilled under the refill benefit?",
+   "expected": "100% of the Sum Insured.",
+   "must": [
+    [
+     "100%"
+    ]
+   ],
+   "pages": [
+    54
+   ]
+  },
+  {
+   "id": "D7",
+   "doc": "digit",
+   "answerable": true,
+   "question": "For home hospitalisation, how long must the illness continue?",
+   "expected": "At least 3 days.",
+   "must": [
+    [
+     "3 days"
+    ]
+   ],
+   "pages": [
+    54
+   ]
+  },
+  {
+   "id": "D8",
+   "doc": "digit",
+   "answerable": true,
+   "question": "What is the minimum age for bariatric surgery to be covered?",
+   "expected": "18 years.",
+   "must": [
+    [
+     "18"
+    ]
+   ],
+   "pages": [
+    46
+   ]
+  },
+  {
+   "id": "D9",
+   "doc": "digit",
+   "answerable": true,
+   "question": "What is the moratorium period?",
+   "expected": "Sixty continuous months of coverage.",
+   "must": [
+    [
+     "60",
+     "5 year"
+    ]
+   ],
+   "pages": [
+    78
+   ]
+  },
+  {
+   "id": "D10",
+   "doc": "digit",
+   "answerable": true,
+   "question": "How many months is the waiting period for pre-existing diseases?",
+   "expected": "It is the number of months you opted, as specified in the Policy Schedule (not fixed in this document).",
+   "must": [
+    [
+     "schedule"
+    ]
+   ],
+   "pages": [
+    68
+   ]
+  },
+  {
+   "id": "D11",
+   "doc": "digit",
+   "answerable": true,
+   "question": "What is the grace period if I pay the premium monthly?",
+   "expected": "Fifteen days for monthly mode (thirty days in other cases).",
+   "must": [
+    [
+     "15 days"
+    ]
+   ],
+   "pages": [
+    6,
+    77
+   ]
+  },
+  {
+   "id": "D12",
+   "doc": "digit",
+   "answerable": true,
+   "question": "Within how many days of an accident must a miscarriage happen to be covered?",
+   "expected": "Within 15 days of the accident.",
+   "must": [
+    [
+     "15 days"
+    ]
+   ],
+   "pages": [
+    52
+   ]
+  },
+  {
+   "id": "D13",
+   "doc": "digit",
+   "answerable": false,
+   "question": "Is there a premium discount for non-smokers?",
+   "expected": "Not in the document."
+  },
+  {
+   "id": "D14",
+   "doc": "digit",
+   "answerable": false,
+   "question": "Does the policy reimburse a gym membership?",
+   "expected": "Not in the document."
+  },
+  {
+   "id": "C1",
+   "doc": "digitcis",
+   "answerable": true,
+   "question": "How much is paid if the insured dies in an accident?",
+   "expected": "100% of the sum insured, if death happens within 12 months of the accident.",
+   "must": [
+    [
+     "100%"
+    ]
+   ],
+   "pages": [
+    1
+   ]
+  },
+  {
+   "id": "C2",
+   "doc": "digitcis",
+   "answerable": true,
+   "question": "How early must I tell the insurer about a planned hospitalisation for cashless treatment?",
+   "expected": "At least 72 hours before (within 24 hours in an emergency).",
+   "must": [
+    [
+     "72 hours"
+    ]
+   ],
+   "pages": [
+    8
+   ]
+  },
+  {
+   "id": "C3",
+   "doc": "digitcis",
+   "answerable": true,
+   "question": "Within how many hours of admission must I inform the insurer for a reimbursement claim?",
+   "expected": "Within 48 hours of admission.",
+   "must": [
+    [
+     "48 hours"
+    ]
+   ],
+   "pages": [
+    8
+   ]
+  },
+  {
+   "id": "C4",
+   "doc": "digitcis",
+   "answerable": true,
+   "question": "Within how many days of cashless approval must the treatment happen?",
+   "expected": "Within 15 days of approval (or before the policy expires).",
+   "must": [
+    [
+     "15 days"
+    ]
+   ],
+   "pages": [
+    8
+   ]
+  },
+  {
+   "id": "C5",
+   "doc": "digitcis",
+   "answerable": true,
+   "question": "Above what claim amount are KYC documents needed?",
+   "expected": "When the payout exceeds Rs. 1 lakh per claim.",
+   "must": [
+    [
+     "100000"
+    ]
+   ],
+   "pages": [
+    8
+   ]
+  },
+  {
+   "id": "C6",
+   "doc": "digitcis",
+   "answerable": true,
+   "question": "What interest do I get if my claim is settled late?",
+   "expected": "Bank rate plus 2 percent.",
+   "must": [
+    [
+     "2 percent",
+     "2%"
+    ]
+   ],
+   "pages": [
+    8,
+    9
+   ]
+  },
+  {
+   "id": "C7",
+   "doc": "digitcis",
+   "answerable": true,
+   "question": "Under loss of employment cover, what share of take-home salary can be paid?",
+   "expected": "70% of take-home salary (or a fixed/EMI-based payout).",
+   "must": [
+    [
+     "70%"
+    ]
+   ],
+   "pages": [
+    3
+   ]
+  },
+  {
+   "id": "C8",
+   "doc": "digitcis",
+   "answerable": true,
+   "question": "Within how long after the incident is trauma counselling covered?",
+   "expected": "Within six months of the incident.",
+   "must": [
+    [
+     "6 month"
+    ]
+   ],
+   "pages": [
+    2
+   ]
+  },
+  {
+   "id": "C9",
+   "doc": "digitcis",
+   "answerable": true,
+   "question": "For the coma benefit, how long must the person not respond to stimuli?",
+   "expected": "96 hours or more.",
+   "must": [
+    [
+     "96"
+    ]
+   ],
+   "pages": [
+    2
+   ]
+  },
+  {
+   "id": "C10",
+   "doc": "digitcis",
+   "answerable": true,
+   "question": "Are spectacles and hearing aids covered?",
+   "expected": "No, they are listed under specific exclusions.",
+   "must": [
+    [
+     "not covered",
+     "exclu",
+     "not included"
+    ]
+   ],
+   "pages": [
+    7
+   ]
+  },
+  {
+   "id": "C11",
+   "doc": "digitcis",
+   "answerable": false,
+   "question": "What is the yearly premium for this policy?",
+   "expected": "Not in the document."
+  },
+  {
+   "id": "C12",
+   "doc": "digitcis",
+   "answerable": false,
+   "question": "Does the policy cover damage to my car?",
+   "expected": "Not in the document."
+  },
+  {
+   "id": "C13",
+   "doc": "digitcis",
+   "answerable": false,
+   "question": "Is there a cashback if I don't make any claim?",
+   "expected": "Not in the document (no-claim details are fetched from the policy schedule)."
+  },
+  {
+   "id": "R1",
+   "doc": "nsw",
+   "answerable": true,
+   "question": "What is the maximum rental bond the landlord can ask for?",
+   "expected": "Not more than 4 weeks rent.",
+   "must": [
+    [
+     "4 weeks"
+    ]
+   ],
+   "pages": [
+    3
+   ]
+  },
+  {
+   "id": "R2",
+   "doc": "nsw",
+   "answerable": true,
+   "question": "How much rent can the landlord ask me to pay in advance?",
+   "expected": "Not more than 2 weeks rent in advance.",
+   "must": [
+    [
+     "2 weeks"
+    ]
+   ],
+   "pages": [
+    3,
+    7
+   ]
+  },
+  {
+   "id": "R3",
+   "doc": "nsw",
+   "answerable": true,
+   "question": "If the bond is paid to the landlord, within how long must it be deposited?",
+   "expected": "Within 10 working days.",
+   "must": [
+    [
+     "10 working days"
+    ]
+   ],
+   "pages": [
+    3
+   ]
+  },
+  {
+   "id": "R4",
+   "doc": "nsw",
+   "answerable": true,
+   "question": "How much notice must the landlord give before increasing the rent?",
+   "expected": "At least 60 days written notice.",
+   "must": [
+    [
+     "60 days"
+    ]
+   ],
+   "pages": [
+    7
+   ]
+  },
+  {
+   "id": "R5",
+   "doc": "nsw",
+   "answerable": true,
+   "question": "How often can the rent be increased?",
+   "expected": "Not more than once in any 12-month period.",
+   "must": [
+    [
+     "12 month"
+    ]
+   ],
+   "pages": [
+    7
+   ]
+  },
+  {
+   "id": "R6",
+   "doc": "nsw",
+   "answerable": true,
+   "question": "If I pay for urgent repairs myself, how much can I get back?",
+   "expected": "Reasonable costs up to $1,000.",
+   "must": [
+    [
+     "1000"
+    ]
+   ],
+   "pages": [
+    10
+   ]
+  },
+  {
+   "id": "R7",
+   "doc": "nsw",
+   "answerable": true,
+   "question": "How much notice must the landlord give before an inspection?",
+   "expected": "At least 7 days written notice.",
+   "must": [
+    [
+     "7 days"
+    ]
+   ],
+   "pages": [
+    11
+   ]
+  },
+  {
+   "id": "R8",
+   "doc": "nsw",
+   "answerable": true,
+   "question": "How many inspections are allowed in a year?",
+   "expected": "No more than 4 inspections in any 12 months.",
+   "must": [
+    [
+     "4 inspection",
+     "4 times",
+     "4 in"
+    ]
+   ],
+   "pages": [
+    11
+   ]
+  },
+  {
+   "id": "R9",
+   "doc": "nsw",
+   "answerable": true,
+   "question": "How quickly must the landlord repair a smoke alarm that is not working?",
+   "expected": "Within 2 business days of becoming aware.",
+   "must": [
+    [
+     "2 business days"
+    ]
+   ],
+   "pages": [
+    14
+   ]
+  },
+  {
+   "id": "R10",
+   "doc": "nsw",
+   "answerable": true,
+   "question": "Is a gas leak an urgent repair?",
+   "expected": "Yes, a gas leak is listed as an urgent repair.",
+   "must": [
+    [
+     "urgent"
+    ]
+   ],
+   "pages": [
+    11
+   ]
+  },
+  {
+   "id": "R11",
+   "doc": "nsw",
+   "answerable": true,
+   "question": "How long does the landlord have to answer my request to keep a pet?",
+   "expected": "21 days (otherwise consent is taken as given).",
+   "must": [
+    [
+     "21 days"
+    ]
+   ],
+   "pages": [
+    16
+   ]
+  },
+  {
+   "id": "R12",
+   "doc": "nsw",
+   "answerable": false,
+   "question": "How much stamp duty do I pay on this agreement?",
+   "expected": "Not in the document."
+  },
+  {
+   "id": "R13",
+   "doc": "nsw",
+   "answerable": false,
+   "question": "Who pays for the internet connection?",
+   "expected": "Not in the document."
+  },
+  {
+   "id": "R14",
+   "doc": "nsw",
+   "answerable": false,
+   "question": "Who pays for servicing the air conditioner?",
+   "expected": "Not in the document."
+  },
+  {
+   "id": "V1",
+   "doc": "vic",
+   "answerable": true,
+   "question": "Within how many days must the landlord give the tenant a copy of the agreement?",
+   "expected": "Within 14 days of the tenant signing.",
+   "must": [
+    [
+     "14 days"
+    ]
+   ],
+   "pages": [
+    1
+   ]
+  },
+  {
+   "id": "V2",
+   "doc": "vic",
+   "answerable": true,
+   "question": "Within how long must the landlord lodge the bond?",
+   "expected": "Within 10 business days after receiving it (with the RTBA).",
+   "must": [
+    [
+     "10 business days"
+    ]
+   ],
+   "pages": [
+    2,
+    4
+   ]
+  },
+  {
+   "id": "V3",
+   "doc": "vic",
+   "answerable": true,
+   "question": "What should I do if I don't get a bond receipt?",
+   "expected": "If no receipt within 15 business days, call the RTBA on 1300 13 71 64.",
+   "must": [
+    [
+     "13 71 64",
+     "rtba"
+    ]
+   ],
+   "pages": [
+    2,
+    4
+   ]
+  },
+  {
+   "id": "V4",
+   "doc": "vic",
+   "answerable": true,
+   "question": "Can the tenant sub-let the flat?",
+   "expected": "Only with the landlord's written consent, which must not be unreasonably withheld.",
+   "must": [
+    [
+     "consent"
+    ]
+   ],
+   "pages": [
+    3,
+    5
+   ]
+  },
+  {
+   "id": "V5",
+   "doc": "vic",
+   "answerable": true,
+   "question": "Can the landlord charge a fee for agreeing to a sub-let?",
+   "expected": "No, except costs of preparing a written assignment.",
+   "must": [
+    [
+     "not"
+    ],
+    [
+     "fee",
+     "payment"
+    ]
+   ],
+   "pages": [
+    3,
+    5
+   ]
+  },
+  {
+   "id": "V6",
+   "doc": "vic",
+   "answerable": true,
+   "question": "Who must keep the place clean during the tenancy?",
+   "expected": "The tenant.",
+   "must": [
+    [
+     "tenant"
+    ]
+   ],
+   "pages": [
+    3,
+    5
+   ]
+  },
+  {
+   "id": "V7",
+   "doc": "vic",
+   "answerable": false,
+   "question": "Am I allowed to keep a pet?",
+   "expected": "Not in the document."
+  },
+  {
+   "id": "V8",
+   "doc": "vic",
+   "answerable": false,
+   "question": "How much notice do I need to give to end the tenancy?",
+   "expected": "Not in the document (it only refers to the Residential Tenancies Act 1997)."
+  },
+  {
+   "id": "V9",
+   "doc": "vic",
+   "answerable": false,
+   "question": "Who pays the water bill?",
+   "expected": "Not in the document."
+  },
+  {
+   "id": "T1",
+   "doc": "nitt",
+   "answerable": true,
+   "question": "How many days of casual leave do employees get in a year?",
+   "expected": "8 days per calendar year.",
+   "must": [
+    [
+     "8 days"
+    ]
+   ],
+   "pages": [
+    7
+   ]
+  },
+  {
+   "id": "T2",
+   "doc": "nitt",
+   "answerable": true,
+   "question": "What is the most casual leave I can take at one time?",
+   "expected": "Normally not more than 5 days at a time.",
+   "must": [
+    [
+     "5 days"
+    ]
+   ],
+   "pages": [
+    7
+   ]
+  },
+  {
+   "id": "T3",
+   "doc": "nitt",
+   "answerable": true,
+   "question": "How much earned leave is credited each half-year?",
+   "expected": "15 days on 1 January and 1 July.",
+   "must": [
+    [
+     "15 days"
+    ]
+   ],
+   "pages": [
+    10
+   ]
+  },
+  {
+   "id": "T4",
+   "doc": "nitt",
+   "answerable": true,
+   "question": "Up to how many days of earned leave can be accumulated?",
+   "expected": "300 days.",
+   "must": [
+    [
+     "300"
+    ]
+   ],
+   "pages": [
+    10
+   ]
+  },
+  {
+   "id": "T5",
+   "doc": "nitt",
+   "answerable": true,
+   "question": "What is the maximum earned leave that can be taken at a time?",
+   "expected": "180 days (300 days as leave preparatory to retirement).",
+   "must": [
+    [
+     "180"
+    ]
+   ],
+   "pages": [
+    11
+   ]
+  },
+  {
+   "id": "T6",
+   "doc": "nitt",
+   "answerable": true,
+   "question": "How many days of earned leave can be encashed with LTC?",
+   "expected": "Up to 10 days each time, maximum 60 days in the whole service.",
+   "must": [
+    [
+     "10 days"
+    ]
+   ],
+   "pages": [
+    11
+   ]
+  },
+  {
+   "id": "T7",
+   "doc": "nitt",
+   "answerable": true,
+   "question": "How long is the vacation for teaching staff?",
+   "expected": "60 days.",
+   "must": [
+    [
+     "60 days"
+    ]
+   ],
+   "pages": [
+    11
+   ]
+  },
+  {
+   "id": "T8",
+   "doc": "nitt",
+   "answerable": true,
+   "question": "How many days of half pay leave are given each year?",
+   "expected": "20 days (10 days on 1 January and 1 July).",
+   "must": [
+    [
+     "20 days",
+     "10 days"
+    ]
+   ],
+   "pages": [
+    12
+   ]
+  },
+  {
+   "id": "T9",
+   "doc": "nitt",
+   "answerable": true,
+   "question": "How long is maternity leave?",
+   "expected": "180 days.",
+   "must": [
+    [
+     "180 days"
+    ]
+   ],
+   "pages": [
+    15
+   ]
+  },
+  {
+   "id": "T10",
+   "doc": "nitt",
+   "answerable": true,
+   "question": "How long is paternity leave?",
+   "expected": "15 days.",
+   "must": [
+    [
+     "15 days"
+    ]
+   ],
+   "pages": [
+    16
+   ]
+  },
+  {
+   "id": "T11",
+   "doc": "nitt",
+   "answerable": true,
+   "question": "How long is adoption leave?",
+   "expected": "180 days, for adopting a child below one year.",
+   "must": [
+    [
+     "180 days"
+    ]
+   ],
+   "pages": [
+    17
+   ]
+  },
+  {
+   "id": "T12",
+   "doc": "nitt",
+   "answerable": true,
+   "question": "Within how many days must I apply to convert one kind of leave into another?",
+   "expected": "Within 30 days of completing that leave.",
+   "must": [
+    [
+     "30 days"
+    ]
+   ],
+   "pages": [
+    3
+   ]
+  },
+  {
+   "id": "T13",
+   "doc": "nitt",
+   "answerable": true,
+   "question": "After how long of continuous absence is an employee treated as having resigned?",
+   "expected": "Continuous absence of more than 5 years.",
+   "must": [
+    [
+     "5 year"
+    ]
+   ],
+   "pages": [
+    4,
+    6
+   ]
+  },
+  {
+   "id": "T14",
+   "doc": "nitt",
+   "answerable": false,
+   "question": "Is there special leave for my own marriage?",
+   "expected": "Not in the document."
+  },
+  {
+   "id": "T15",
+   "doc": "nitt",
+   "answerable": false,
+   "question": "How many work-from-home days are allowed per month?",
+   "expected": "Not in the document."
+  },
+  {
+   "id": "I1",
+   "doc": "iipe",
+   "answerable": true,
+   "question": "How many days of earned leave do staff get in a year?",
+   "expected": "30 days per calendar year (15 days credited on 1 January and 1 July).",
+   "must": [
+    [
+     "30 days",
+     "15 days"
+    ]
+   ],
+   "pages": [
+    7
+   ]
+  },
+  {
+   "id": "I2",
+   "doc": "iipe",
+   "answerable": true,
+   "question": "How many days of casual leave are allowed in a year?",
+   "expected": "8 days per calendar year.",
+   "must": [
+    [
+     "8 days"
+    ]
+   ],
+   "pages": [
+    4
+   ]
+  },
+  {
+   "id": "I3",
+   "doc": "iipe",
+   "answerable": true,
+   "question": "What is the maximum study leave in the whole service?",
+   "expected": "24 months.",
+   "must": [
+    [
+     "24 month",
+     "2 year"
+    ]
+   ],
+   "pages": [
+    12
+   ]
+  },
+  {
+   "id": "I4",
+   "doc": "iipe",
+   "answerable": true,
+   "question": "How many days of child care leave can be taken in the whole service?",
+   "expected": "Up to 730 days.",
+   "must": [
+    [
+     "730"
+    ]
+   ],
+   "pages": [
+    12
+   ]
+  },
+  {
+   "id": "I5",
+   "doc": "iipe",
+   "answerable": true,
+   "question": "What salary is paid during child care leave?",
+   "expected": "100% for the first 365 days and 80% for the next 365 days.",
+   "must": [
+    [
+     "100%"
+    ],
+    [
+     "80%"
+    ]
+   ],
+   "pages": [
+    13
+   ]
+  },
+  {
+   "id": "I6",
+   "doc": "iipe",
+   "answerable": true,
+   "question": "Up to what age of the child can child care leave be taken?",
+   "expected": "Not if the child is 18 or older.",
+   "must": [
+    [
+     "18"
+    ]
+   ],
+   "pages": [
+    12
+   ]
+  },
+  {
+   "id": "I7",
+   "doc": "iipe",
+   "answerable": true,
+   "question": "What is the shortest child care leave I can take at a time?",
+   "expected": "Not less than 5 days at a time.",
+   "must": [
+    [
+     "5 days"
+    ]
+   ],
+   "pages": [
+    13
+   ]
+  },
+  {
+   "id": "I8",
+   "doc": "iipe",
+   "answerable": true,
+   "question": "How long is paternity leave?",
+   "expected": "15 days (for male staff with up to two children).",
+   "must": [
+    [
+     "15 days"
+    ]
+   ],
+   "pages": [
+    10
+   ]
+  },
+  {
+   "id": "I9",
+   "doc": "iipe",
+   "answerable": true,
+   "question": "How many days of special casual leave are given for a vasectomy?",
+   "expected": "Up to 5 working days.",
+   "must": [
+    [
+     "5 working days",
+     "5 days"
+    ]
+   ],
+   "pages": [
+    7
+   ]
+  },
+  {
+   "id": "I10",
+   "doc": "iipe",
+   "answerable": true,
+   "question": "What is the maximum leave not due in the whole service?",
+   "expected": "360 days.",
+   "must": [
+    [
+     "360"
+    ]
+   ],
+   "pages": [
+    9
+   ]
+  },
+  {
+   "id": "I11",
+   "doc": "iipe",
+   "answerable": true,
+   "question": "How much leave can an aggrieved female staff member get during an inquiry?",
+   "expected": "Up to 90 days.",
+   "must": [
+    [
+     "90 days"
+    ]
+   ],
+   "pages": [
+    13
+   ]
+  },
+  {
+   "id": "I12",
+   "doc": "iipe",
+   "answerable": false,
+   "question": "Is there bereavement leave when a family member dies?",
+   "expected": "Not in the document."
+  },
+  {
+   "id": "I13",
+   "doc": "iipe",
+   "answerable": false,
+   "question": "Is there menstrual leave for women?",
+   "expected": "Not in the document."
+  },
+  {
+   "id": "N18",
+   "doc": "newindia",
+   "answerable": false,
+   "question": "Is there a discount for buying the policy online?",
+   "expected": "Not in the document."
+  },
+  {
+   "id": "S16",
+   "doc": "star",
+   "answerable": false,
+   "question": "Is there a loyalty discount for renewing many years in a row?",
+   "expected": "Not in the document."
+  }
+ ]
+}
